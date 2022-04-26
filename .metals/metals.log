@@ -1,0 +1,110 @@
+2022.04.26 11:38:44 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/bert/Desktop/projects/my-akka-http-project/.metals/lsp.trace.json or /home/bert/.cache/metals/lsp.trace.json[0m
+2022.04.26 11:38:45 INFO  logging to file /home/bert/Desktop/projects/my-akka-http-project/.metals/metals.log[0m
+2022.04.26 11:38:45 INFO  Started: Metals version 0.11.2 in workspace '/home/bert/Desktop/projects/my-akka-http-project' for client Visual Studio Code 1.66.2.[0m
+2022.04.26 11:38:45 INFO  Parse release: 17.0.2[0m
+2022.04.26 11:38:46 INFO  time: initialize in 1.35s[0m
+2022.04.26 11:38:46 WARN  Build server is not auto-connectable.[0m
+2022.04.26 11:38:49 WARN  no build target for: /home/bert/Desktop/projects/my-akka-http-project/src/main/scala/com/example/JsonFormats.scala[0m
+2022.04.26 11:38:51 INFO  no build target found for /home/bert/Desktop/projects/my-akka-http-project/src/main/scala/com/example/JsonFormats.scala. Using presentation compiler with project's scala-library version: 3.1.1[0m
+2022.04.26 11:38:51 WARN  no build target for: /home/bert/Desktop/projects/my-akka-http-project/src/main/scala/com/example/QuickstartApp.scala[0m
+2022.04.26 11:38:52 INFO  time: code lens generation in 2.23s[0m
+2022.04.26 11:38:58 INFO  running '/usr/lib/jvm/java-17-openjdk-amd64/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals8582288184557731778/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+2022.04.26 11:38:58 WARN  no build target for: /home/bert/Desktop/projects/my-akka-http-project/project/metals.sbt[0m
+2022.04.26 11:38:58 WARN  no build target for: /home/bert/Desktop/projects/my-akka-http-project/project/project/metals.sbt[0m
+2022.04.26 11:38:58 INFO  skipping build import with status 'Started'[0m
+2022.04.26 11:38:58 INFO  [info] welcome to sbt 1.6.2 (Private Build Java 17.0.2)[0m
+2022.04.26 11:39:00 INFO  [info] loading settings for project my-akka-http-project-build-build-build from metals.sbt ...[0m
+2022.04.26 11:39:00 INFO  [info] loading project definition from /home/bert/Desktop/projects/my-akka-http-project/project/project/project[0m
+2022.04.26 11:39:01 INFO  [info] loading settings for project my-akka-http-project-build-build from metals.sbt ...[0m
+2022.04.26 11:39:01 INFO  [info] loading project definition from /home/bert/Desktop/projects/my-akka-http-project/project/project[0m
+2022.04.26 11:39:03 INFO  [success] Generated .bloop/my-akka-http-project-build-build.json[0m
+2022.04.26 11:39:03 INFO  [success] Total time: 1 s, completed Apr 26, 2022, 11:39:03 AM[0m
+2022.04.26 11:39:03 INFO  [info] loading settings for project my-akka-http-project-build from metals.sbt,plugins.sbt ...[0m
+2022.04.26 11:39:03 INFO  [info] loading project definition from /home/bert/Desktop/projects/my-akka-http-project/project[0m
+2022.04.26 11:39:06 INFO  [success] Generated .bloop/my-akka-http-project-build.json[0m
+2022.04.26 11:39:06 INFO  [success] Total time: 3 s, completed Apr 26, 2022, 11:39:06 AM[0m
+2022.04.26 11:39:06 INFO  [info] loading settings for project root from build.sbt ...[0m
+2022.04.26 11:39:06 INFO  [info] set current project to My Akka HTTP Project (in build file:/home/bert/Desktop/projects/my-akka-http-project/)[0m
+2022.04.26 11:39:08 INFO  [warn] [0m
+2022.04.26 11:39:08 INFO  [warn] 	Note: Unresolved dependencies path:[0m
+2022.04.26 11:39:08 INFO  [error] Couldn't run bloopGenerate for root[0m
+2022.04.26 11:39:08 INFO  [error] Couldn't run bloopGenerate for root-test[0m
+2022.04.26 11:39:08 INFO  [success] Total time: 0 s, completed Apr 26, 2022, 11:39:08 AM[0m
+2022.04.26 11:39:08 INFO  time: ran 'sbt bloopInstall' in 10s[0m
+2022.04.26 11:39:08 WARN  Build server is not auto-connectable.[0m
+2022.04.26 11:39:12 WARN  no build target for: /home/bert/Desktop/projects/my-akka-http-project/src/main/scala/com/example/JsonFormats.scala[0m
+2022.04.26 11:39:13 WARN  no build target for: /home/bert/Desktop/projects/my-akka-http-project/src/main/scala/com/example/QuickstartApp.scala[0m
+2022.04.26 11:39:14 WARN  no build target for: /home/bert/Desktop/projects/my-akka-http-project/src/main/scala/com/example/UserRoutes.scala[0m
+2022.04.26 11:41:22 WARN  no build target for: /home/bert/Desktop/projects/my-akka-http-project/build.sbt[0m
+2022.04.26 11:42:17 WARN  no build target for: /home/bert/Desktop/projects/my-akka-http-project/build.sbt[0m
+2022.04.26 11:43:06 WARN  no build target for: /home/bert/Desktop/projects/my-akka-http-project/build.sbt[0m
+2022.04.26 11:43:34 WARN  no build target for: /home/bert/Desktop/projects/my-akka-http-project/src/main/scala/com/example/QuickstartApp.scala[0m
+2022.04.26 11:43:40 WARN  no build target for: /home/bert/Desktop/projects/my-akka-http-project/src/main/scala/com/example/UserRegistry.scala[0m
+2022.04.26 11:43:42 WARN  no build target for: /home/bert/Desktop/projects/my-akka-http-project/src/main/scala/com/example/JsonFormats.scala[0m
+2022.04.26 11:43:42 WARN  no build target for: /home/bert/Desktop/projects/my-akka-http-project/src/main/scala/com/example/QuickstartApp.scala[0m
+2022.04.26 11:44:03 WARN  no build target for: /home/bert/Desktop/projects/my-akka-http-project/src/main/scala/com/example/UserRegistry.scala[0m
+2022.04.26 11:44:05 WARN  no build target for: /home/bert/Desktop/projects/my-akka-http-project/src/main/scala/com/example/QuickstartApp.scala[0m
+2022.04.26 11:47:44 WARN  no build target for: /home/bert/Desktop/projects/my-akka-http-project/src/main/scala/com/example/UserRegistry.scala[0m
+2022.04.26 11:48:27 INFO  running '/usr/lib/jvm/java-17-openjdk-amd64/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals4237284168762373330/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+2022.04.26 11:48:28 INFO  [info] welcome to sbt 1.6.2 (Private Build Java 17.0.2)[0m
+2022.04.26 11:48:28 INFO  [info] loading settings for project my-akka-http-project-build-build-build from metals.sbt ...[0m
+2022.04.26 11:48:28 INFO  [info] loading project definition from /home/bert/Desktop/projects/my-akka-http-project/project/project/project[0m
+2022.04.26 11:48:30 INFO  [info] loading settings for project my-akka-http-project-build-build from metals.sbt ...[0m
+2022.04.26 11:48:30 INFO  [info] loading project definition from /home/bert/Desktop/projects/my-akka-http-project/project/project[0m
+2022.04.26 11:48:31 INFO  [success] Generated .bloop/my-akka-http-project-build-build.json[0m
+2022.04.26 11:48:31 INFO  [success] Total time: 1 s, completed Apr 26, 2022, 11:48:31 AM[0m
+2022.04.26 11:48:31 INFO  [info] loading settings for project my-akka-http-project-build from metals.sbt,plugins.sbt ...[0m
+2022.04.26 11:48:31 INFO  [info] loading project definition from /home/bert/Desktop/projects/my-akka-http-project/project[0m
+2022.04.26 11:48:31 INFO  [success] Generated .bloop/my-akka-http-project-build.json[0m
+2022.04.26 11:48:31 INFO  [success] Total time: 0 s, completed Apr 26, 2022, 11:48:32 AM[0m
+2022.04.26 11:48:31 INFO  [info] loading settings for project root from build.sbt ...[0m
+2022.04.26 11:48:31 INFO  [info] set current project to My Akka HTTP Project (in build file:/home/bert/Desktop/projects/my-akka-http-project/)[0m
+2022.04.26 11:48:33 INFO  [success] Generated .bloop/root-test.json[0m
+2022.04.26 11:48:33 INFO  [success] Generated .bloop/root.json[0m
+2022.04.26 11:48:33 INFO  [success] Total time: 1 s, completed Apr 26, 2022, 11:48:33 AM[0m
+2022.04.26 11:48:33 INFO  time: ran 'sbt bloopInstall' in 5.79s[0m
+2022.04.26 11:48:33 INFO  Attempting to connect to the build server...[0m
+2022.04.26 11:48:33 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/bert/Desktop/projects/my-akka-http-project/.metals/bsp.trace.json or /home/bert/.cache/metals/bsp.trace.json[0m
+2022.04.26 11:48:33 INFO  Attempting to connect to the build server...[0m
+2022.04.26 11:48:33 INFO  Attempting to connect to the build server...[0m
+2022.04.26 11:48:33 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/bert/Desktop/projects/my-akka-http-project/project/project/.metals/bsp.trace.json or /home/bert/.cache/metals/bsp.trace.json[0m
+2022.04.26 11:48:33 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/bert/Desktop/projects/my-akka-http-project/project/.metals/bsp.trace.json or /home/bert/.cache/metals/bsp.trace.json[0m
+2022.04.26 11:48:33 INFO  time: Connected to build server in 0.22s[0m
+2022.04.26 11:48:33 INFO  Connected to Build server: Bloop v1.4.13[0m
+2022.04.26 11:48:35 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/lib/src.zip. Java symbols will not be available.[0m
+2022.04.26 11:48:37 INFO  time: indexed workspace in 3.21s[0m
+2022.04.26 11:48:37 INFO  compiling root (4 scala sources)[0m
+2022.04.26 11:48:44 INFO  time: compiled root in 7.34s[0m
+2022.04.26 12:14:58 ERROR code navigation does not work for the file '/home/bert/Desktop/projects/my-akka-http-project/src/main/scala/com/example/UserRegistry.scala' because the SemanticDB file '/home/bert/Desktop/projects/my-akka-http-project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-P-c0-5kqRZSGRnu040wNrg==/META-INF/semanticdb/src/main/scala/com/example/UserRegistry.scala.semanticdb' doesn't exist. There can be many reasons for this error. [0m
+2022.04.26 12:15:14 ERROR code navigation does not work for the file '/home/bert/Desktop/projects/my-akka-http-project/src/main/scala/com/example/UserRegistry.scala' because the SemanticDB file '/home/bert/Desktop/projects/my-akka-http-project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-P-c0-5kqRZSGRnu040wNrg==/META-INF/semanticdb/src/main/scala/com/example/UserRegistry.scala.semanticdb' doesn't exist. There can be many reasons for this error. [0m
+2022.04.26 12:15:14 ERROR code navigation does not work for the file '/home/bert/Desktop/projects/my-akka-http-project/src/main/scala/com/example/UserRegistry.scala' because the SemanticDB file '/home/bert/Desktop/projects/my-akka-http-project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-P-c0-5kqRZSGRnu040wNrg==/META-INF/semanticdb/src/main/scala/com/example/UserRegistry.scala.semanticdb' doesn't exist. There can be many reasons for this error. [0m
+2022.04.26 12:15:14 ERROR code navigation does not work for the file '/home/bert/Desktop/projects/my-akka-http-project/src/main/scala/com/example/UserRegistry.scala' because the SemanticDB file '/home/bert/Desktop/projects/my-akka-http-project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-P-c0-5kqRZSGRnu040wNrg==/META-INF/semanticdb/src/main/scala/com/example/UserRegistry.scala.semanticdb' doesn't exist. There can be many reasons for this error. [0m
+2022.04.26 12:15:15 ERROR code navigation does not work for the file '/home/bert/Desktop/projects/my-akka-http-project/src/main/scala/com/example/UserRegistry.scala' because the SemanticDB file '/home/bert/Desktop/projects/my-akka-http-project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-P-c0-5kqRZSGRnu040wNrg==/META-INF/semanticdb/src/main/scala/com/example/UserRegistry.scala.semanticdb' doesn't exist. There can be many reasons for this error. [0m
+2022.04.26 12:15:15 ERROR code navigation does not work for the file '/home/bert/Desktop/projects/my-akka-http-project/src/main/scala/com/example/UserRegistry.scala' because the SemanticDB file '/home/bert/Desktop/projects/my-akka-http-project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-P-c0-5kqRZSGRnu040wNrg==/META-INF/semanticdb/src/main/scala/com/example/UserRegistry.scala.semanticdb' doesn't exist. There can be many reasons for this error. [0m
+2022.04.26 12:15:15 ERROR code navigation does not work for the file '/home/bert/Desktop/projects/my-akka-http-project/src/main/scala/com/example/UserRegistry.scala' because the SemanticDB file '/home/bert/Desktop/projects/my-akka-http-project/.bloop/root/bloop-bsp-clients-classes/classes-Metals-P-c0-5kqRZSGRnu040wNrg==/META-INF/semanticdb/src/main/scala/com/example/UserRegistry.scala.semanticdb' doesn't exist. There can be many reasons for this error. [0m
+2022.04.26 12:16:26 INFO  compiling root (4 scala sources)[0m
+2022.04.26 12:16:28 INFO  time: compiled root in 1.34s[0m
+2022.04.26 12:16:40 INFO  compiling root (1 scala source)[0m
+2022.04.26 12:16:40 INFO  time: compiled root in 0.96s[0m
+2022.04.26 12:16:55 INFO  compiling root (1 scala source)[0m
+2022.04.26 12:16:55 INFO  time: compiled root in 0.11s[0m
+2022.04.26 12:16:56 INFO  compiling root (1 scala source)[0m
+2022.04.26 12:16:56 INFO  time: compiled root in 94ms[0m
+2022.04.26 12:17:01 INFO  compiling root (1 scala source)[0m
+2022.04.26 12:17:01 INFO  time: compiled root in 0.14s[0m
+2022.04.26 12:17:03 INFO  compiling root (1 scala source)[0m
+2022.04.26 12:17:03 INFO  time: compiled root in 0.15s[0m
+2022.04.26 12:17:27 INFO  compiling root (1 scala source)[0m
+2022.04.26 12:17:27 INFO  time: compiled root in 0.25s[0m
+2022.04.26 12:17:29 INFO  compiling root (1 scala source)[0m
+2022.04.26 12:17:29 INFO  time: compiled root in 0.12s[0m
+2022.04.26 12:17:34 INFO  compiling root (1 scala source)[0m
+2022.04.26 12:17:34 INFO  time: compiled root in 0.1s[0m
+2022.04.26 12:20:49 INFO  compiling root (1 scala source)[0m
+2022.04.26 12:20:49 INFO  time: compiled root in 49ms[0m
+2022.04.26 12:20:53 INFO  compiling root (1 scala source)[0m
+2022.04.26 12:20:53 INFO  time: compiled root in 98ms[0m
+2022.04.26 12:20:55 INFO  compiling root (1 scala source)[0m
+2022.04.26 12:20:55 INFO  time: compiled root in 0.62s[0m
+2022.04.26 12:21:46 INFO  compiling root (1 scala source)[0m
+2022.04.26 12:21:46 INFO  time: compiled root in 0.15s[0m
