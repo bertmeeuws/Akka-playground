@@ -1,9 +1,12 @@
 package com.example
 
 import akka.actor.typed.ActorSystem
+import akka.http.scaladsl.server.Directives._
 import akka.actor.typed.scaladsl.Behaviors
 import akka.http.scaladsl.Http
 import akka.http.scaladsl.server.Route
+import com.example.actors._
+
 
 import scala.util.Failure
 import scala.util.Success
@@ -32,8 +35,16 @@ object QuickstartApp {
       val userRegistryActor = context.spawn(UserRegistry(), "UserRegistryActor")
       context.watch(userRegistryActor)
 
-      val routes = new UserRoutes(userRegistryActor)(context.system)
-      startHttpServer(routes.userRoutes)(context.system)
+      val accountRegistryActor = context.spawn(AccountActor(), "AccountRegistryActor")
+      context.watch(accountRegistryActor)
+
+      val userRoutes = new UserRoutes(userRegistryActor)(context.system)
+      val accountRoutes = new AccountRoutes(accountRegistryActor)(context.system)
+
+      val topLayerRoutes: Route = concat(userRoutes.userRoutes, accountRoutes.accountRoutes)
+
+
+      startHttpServer(topLayerRoutes)(context.system)
 
       Behaviors.empty
     }
