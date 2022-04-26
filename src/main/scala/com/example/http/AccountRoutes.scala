@@ -22,7 +22,8 @@ class AccountRoutes(accountRegistry: ActorRef[AccountActor.Command])(implicit va
 
   import akka.http.scaladsl.marshallers.sprayjson.SprayJsonSupport._
   import JsonFormats._
-  import AccountJsonFormat.AccountJsonFormat._
+  
+  import AccountJsonFormat.AccountJsonFormat
 
 
   //import JsonFormats._
@@ -31,7 +32,8 @@ class AccountRoutes(accountRegistry: ActorRef[AccountActor.Command])(implicit va
 
 
   //#import-json-formats
-  def createAccount(account: Account): Future[Account] = accountRegistry.ask(CreateAccount())
+  def createAccount(account: Account): Future[ActionPerformed] = 
+    accountRegistry.ask(CreateAccount(account, _))
   
 
   val accountRoutes: Route = 
@@ -44,15 +46,23 @@ class AccountRoutes(accountRegistry: ActorRef[AccountActor.Command])(implicit va
               complete("Getting accounts")
             },
             post {
+              println("insidepost")
               entity(as[Account]) {
-                account => onComplete(createAccount(account))
-              }
+                account => {
+                  println("succes??")
+                  println(account)
+                    onSuccess(createAccount(account)) {
+                      performed => {
+                        println("created")
+                        complete("Great success")
+                    }
+                  
+                }
+              }}
             }
           )
           
         )
       )
     }
-
-
 }

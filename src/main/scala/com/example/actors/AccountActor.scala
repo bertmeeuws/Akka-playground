@@ -26,6 +26,7 @@ final case class Accounts(accounts: Seq[Account])
 object AccountActor {
 
     sealed trait Command
+    
     final case class GetAccounts(replyTo: ActorRef[Accounts]) extends Command
     final case class CreateAccount(account: Account, replyTo : ActorRef[ActionPerformed]) extends Command
     final case class GetAccountById(id: String, replyTo: ActorRef[GetAccountResponse]) extends Command

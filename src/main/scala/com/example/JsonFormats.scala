@@ -5,12 +5,9 @@ import com.example.actors._
 
 //#json-formats
 import spray.json.DefaultJsonProtocol
-import spray.json.RootJsonFormat
-import spray.json.JsValue
-import spray.json.JsObject
-import spray.json.JsString
-import spray.json.JsNumber
+import spray.json._
 import spray.json.DeserializationException
+import akka.http.scaladsl.marshallers.sprayjson.SprayJsonSupport
 
 object JsonFormats  {
   // import the default encoders for primitive types (Int, String, Lists etc)
@@ -25,14 +22,14 @@ object JsonFormats  {
 }
 
 object Parser{
-  def parseCurrency(value: String) = value match {
+  def parseCurrency(value: String): Currency = value match {
     case "EUR" => EUR()
     case "USD" => USD()
     case _ => throw new DeserializationException("Currency is not avaiable")
   }
 }
 
-object AccountJsonFormat extends DefaultJsonProtocol{
+object AccountJsonFormat extends DefaultJsonProtocol with SprayJsonSupport{
   implicit object AccountJsonFormat extends RootJsonFormat[Account]{
     def write(obj: Account): JsValue = JsObject(
       "id" ->  JsString(obj.id),
@@ -40,11 +37,18 @@ object AccountJsonFormat extends DefaultJsonProtocol{
       "balance" -> JsString(obj.balance.toString()),
       "currency" -> JsString(obj.currency.toString())
     )
-    def read(value: JsValue) = {
-      value.asJsObject.getFields("id","name","balance","currency") match {
-        case Seq(JsString(id), JsString(name), JsNumber(balance), JsString(currency))  => Account(id, name, balance.toDouble, Parser.parseCurrency(currency))
+    def read(value: JsValue): Account = {
+      val fields = value.asJsObject.getFields("id","name","balance","currency");
+
+      val acc: Account = value.asJsObject.getFields("id","name","balance","currency") match {
+        case Seq(JsString(id), JsString(name), JsString(balance), JsString(currency))  => {
+          if(balance.contains(",")) throw new DeserializationException("Use dots instead of commas")
+          val account = Account(id, name, balance.toDouble, Parser.parseCurrency(currency))
+          account
+        }
         case _ => throw new DeserializationException("Expected an account")
       }
+      acc
     }
   }
 }

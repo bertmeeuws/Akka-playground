@@ -108,3 +108,436 @@
 2022.04.26 12:20:55 INFO  time: compiled root in 0.62s[0m
 2022.04.26 12:21:46 INFO  compiling root (1 scala source)[0m
 2022.04.26 12:21:46 INFO  time: compiled root in 0.15s[0m
+2022.04.26 16:19:11 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/bert/Desktop/projects/my-akka-http-project/.metals/lsp.trace.json or /home/bert/.cache/metals/lsp.trace.json
+2022.04.26 16:19:12 INFO  logging to file /home/bert/Desktop/projects/my-akka-http-project/.metals/metals.log
+2022.04.26 16:19:12 INFO  Started: Metals version 0.11.2 in workspace '/home/bert/Desktop/projects/my-akka-http-project' for client Visual Studio Code 1.66.2.
+2022.04.26 16:19:12 INFO  Parse release: 17.0.2
+2022.04.26 16:19:13 INFO  time: initialize in 1.35s
+2022.04.26 16:19:13 INFO  Attempting to connect to the build server...
+2022.04.26 16:19:13 INFO  skipping build import with status 'Installed'
+2022.04.26 16:19:13 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/bert/Desktop/projects/my-akka-http-project/.metals/bsp.trace.json or /home/bert/.cache/metals/bsp.trace.json
+2022.04.26 16:19:13 INFO  Attempting to connect to the build server...
+2022.04.26 16:19:13 INFO  Attempting to connect to the build server...
+2022.04.26 16:19:13 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/bert/Desktop/projects/my-akka-http-project/project/project/.metals/bsp.trace.json or /home/bert/.cache/metals/bsp.trace.json
+2022.04.26 16:19:14 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/bert/Desktop/projects/my-akka-http-project/project/.metals/bsp.trace.json or /home/bert/.cache/metals/bsp.trace.json
+2022.04.26 16:19:14 INFO  time: Connected to build server in 0.24s
+2022.04.26 16:19:14 INFO  Connected to Build server: Bloop v1.4.13
+2022.04.26 16:19:15 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/lib/src.zip. Java symbols will not be available.
+2022.04.26 16:19:15 INFO  time: indexed workspace in 1.73s
+2022.04.26 16:19:15 INFO  compiling root (1 scala source)
+2022.04.26 16:19:15 INFO  compiling root-test (1 scala source)
+2022.04.26 16:19:17 INFO  time: compiled root in 1.18s
+2022.04.26 16:19:17 INFO  time: compiled root-test in 0.7s
+2022.04.26 16:19:55 INFO  compiling root (1 scala source)
+2022.04.26 16:19:55 INFO  time: compiled root in 0.49s
+2022.04.26 16:20:07 INFO  compiling root (1 scala source)
+2022.04.26 16:20:07 INFO  time: compiled root in 0.46s
+2022.04.26 16:20:12 INFO  compiling root (1 scala source)
+2022.04.26 16:20:12 INFO  time: compiled root in 0.44s
+2022.04.26 16:20:15 INFO  compiling root (1 scala source)
+2022.04.26 16:20:15 INFO  time: compiled root in 0.52s
+2022.04.26 16:20:16 INFO  compiling root (1 scala source)
+2022.04.26 16:20:16 INFO  time: compiled root in 0.16s
+2022.04.26 16:20:19 INFO  compiling root (1 scala source)
+2022.04.26 16:20:20 WARN  Could not load snapshot text for /home/bert/Desktop/projects/my-akka-http-project/src/main/scala/com/example/http/AccountRoutes.scala
+2022.04.26 16:20:19 INFO  time: compiled root in 0.47s
+2022.04.26 16:20:33 INFO  compiling root (1 scala source)
+2022.04.26 16:20:33 INFO  time: compiled root in 0.44s
+2022.04.26 16:20:36 INFO  compiling root (1 scala source)
+2022.04.26 16:20:36 INFO  time: compiled root in 0.45s
+2022.04.26 16:20:36 INFO  compiling root (1 scala source)
+2022.04.26 16:20:36 INFO  time: compiled root in 0.16s
+2022.04.26 16:20:45 INFO  compiling root (1 scala source)
+2022.04.26 16:20:45 WARN  Could not load snapshot text for /home/bert/Desktop/projects/my-akka-http-project/src/main/scala/com/example/http/AccountRoutes.scala
+2022.04.26 16:20:45 INFO  time: compiled root in 0.44s
+2022.04.26 16:20:49 INFO  compiling root (1 scala source)
+2022.04.26 16:20:49 INFO  time: compiled root in 0.45s
+2022.04.26 16:32:34 INFO  compiling root (1 scala source)
+2022.04.26 16:32:34 INFO  time: compiled root in 0.71s
+2022.04.26 16:32:38 INFO  compiling root (1 scala source)
+2022.04.26 16:32:38 INFO  time: compiled root in 0.46s
+2022.04.26 16:32:40 INFO  compiling root (1 scala source)
+2022.04.26 16:32:40 INFO  time: compiled root in 0.43s
+2022.04.26 16:32:55 INFO  compiling root (1 scala source)
+2022.04.26 16:32:55 INFO  time: compiled root in 0.12s
+2022.04.26 16:33:01 INFO  compiling root (1 scala source)
+2022.04.26 16:33:01 INFO  time: compiled root in 0.45s
+Apr 26, 2022 4:41:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 525
+2022.04.26 16:44:19 INFO  compiling root (1 scala source)
+2022.04.26 16:44:19 INFO  time: compiled root in 0.6s
+2022.04.26 16:44:23 INFO  compiling root (1 scala source)
+2022.04.26 16:44:23 INFO  time: compiled root in 83ms
+2022.04.26 16:44:23 WARN  Could not load snapshot text for /home/bert/Desktop/projects/my-akka-http-project/src/main/scala/com/example/JsonFormats.scala
+2022.04.26 16:44:24 WARN  Could not load snapshot text for /home/bert/Desktop/projects/my-akka-http-project/src/main/scala/com/example/JsonFormats.scala
+2022.04.26 16:44:24 INFO  compiling root (1 scala source)
+2022.04.26 16:44:25 WARN  Could not load snapshot text for /home/bert/Desktop/projects/my-akka-http-project/src/main/scala/com/example/JsonFormats.scala
+2022.04.26 16:44:24 INFO  time: compiled root in 0.52s
+2022.04.26 16:44:27 INFO  compiling root (1 scala source)
+2022.04.26 16:44:27 INFO  time: compiled root in 0.51s
+2022.04.26 16:44:30 INFO  compiling root (1 scala source)
+2022.04.26 16:44:30 INFO  time: compiled root in 0.54s
+Apr 26, 2022 4:44:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 697
+2022.04.26 16:44:53 INFO  compiling root (1 scala source)
+2022.04.26 16:44:53 INFO  time: compiled root in 0.51s
+2022.04.26 16:44:58 INFO  compiling root (1 scala source)
+2022.04.26 16:44:58 INFO  time: compiled root in 0.48s
+2022.04.26 16:45:03 INFO  compiling root (1 scala source)
+2022.04.26 16:45:03 INFO  time: compiled root in 0.5s
+2022.04.26 16:45:04 INFO  compiling root (1 scala source)
+2022.04.26 16:45:04 INFO  time: compiled root in 0.21s
+2022.04.26 16:45:20 INFO  compiling root (1 scala source)
+2022.04.26 16:45:20 INFO  time: compiled root in 0.46s
+2022.04.26 16:45:25 INFO  compiling root (1 scala source)
+2022.04.26 16:45:25 INFO  time: compiled root in 34ms
+2022.04.26 16:45:27 INFO  compiling root (1 scala source)
+2022.04.26 16:45:27 INFO  time: compiled root in 0.45s
+2022.04.26 16:46:04 INFO  compiling root (1 scala source)
+2022.04.26 16:46:04 WARN  Could not load snapshot text for /home/bert/Desktop/projects/my-akka-http-project/src/main/scala/com/example/http/AccountRoutes.scala
+2022.04.26 16:46:04 INFO  time: compiled root in 0.45s
+2022.04.26 16:46:46 INFO  compiling root (1 scala source)
+2022.04.26 16:46:46 INFO  time: compiled root in 0.72s
+2022.04.26 16:46:51 INFO  compiling root (1 scala source)
+2022.04.26 16:46:51 INFO  time: compiled root in 0.45s
+2022.04.26 16:47:02 INFO  compiling root (1 scala source)
+2022.04.26 16:47:02 INFO  time: compiled root in 0.45s
+2022.04.26 16:47:17 INFO  compiling root (1 scala source)
+2022.04.26 16:47:17 INFO  time: compiled root in 0.5s
+2022.04.26 16:50:28 INFO  compiling root (1 scala source)
+2022.04.26 16:50:28 INFO  time: compiled root in 85ms
+2022.04.26 16:50:28 WARN  Could not load snapshot text for /home/bert/Desktop/projects/my-akka-http-project/src/main/scala/com/example/JsonFormats.scala
+2022.04.26 16:50:33 WARN  Could not load snapshot text for /home/bert/Desktop/projects/my-akka-http-project/src/main/scala/com/example/JsonFormats.scala
+2022.04.26 16:50:33 INFO  compiling root (1 scala source)
+2022.04.26 16:50:33 INFO  time: compiled root in 79ms
+2022.04.26 16:50:33 WARN  Could not load snapshot text for /home/bert/Desktop/projects/my-akka-http-project/src/main/scala/com/example/JsonFormats.scala
+2022.04.26 16:50:49 WARN  Could not load snapshot text for /home/bert/Desktop/projects/my-akka-http-project/src/main/scala/com/example/JsonFormats.scala
+2022.04.26 16:50:49 WARN  Could not load snapshot text for /home/bert/Desktop/projects/my-akka-http-project/src/main/scala/com/example/JsonFormats.scala
+2022.04.26 16:50:49 WARN  Could not load snapshot text for /home/bert/Desktop/projects/my-akka-http-project/src/main/scala/com/example/JsonFormats.scala
+2022.04.26 16:50:50 WARN  Could not load snapshot text for /home/bert/Desktop/projects/my-akka-http-project/src/main/scala/com/example/JsonFormats.scala
+2022.04.26 16:50:51 WARN  Could not load snapshot text for /home/bert/Desktop/projects/my-akka-http-project/src/main/scala/com/example/JsonFormats.scala
+2022.04.26 16:50:51 INFO  file:///home/bert/Desktop/projects/my-akka-http-project/src/main/scala/com/example/JsonFormats.scala:26:19: stale bloop error: type mismatch;
+ found   : com.example.actors.EUR
+ required: com.example.actors.AccountActor.Command
+    case "EUR" => EUR()
+                  ^^^^^
+2022.04.26 16:50:51 INFO  file:///home/bert/Desktop/projects/my-akka-http-project/src/main/scala/com/example/JsonFormats.scala:27:19: stale bloop error: type mismatch;
+ found   : com.example.actors.USD
+ required: com.example.actors.AccountActor.Command
+    case "USD" => USD()
+                  ^^^^^
+2022.04.26 16:50:51 INFO  file:///home/bert/Desktop/projects/my-akka-http-project/src/main/scala/com/example/JsonFormats.scala:44:127: stale bloop error: type mismatch;
+ found   : com.example.actors.AccountActor.Command
+ required: com.example.actors.Currency
+        case Seq(JsString(id), JsString(name), JsString(balance), JsString(currency))  => Account(id, name, balance.toDouble, Parser.parseCurrency(currency))
+                                                                                                                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2022.04.26 16:50:51 INFO  file:///home/bert/Desktop/projects/my-akka-http-project/src/main/scala/com/example/JsonFormats.scala:26:19: stale bloop error: type mismatch;
+ found   : com.example.actors.EUR
+ required: com.example.actors.AccountActor.Command
+    case "EUR" => EUR()
+                  ^^^^^
+2022.04.26 16:50:51 INFO  file:///home/bert/Desktop/projects/my-akka-http-project/src/main/scala/com/example/JsonFormats.scala:27:19: stale bloop error: type mismatch;
+ found   : com.example.actors.USD
+ required: com.example.actors.AccountActor.Command
+    case "USD" => USD()
+                  ^^^^^
+2022.04.26 16:50:51 INFO  file:///home/bert/Desktop/projects/my-akka-http-project/src/main/scala/com/example/JsonFormats.scala:44:127: stale bloop error: type mismatch;
+ found   : com.example.actors.AccountActor.Command
+ required: com.example.actors.Currency
+        case Seq(JsString(id), JsString(name), JsString(balance), JsString(currency))  => Account(id, name, balance.toDouble, Parser.parseCurrency(currency))
+                                                                                                                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2022.04.26 16:50:51 WARN  Could not load snapshot text for /home/bert/Desktop/projects/my-akka-http-project/src/main/scala/com/example/JsonFormats.scala
+2022.04.26 16:50:52 WARN  Could not load snapshot text for /home/bert/Desktop/projects/my-akka-http-project/src/main/scala/com/example/JsonFormats.scala
+2022.04.26 16:50:53 INFO  compiling root (1 scala source)
+2022.04.26 16:50:53 INFO  time: compiled root in 34ms
+2022.04.26 16:50:53 INFO  file:///home/bert/Desktop/projects/my-akka-http-project/src/main/scala/com/example/JsonFormats.scala:25:51: stale bloop error: identifier expected but '.' found.
+  def parseCurrency(value: String): T AccountActor.Command = value match {
+                                                  ^
+2022.04.26 16:50:53 INFO  file:///home/bert/Desktop/projects/my-akka-http-project/src/main/scala/com/example/JsonFormats.scala:25:51: stale bloop error: identifier expected but '.' found.
+  def parseCurrency(value: String): T AccountActor.Command = value match {
+                                                  ^
+2022.04.26 16:50:53 WARN  Could not load snapshot text for /home/bert/Desktop/projects/my-akka-http-project/src/main/scala/com/example/JsonFormats.scala
+2022.04.26 16:50:54 WARN  Could not load snapshot text for /home/bert/Desktop/projects/my-akka-http-project/src/main/scala/com/example/JsonFormats.scala
+2022.04.26 16:50:53 INFO  compiling root (1 scala source)
+2022.04.26 16:50:53 INFO  time: compiled root in 15ms
+2022.04.26 16:50:53 WARN  Could not load snapshot text for /home/bert/Desktop/projects/my-akka-http-project/src/main/scala/com/example/JsonFormats.scala
+2022.04.26 16:50:55 WARN  Could not load snapshot text for /home/bert/Desktop/projects/my-akka-http-project/src/main/scala/com/example/JsonFormats.scala
+2022.04.26 16:50:56 WARN  Could not load snapshot text for /home/bert/Desktop/projects/my-akka-http-project/src/main/scala/com/example/JsonFormats.scala
+2022.04.26 16:50:56 INFO  compiling root (1 scala source)
+2022.04.26 16:50:56 INFO  time: compiled root in 36ms
+2022.04.26 16:50:57 WARN  Could not load snapshot text for /home/bert/Desktop/projects/my-akka-http-project/src/main/scala/com/example/JsonFormats.scala
+2022.04.26 16:50:59 WARN  Could not load snapshot text for /home/bert/Desktop/projects/my-akka-http-project/src/main/scala/com/example/JsonFormats.scala
+2022.04.26 16:51:00 WARN  Could not load snapshot text for /home/bert/Desktop/projects/my-akka-http-project/src/main/scala/com/example/JsonFormats.scala
+2022.04.26 16:51:00 WARN  Could not load snapshot text for /home/bert/Desktop/projects/my-akka-http-project/src/main/scala/com/example/JsonFormats.scala
+2022.04.26 16:51:00 WARN  Could not load snapshot text for /home/bert/Desktop/projects/my-akka-http-project/src/main/scala/com/example/JsonFormats.scala
+2022.04.26 16:51:01 INFO  compiling root (1 scala source)
+2022.04.26 16:51:01 INFO  time: compiled root in 35ms
+2022.04.26 16:51:01 WARN  Could not load snapshot text for /home/bert/Desktop/projects/my-akka-http-project/src/main/scala/com/example/JsonFormats.scala
+2022.04.26 16:51:05 WARN  Could not load snapshot text for /home/bert/Desktop/projects/my-akka-http-project/src/main/scala/com/example/JsonFormats.scala
+2022.04.26 16:51:06 INFO  compiling root (1 scala source)
+2022.04.26 16:51:06 INFO  time: compiled root in 0.11s
+2022.04.26 16:51:06 WARN  Could not load snapshot text for /home/bert/Desktop/projects/my-akka-http-project/src/main/scala/com/example/JsonFormats.scala
+2022.04.26 16:51:19 WARN  Could not load snapshot text for /home/bert/Desktop/projects/my-akka-http-project/src/main/scala/com/example/JsonFormats.scala
+2022.04.26 16:51:19 WARN  Could not load snapshot text for /home/bert/Desktop/projects/my-akka-http-project/src/main/scala/com/example/JsonFormats.scala
+2022.04.26 16:51:36 WARN  Could not load snapshot text for /home/bert/Desktop/projects/my-akka-http-project/src/main/scala/com/example/JsonFormats.scala
+2022.04.26 16:51:36 WARN  Could not load snapshot text for /home/bert/Desktop/projects/my-akka-http-project/src/main/scala/com/example/JsonFormats.scala
+2022.04.26 16:51:43 WARN  Could not load snapshot text for /home/bert/Desktop/projects/my-akka-http-project/src/main/scala/com/example/JsonFormats.scala
+2022.04.26 16:51:43 WARN  Could not load snapshot text for /home/bert/Desktop/projects/my-akka-http-project/src/main/scala/com/example/JsonFormats.scala
+2022.04.26 16:52:01 WARN  Could not load snapshot text for /home/bert/Desktop/projects/my-akka-http-project/src/main/scala/com/example/JsonFormats.scala
+2022.04.26 16:52:01 WARN  Could not load snapshot text for /home/bert/Desktop/projects/my-akka-http-project/src/main/scala/com/example/JsonFormats.scala
+2022.04.26 16:52:03 INFO  file:///home/bert/Desktop/projects/my-akka-http-project/src/main/scala/com/example/JsonFormats.scala:26:19: stale bloop error: type mismatch;
+ found   : com.example.actors.EUR
+ required: com.example.actors.AccountActor.Command
+    case "EUR" => EUR()
+                  ^^^^^
+2022.04.26 16:52:03 INFO  file:///home/bert/Desktop/projects/my-akka-http-project/src/main/scala/com/example/JsonFormats.scala:27:19: stale bloop error: type mismatch;
+ found   : com.example.actors.USD
+ required: com.example.actors.AccountActor.Command
+    case "USD" => USD()
+                  ^^^^^
+2022.04.26 16:52:03 INFO  file:///home/bert/Desktop/projects/my-akka-http-project/src/main/scala/com/example/JsonFormats.scala:44:127: stale bloop error: type mismatch;
+ found   : com.example.actors.AccountActor.Command
+ required: com.example.actors.Currency
+        case Seq(JsString(id), JsString(name), JsString(balance), JsString(currency))  => Account(id, name, balance.toDouble, Parser.parseCurrency(currency))
+                                                                                                                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2022.04.26 16:52:03 INFO  file:///home/bert/Desktop/projects/my-akka-http-project/src/main/scala/com/example/JsonFormats.scala:26:19: stale bloop error: type mismatch;
+ found   : com.example.actors.EUR
+ required: com.example.actors.AccountActor.Command
+    case "EUR" => EUR()
+                  ^^^^^
+2022.04.26 16:52:03 INFO  file:///home/bert/Desktop/projects/my-akka-http-project/src/main/scala/com/example/JsonFormats.scala:27:19: stale bloop error: type mismatch;
+ found   : com.example.actors.USD
+ required: com.example.actors.AccountActor.Command
+    case "USD" => USD()
+                  ^^^^^
+2022.04.26 16:52:03 INFO  file:///home/bert/Desktop/projects/my-akka-http-project/src/main/scala/com/example/JsonFormats.scala:44:127: stale bloop error: type mismatch;
+ found   : com.example.actors.AccountActor.Command
+ required: com.example.actors.Currency
+        case Seq(JsString(id), JsString(name), JsString(balance), JsString(currency))  => Account(id, name, balance.toDouble, Parser.parseCurrency(currency))
+                                                                                                                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2022.04.26 16:52:03 WARN  Could not load snapshot text for /home/bert/Desktop/projects/my-akka-http-project/src/main/scala/com/example/JsonFormats.scala
+2022.04.26 16:52:03 WARN  Could not load snapshot text for /home/bert/Desktop/projects/my-akka-http-project/src/main/scala/com/example/JsonFormats.scala
+2022.04.26 16:52:03 WARN  Could not load snapshot text for /home/bert/Desktop/projects/my-akka-http-project/src/main/scala/com/example/JsonFormats.scala
+2022.04.26 16:52:03 WARN  Could not load snapshot text for /home/bert/Desktop/projects/my-akka-http-project/src/main/scala/com/example/JsonFormats.scala
+2022.04.26 16:52:04 INFO  compiling root (1 scala source)
+2022.04.26 16:52:04 INFO  time: compiled root in 83ms
+2022.04.26 16:52:05 WARN  Could not load snapshot text for /home/bert/Desktop/projects/my-akka-http-project/src/main/scala/com/example/JsonFormats.scala
+2022.04.26 16:52:09 WARN  Could not load snapshot text for /home/bert/Desktop/projects/my-akka-http-project/src/main/scala/com/example/JsonFormats.scala
+2022.04.26 16:52:09 WARN  Could not load snapshot text for /home/bert/Desktop/projects/my-akka-http-project/src/main/scala/com/example/JsonFormats.scala
+2022.04.26 16:52:09 WARN  Could not load snapshot text for /home/bert/Desktop/projects/my-akka-http-project/src/main/scala/com/example/JsonFormats.scala
+2022.04.26 16:52:10 WARN  Could not load snapshot text for /home/bert/Desktop/projects/my-akka-http-project/src/main/scala/com/example/JsonFormats.scala
+2022.04.26 16:52:09 WARN  Could not load snapshot text for /home/bert/Desktop/projects/my-akka-http-project/src/main/scala/com/example/JsonFormats.scala
+2022.04.26 16:52:10 INFO  compiling root (1 scala source)
+2022.04.26 16:52:10 INFO  time: compiled root in 35ms
+2022.04.26 16:52:10 WARN  Could not load snapshot text for /home/bert/Desktop/projects/my-akka-http-project/src/main/scala/com/example/JsonFormats.scala
+2022.04.26 16:52:16 WARN  Could not load snapshot text for /home/bert/Desktop/projects/my-akka-http-project/src/main/scala/com/example/JsonFormats.scala
+2022.04.26 16:52:18 WARN  Could not load snapshot text for /home/bert/Desktop/projects/my-akka-http-project/src/main/scala/com/example/JsonFormats.scala
+2022.04.26 16:52:18 WARN  Could not load snapshot text for /home/bert/Desktop/projects/my-akka-http-project/src/main/scala/com/example/JsonFormats.scala
+2022.04.26 16:52:18 INFO  compiling root (1 scala source)
+2022.04.26 16:52:18 INFO  time: compiled root in 33ms
+2022.04.26 16:52:18 WARN  Could not load snapshot text for /home/bert/Desktop/projects/my-akka-http-project/src/main/scala/com/example/JsonFormats.scala
+2022.04.26 16:52:20 WARN  Could not load snapshot text for /home/bert/Desktop/projects/my-akka-http-project/src/main/scala/com/example/JsonFormats.scala
+2022.04.26 16:52:20 WARN  Could not load snapshot text for /home/bert/Desktop/projects/my-akka-http-project/src/main/scala/com/example/JsonFormats.scala
+2022.04.26 16:52:20 INFO  compiling root (1 scala source)
+2022.04.26 16:52:20 INFO  time: compiled root in 32ms
+2022.04.26 16:52:20 WARN  Could not load snapshot text for /home/bert/Desktop/projects/my-akka-http-project/src/main/scala/com/example/JsonFormats.scala
+2022.04.26 16:52:20 WARN  Could not load snapshot text for /home/bert/Desktop/projects/my-akka-http-project/src/main/scala/com/example/JsonFormats.scala
+2022.04.26 16:52:45 WARN  Could not load snapshot text for /home/bert/Desktop/projects/my-akka-http-project/src/main/scala/com/example/JsonFormats.scala
+2022.04.26 16:52:48 WARN  Could not load snapshot text for /home/bert/Desktop/projects/my-akka-http-project/src/main/scala/com/example/JsonFormats.scala
+2022.04.26 16:52:48 WARN  Could not load snapshot text for /home/bert/Desktop/projects/my-akka-http-project/src/main/scala/com/example/JsonFormats.scala
+2022.04.26 16:52:48 WARN  Could not load snapshot text for /home/bert/Desktop/projects/my-akka-http-project/src/main/scala/com/example/JsonFormats.scala
+2022.04.26 16:52:48 INFO  compiling root (1 scala source)
+2022.04.26 16:52:48 INFO  time: compiled root in 90ms
+2022.04.26 16:52:49 WARN  Could not load snapshot text for /home/bert/Desktop/projects/my-akka-http-project/src/main/scala/com/example/JsonFormats.scala
+2022.04.26 16:52:49 WARN  Could not load snapshot text for /home/bert/Desktop/projects/my-akka-http-project/src/main/scala/com/example/JsonFormats.scala
+2022.04.26 16:52:49 WARN  Could not load snapshot text for /home/bert/Desktop/projects/my-akka-http-project/src/main/scala/com/example/JsonFormats.scala
+2022.04.26 16:52:50 WARN  Could not load snapshot text for /home/bert/Desktop/projects/my-akka-http-project/src/main/scala/com/example/JsonFormats.scala
+2022.04.26 16:52:50 WARN  Could not load snapshot text for /home/bert/Desktop/projects/my-akka-http-project/src/main/scala/com/example/JsonFormats.scala
+2022.04.26 16:52:50 INFO  compiling root (1 scala source)
+2022.04.26 16:52:50 INFO  time: compiled root in 75ms
+2022.04.26 16:52:50 WARN  Could not load snapshot text for /home/bert/Desktop/projects/my-akka-http-project/src/main/scala/com/example/JsonFormats.scala
+2022.04.26 16:52:52 WARN  Could not load snapshot text for /home/bert/Desktop/projects/my-akka-http-project/src/main/scala/com/example/JsonFormats.scala
+2022.04.26 16:52:52 WARN  Could not load snapshot text for /home/bert/Desktop/projects/my-akka-http-project/src/main/scala/com/example/JsonFormats.scala
+2022.04.26 16:52:52 INFO  compiling root (1 scala source)
+2022.04.26 16:52:52 INFO  time: compiled root in 34ms
+2022.04.26 16:52:52 WARN  Could not load snapshot text for /home/bert/Desktop/projects/my-akka-http-project/src/main/scala/com/example/JsonFormats.scala
+2022.04.26 16:52:52 WARN  Could not load snapshot text for /home/bert/Desktop/projects/my-akka-http-project/src/main/scala/com/example/JsonFormats.scala
+2022.04.26 16:52:52 WARN  Could not load snapshot text for /home/bert/Desktop/projects/my-akka-http-project/src/main/scala/com/example/JsonFormats.scala
+2022.04.26 16:52:52 INFO  compiling root (1 scala source)
+2022.04.26 16:52:53 INFO  time: compiled root in 60ms
+2022.04.26 16:52:53 WARN  Could not load snapshot text for /home/bert/Desktop/projects/my-akka-http-project/src/main/scala/com/example/JsonFormats.scala
+2022.04.26 16:52:53 WARN  Could not load snapshot text for /home/bert/Desktop/projects/my-akka-http-project/src/main/scala/com/example/JsonFormats.scala
+2022.04.26 16:52:57 WARN  Could not load snapshot text for /home/bert/Desktop/projects/my-akka-http-project/src/main/scala/com/example/JsonFormats.scala
+2022.04.26 16:52:58 WARN  Could not load snapshot text for /home/bert/Desktop/projects/my-akka-http-project/src/main/scala/com/example/JsonFormats.scala
+2022.04.26 16:52:58 WARN  Could not load snapshot text for /home/bert/Desktop/projects/my-akka-http-project/src/main/scala/com/example/JsonFormats.scala
+2022.04.26 16:53:06 INFO  compiling root (1 scala source)
+2022.04.26 16:53:06 INFO  time: compiled root in 80ms
+2022.04.26 16:53:32 INFO  compiling root (1 scala source)
+2022.04.26 16:53:32 INFO  time: compiled root in 35ms
+2022.04.26 16:53:36 INFO  compiling root (1 scala source)
+2022.04.26 16:53:36 INFO  time: compiled root in 80ms
+2022.04.26 16:53:40 INFO  compiling root (1 scala source)
+2022.04.26 16:53:40 INFO  time: compiled root in 79ms
+2022.04.26 16:53:40 INFO  compiling root (1 scala source)
+2022.04.26 16:53:40 INFO  time: compiled root in 66ms
+2022.04.26 16:53:43 INFO  compiling root (1 scala source)
+2022.04.26 16:53:43 INFO  time: compiled root in 90ms
+2022.04.26 16:54:18 INFO  compiling root (1 scala source)
+2022.04.26 16:54:18 INFO  time: compiled root in 84ms
+2022.04.26 16:54:19 INFO  compiling root (2 scala sources)
+2022.04.26 16:54:19 INFO  time: compiled root in 37ms
+2022.04.26 16:54:25 INFO  compiling root (2 scala sources)
+2022.04.26 16:54:25 INFO  time: compiled root in 0.11s
+2022.04.26 16:54:35 INFO  compiling root (2 scala sources)
+2022.04.26 16:54:35 INFO  time: compiled root in 34ms
+2022.04.26 16:54:37 INFO  compiling root (1 scala source)
+2022.04.26 16:54:37 INFO  time: compiled root in 77ms
+2022.04.26 16:56:37 INFO  compiling root (1 scala source)
+2022.04.26 16:56:37 INFO  time: compiled root in 83ms
+2022.04.26 16:56:37 INFO  compiling root (1 scala source)
+2022.04.26 16:56:37 INFO  time: compiled root in 62ms
+2022.04.26 17:03:20 INFO  compiling root (1 scala source)
+2022.04.26 17:03:20 INFO  time: compiled root in 34ms
+2022.04.26 17:03:25 INFO  compiling root (1 scala source)
+2022.04.26 17:03:25 INFO  time: compiled root in 33ms
+2022.04.26 17:03:27 INFO  compiling root (1 scala source)
+2022.04.26 17:03:27 INFO  time: compiled root in 78ms
+2022.04.26 17:03:30 INFO  compiling root (1 scala source)
+2022.04.26 17:03:30 INFO  time: compiled root in 85ms
+2022.04.26 17:03:32 INFO  compiling root (1 scala source)
+2022.04.26 17:03:32 INFO  time: compiled root in 82ms
+2022.04.26 17:06:49 INFO  compiling root (1 scala source)
+2022.04.26 17:06:49 INFO  time: compiled root in 78ms
+2022.04.26 17:06:52 INFO  compiling root (1 scala source)
+2022.04.26 17:06:52 INFO  time: compiled root in 96ms
+2022.04.26 17:13:41 INFO  compiling root (1 scala source)
+2022.04.26 17:13:41 INFO  time: compiled root in 87ms
+2022.04.26 17:14:18 INFO  compiling root (1 scala source)
+2022.04.26 17:14:18 INFO  time: compiled root in 83ms
+2022.04.26 18:04:52 INFO  compiling root (1 scala source)
+2022.04.26 18:04:52 INFO  time: compiled root in 39ms
+2022.04.26 18:04:56 INFO  compiling root (1 scala source)
+2022.04.26 18:04:56 INFO  time: compiled root in 82ms
+2022.04.26 18:05:12 INFO  compiling root (1 scala source)
+2022.04.26 18:05:12 INFO  time: compiled root in 88ms
+2022.04.26 18:05:14 INFO  compiling root (1 scala source)
+2022.04.26 18:05:14 INFO  time: compiled root in 79ms
+2022.04.26 18:05:17 INFO  compiling root (1 scala source)
+2022.04.26 18:05:17 INFO  time: compiled root in 86ms
+2022.04.26 18:07:14 INFO  compiling root (1 scala source)
+2022.04.26 18:07:14 INFO  time: compiled root in 38ms
+2022.04.26 18:07:16 INFO  compiling root (1 scala source)
+2022.04.26 18:07:16 INFO  time: compiled root in 79ms
+2022.04.26 18:07:23 INFO  compiling root (1 scala source)
+2022.04.26 18:07:23 INFO  time: compiled root in 81ms
+2022.04.26 18:07:44 INFO  compiling root (2 scala sources)
+2022.04.26 18:07:44 INFO  time: compiled root in 98ms
+2022.04.26 18:07:50 INFO  compiling root (1 scala source)
+2022.04.26 18:07:50 INFO  time: compiled root in 77ms
+2022.04.26 18:07:52 INFO  compiling root (2 scala sources)
+2022.04.26 18:07:52 INFO  time: compiled root in 94ms
+2022.04.26 18:08:43 INFO  compiling root (2 scala sources)
+2022.04.26 18:08:43 INFO  time: compiled root in 0.1s
+2022.04.26 18:08:43 INFO  compiling root (2 scala sources)
+2022.04.26 18:08:43 INFO  time: compiled root in 78ms
+2022.04.26 18:50:35 INFO  compiling root (2 scala sources)
+2022.04.26 18:50:35 INFO  time: compiled root in 0.1s
+2022.04.26 18:50:51 INFO  compiling root (2 scala sources)
+2022.04.26 18:50:51 INFO  time: compiled root in 0.69s
+2022.04.26 18:51:44 INFO  compiling root (1 scala source)
+2022.04.26 18:51:44 INFO  time: compiled root in 0.49s
+2022.04.26 18:52:13 INFO  compiling root (1 scala source)
+2022.04.26 18:52:13 INFO  time: compiled root in 0.52s
+2022.04.26 18:52:18 INFO  compiling root (1 scala source)
+2022.04.26 18:52:18 INFO  time: compiled root in 34ms
+2022.04.26 18:52:21 INFO  compiling root (1 scala source)
+2022.04.26 18:52:21 INFO  time: compiled root in 31ms
+2022.04.26 18:52:22 INFO  compiling root (1 scala source)
+2022.04.26 18:52:22 INFO  time: compiled root in 0.47s
+2022.04.26 18:52:22 INFO  compiling root (1 scala source)
+2022.04.26 18:52:23 WARN  Could not load snapshot text for /home/bert/Desktop/projects/my-akka-http-project/src/main/scala/com/example/http/AccountRoutes.scala
+2022.04.26 18:52:22 INFO  time: compiled root in 0.16s
+2022.04.26 18:52:46 INFO  compiling root (1 scala source)
+2022.04.26 18:52:46 INFO  time: compiled root in 0.51s
+2022.04.26 18:52:49 INFO  compiling root (1 scala source)
+2022.04.26 18:52:49 INFO  time: compiled root in 0.49s
+2022.04.26 18:52:50 INFO  compiling root (1 scala source)
+2022.04.26 18:52:50 INFO  time: compiled root in 0.21s
+2022.04.26 18:53:44 INFO  compiling root (1 scala source)
+2022.04.26 18:53:44 INFO  time: compiled root in 0.52s
+2022.04.26 18:54:02 INFO  compiling root (1 scala source)
+2022.04.26 18:54:02 INFO  time: compiled root in 85ms
+2022.04.26 18:54:02 WARN  Could not load snapshot text for /home/bert/Desktop/projects/my-akka-http-project/src/main/scala/com/example/JsonFormats.scala
+2022.04.26 18:54:05 WARN  Could not load snapshot text for /home/bert/Desktop/projects/my-akka-http-project/src/main/scala/com/example/JsonFormats.scala
+2022.04.26 18:54:06 WARN  Could not load snapshot text for /home/bert/Desktop/projects/my-akka-http-project/src/main/scala/com/example/JsonFormats.scala
+2022.04.26 18:54:06 INFO  compiling root (1 scala source)
+2022.04.26 18:54:06 INFO  time: compiled root in 0.8s
+2022.04.26 18:54:10 INFO  compiling root (1 scala source)
+2022.04.26 18:54:10 INFO  time: compiled root in 0.41s
+2022.04.26 18:54:15 INFO  compiling root (1 scala source)
+2022.04.26 18:54:15 INFO  time: compiled root in 0.43s
+2022.04.26 18:54:15 INFO  compiling root (1 scala source)
+2022.04.26 18:54:15 INFO  time: compiled root in 0.13s
+2022.04.26 18:54:17 INFO  compiling root (1 scala source)
+2022.04.26 18:54:17 INFO  time: compiled root in 0.22s
+2022.04.26 18:54:37 INFO  compiling root (1 scala source)
+2022.04.26 18:54:37 INFO  time: compiled root in 0.51s
+2022.04.26 18:55:07 INFO  compiling root (1 scala source)
+2022.04.26 18:55:07 INFO  time: compiled root in 0.52s
+2022.04.26 18:55:34 INFO  compiling root (1 scala source)
+2022.04.26 18:55:34 INFO  time: compiled root in 0.52s
+2022.04.26 18:56:18 INFO  compiling root (1 scala source)
+2022.04.26 18:56:18 INFO  time: compiled root in 0.51s
+2022.04.26 18:56:18 INFO  compiling root (1 scala source)
+2022.04.26 18:56:19 INFO  time: compiled root in 0.21s
+2022.04.26 18:56:22 INFO  compiling root (1 scala source)
+2022.04.26 18:56:22 INFO  time: compiled root in 91ms
+2022.04.26 18:56:29 INFO  compiling root (1 scala source)
+2022.04.26 18:56:29 INFO  time: compiled root in 0.51s
+2022.04.26 18:56:34 INFO  compiling root (1 scala source)
+2022.04.26 18:56:34 INFO  time: compiled root in 0.5s
+2022.04.26 18:56:38 INFO  compiling root (1 scala source)
+2022.04.26 18:56:38 INFO  time: compiled root in 0.51s
+2022.04.26 18:56:40 INFO  compiling root (1 scala source)
+2022.04.26 18:56:40 INFO  time: compiled root in 0.55s
+2022.04.26 18:56:47 INFO  compiling root (1 scala source)
+2022.04.26 18:56:47 INFO  time: compiled root in 86ms
+2022.04.26 18:56:48 INFO  compiling root (1 scala source)
+2022.04.26 18:56:48 INFO  time: compiled root in 0.53s
+2022.04.26 18:57:11 INFO  compiling root (1 scala source)
+2022.04.26 18:57:11 INFO  time: compiled root in 0.79s
+2022.04.26 18:57:37 INFO  compiling root (1 scala source)
+2022.04.26 18:57:37 INFO  time: compiled root in 0.5s
+2022.04.26 18:57:54 INFO  compiling root (1 scala source)
+2022.04.26 18:57:54 INFO  time: compiled root in 0.49s
+2022.04.26 18:57:59 INFO  compiling root (1 scala source)
+2022.04.26 18:57:59 INFO  time: compiled root in 0.49s
+2022.04.26 18:58:02 INFO  compiling root (1 scala source)
+2022.04.26 18:58:02 INFO  time: compiled root in 34ms
+2022.04.26 18:58:06 INFO  compiling root (1 scala source)
+2022.04.26 18:58:06 INFO  time: compiled root in 34ms
+2022.04.26 18:58:12 INFO  compiling root (1 scala source)
+2022.04.26 18:58:12 INFO  time: compiled root in 32ms
+2022.04.26 18:58:14 INFO  compiling root (1 scala source)
+2022.04.26 18:58:14 INFO  time: compiled root in 32ms
+2022.04.26 18:58:17 INFO  compiling root (1 scala source)
+2022.04.26 18:58:17 INFO  time: compiled root in 0.5s
+2022.04.26 18:58:24 WARN  Could not load snapshot text for /home/bert/Desktop/projects/my-akka-http-project/src/main/scala/com/example/JsonFormats.scala
+2022.04.26 18:58:24 INFO  compiling root (1 scala source)
+2022.04.26 18:58:24 INFO  time: compiled root in 0.51s
+2022.04.26 18:58:30 INFO  compiling root (1 scala source)
+2022.04.26 18:58:30 INFO  time: compiled root in 0.51s
+2022.04.26 18:58:32 WARN  Could not load snapshot text for /home/bert/Desktop/projects/my-akka-http-project/src/main/scala/com/example/JsonFormats.scala
+2022.04.26 18:58:32 WARN  Could not load snapshot text for /home/bert/Desktop/projects/my-akka-http-project/src/main/scala/com/example/JsonFormats.scala
+2022.04.26 18:58:32 INFO  compiling root (1 scala source)
+2022.04.26 18:58:32 WARN  Could not load snapshot text for /home/bert/Desktop/projects/my-akka-http-project/src/main/scala/com/example/JsonFormats.scala
+2022.04.26 18:58:32 WARN  Could not load snapshot text for /home/bert/Desktop/projects/my-akka-http-project/src/main/scala/com/example/JsonFormats.scala
+2022.04.26 18:58:32 INFO  time: compiled root in 0.54s
+2022.04.26 18:58:36 INFO  compiling root (1 scala source)
+2022.04.26 18:58:36 INFO  time: compiled root in 0.5s
+2022.04.26 18:58:39 INFO  compiling root (1 scala source)
+2022.04.26 18:58:39 INFO  time: compiled root in 0.49s
+2022.04.26 18:58:46 INFO  compiling root (1 scala source)
+2022.04.26 18:58:46 INFO  time: compiled root in 0.5s
+2022.04.26 18:59:08 INFO  compiling root (1 scala source)
+2022.04.26 18:59:08 INFO  time: compiled root in 0.74s
