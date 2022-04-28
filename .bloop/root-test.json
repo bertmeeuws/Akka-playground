@@ -22,6 +22,9 @@
             "/home/bert/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-actor-typed_2.12/2.6.19/akka-actor-typed_2.12-2.6.19.jar",
             "/home/bert/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.12/2.6.19/akka-stream_2.12-2.6.19.jar",
             "/home/bert/.cache/coursier/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar",
+            "/home/bert/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/slick/slick_2.12/3.3.3/slick_2.12-3.3.3.jar",
+            "/home/bert/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/config/1.4.2/config-1.4.2.jar",
+            "/home/bert/.cache/coursier/v1/https/repo1.maven.org/maven2/mysql/mysql-connector-java/8.0.27/mysql-connector-java-8.0.27.jar",
             "/home/bert/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-http-testkit_2.12/10.2.9/akka-http-testkit_2.12-10.2.9.jar",
             "/home/bert/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-actor-testkit-typed_2.12/2.6.19/akka-actor-testkit-typed_2.12-2.6.19.jar",
             "/home/bert/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest_2.12/3.1.4/scalatest_2.12-3.1.4.jar",
@@ -34,12 +37,12 @@
             "/home/bert/.cache/coursier/v1/https/repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar",
             "/home/bert/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.12/0.4.3/ssl-config-core_2.12-0.4.3.jar",
             "/home/bert/.cache/coursier/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar",
+            "/home/bert/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_2.12/2.0.0/scala-collection-compat_2.12-2.0.0.jar",
             "/home/bert/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-testkit_2.12/2.6.19/akka-testkit_2.12-2.6.19.jar",
             "/home/bert/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalactic/scalactic_2.12/3.1.4/scalactic_2.12-3.1.4.jar",
             "/home/bert/.sbt/boot/scala-2.12.15/lib/scala-reflect.jar",
             "/home/bert/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.2.0/scala-xml_2.12-1.2.0.jar",
             "/home/bert/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-parsing_2.12/10.2.9/akka-parsing_2.12-10.2.9.jar",
-            "/home/bert/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/config/1.4.2/config-1.4.2.jar",
             "/home/bert/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.12/0.8.0/scala-java8-compat_2.12-0.8.0.jar",
             "/home/bert/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.1.2/scala-parser-combinators_2.12-1.1.2.jar"
         ],
@@ -238,6 +241,52 @@
                     ]
                 },
                 {
+                    "organization": "com.typesafe.slick",
+                    "name": "slick_2.12",
+                    "version": "3.3.3",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "slick_2.12",
+                            "path": "/home/bert/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/slick/slick_2.12/3.3.3/slick_2.12-3.3.3.jar"
+                        },
+                        {
+                            "name": "slick_2.12",
+                            "classifier": "sources",
+                            "path": "/home/bert/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/slick/slick_2.12/3.3.3/slick_2.12-3.3.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.typesafe",
+                    "name": "config",
+                    "version": "1.4.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "config",
+                            "path": "/home/bert/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/config/1.4.2/config-1.4.2.jar"
+                        },
+                        {
+                            "name": "config",
+                            "classifier": "sources",
+                            "path": "/home/bert/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/config/1.4.2/config-1.4.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "mysql",
+                    "name": "mysql-connector-java_2.12",
+                    "version": "8.0.27",
+                    "configurations": "default(compile)",
+                    "artifacts": [
+                        {
+                            "name": "mysql-connector-java_2.12",
+                            "path": "/home/bert/.cache/coursier/v1/https/repo1.maven.org/maven2/mysql/mysql-connector-java/8.0.27/mysql-connector-java-8.0.27.jar"
+                        }
+                    ]
+                },
+                {
                     "organization": "com.typesafe.akka",
                     "name": "akka-http-core_2.12",
                     "version": "10.2.9",
@@ -391,6 +440,23 @@
                     ]
                 },
                 {
+                    "organization": "org.scala-lang.modules",
+                    "name": "scala-collection-compat_2.12",
+                    "version": "2.0.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-collection-compat_2.12",
+                            "path": "/home/bert/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_2.12/2.0.0/scala-collection-compat_2.12-2.0.0.jar"
+                        },
+                        {
+                            "name": "scala-collection-compat_2.12",
+                            "classifier": "sources",
+                            "path": "/home/bert/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_2.12/2.0.0/scala-collection-compat_2.12-2.0.0-sources.jar"
+                        }
+                    ]
+                },
+                {
                     "organization": "com.typesafe.akka",
                     "name": "akka-parsing_2.12",
                     "version": "10.2.9",
@@ -404,23 +470,6 @@
                             "name": "akka-parsing_2.12",
                             "classifier": "sources",
                             "path": "/home/bert/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-parsing_2.12/10.2.9/akka-parsing_2.12-10.2.9-sources.jar"
-                        }
-                    ]
-                },
-                {
-                    "organization": "com.typesafe",
-                    "name": "config",
-                    "version": "1.4.2",
-                    "configurations": "default",
-                    "artifacts": [
-                        {
-                            "name": "config",
-                            "path": "/home/bert/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/config/1.4.2/config-1.4.2.jar"
-                        },
-                        {
-                            "name": "config",
-                            "classifier": "sources",
-                            "path": "/home/bert/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/config/1.4.2/config-1.4.2-sources.jar"
                         }
                     ]
                 },

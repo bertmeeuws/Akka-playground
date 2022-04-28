@@ -32,9 +32,15 @@ object QuickstartApp {
   def main(args: Array[String]): Unit = {
     //#server-bootstrapping
     val rootBehavior = Behaviors.setup[Nothing] { context =>
+
+
+
       val userRegistryActor = context.spawn(UserRegistry(), "UserRegistryActor")
       context.watch(userRegistryActor)
 
+
+      //In akka you cant create an actor using the New keyword
+      // doesn't reture an actor but will return a reference to the actor
       val accountRegistryActor = context.spawn(AccountActor(), "AccountRegistryActor")
       context.watch(accountRegistryActor)
 
