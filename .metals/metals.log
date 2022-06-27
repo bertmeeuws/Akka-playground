@@ -5215,3 +5215,180 @@ WARNING: offset 1461, count -1, length 1890
 2022.06.27 21:23:39 INFO  time: compiled root in 70ms
 2022.06.27 21:23:46 INFO  compiling root (1 scala source)
 2022.06.27 21:23:46 INFO  time: compiled root in 0.4s
+2022.06.27 21:26:30 WARN  no build target for: /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/build.sbt
+2022.06.27 21:32:04 INFO  compiling root (1 scala source)
+2022.06.27 21:32:04 INFO  time: compiled root in 0.68s
+2022.06.27 21:32:11 INFO  compiling root (1 scala source)
+2022.06.27 21:32:11 INFO  time: compiled root in 68ms
+2022.06.27 21:32:12 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/QuickstartApp.scala
+2022.06.27 21:32:13 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/QuickstartApp.scala
+2022.06.27 21:32:13 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/QuickstartApp.scala
+2022.06.27 21:32:13 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/QuickstartApp.scala
+2022.06.27 21:32:19 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/QuickstartApp.scala
+2022.06.27 21:32:19 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/QuickstartApp.scala
+2022.06.27 21:32:20 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/QuickstartApp.scala
+2022.06.27 21:32:19 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/QuickstartApp.scala
+2022.06.27 21:32:19 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/QuickstartApp.scala
+2022.06.27 21:32:19 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/QuickstartApp.scala
+2022.06.27 21:32:19 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/QuickstartApp.scala
+2022.06.27 21:32:25 INFO  compiling root (1 scala source)
+2022.06.27 21:32:25 INFO  time: compiled root in 65ms
+2022.06.27 21:34:33 WARN  no build target for: /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/build.sbt
+2022.06.27 21:34:40 WARN  no build target for: /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/build.sbt
+2022.06.27 21:35:14 WARN  no build target for: /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/build.sbt
+2022.06.27 21:56:31 INFO  running '/Library/Java/JavaVirtualMachines/temurin-17.jdk/Contents/Home/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /var/folders/xx/z1dj89qx3jd0vyh21fv9n8rh0000gn/T/metals9718357816426944617/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2022.06.27 21:56:32 INFO  [info] welcome to sbt 1.6.2 (Eclipse Adoptium Java 17.0.3)
+2022.06.27 21:56:32 INFO  [info] loading settings for project akka-playground-build-build-build from metals.sbt ...
+2022.06.27 21:56:34 INFO  [info] loading project definition from /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/project/project/project
+2022.06.27 21:56:34 INFO  [info] loading settings for project akka-playground-build-build from metals.sbt ...
+2022.06.27 21:56:34 INFO  [info] loading project definition from /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/project/project
+2022.06.27 21:56:36 INFO  [success] Generated .bloop/akka-playground-build-build.json
+2022.06.27 21:56:36 INFO  [success] Total time: 1 s, completed 27 Jun 2022, 21:56:36
+2022.06.27 21:56:36 INFO  [info] loading settings for project akka-playground-build from metals.sbt,plugins.sbt ...
+2022.06.27 21:56:36 INFO  [info] loading project definition from /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/project
+2022.06.27 21:56:36 INFO  [success] Generated .bloop/akka-playground-build.json
+2022.06.27 21:56:36 INFO  [success] Total time: 0 s, completed 27 Jun 2022, 21:56:36
+2022.06.27 21:56:36 INFO  [info] loading settings for project root from build.sbt ...
+2022.06.27 21:56:36 INFO  [info] set current project to My Akka HTTP Project (in build file:/Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/)
+2022.06.27 21:56:36 INFO  [success] Generated .bloop/root.json
+2022.06.27 21:56:36 INFO  [success] Generated .bloop/root-test.json
+2022.06.27 21:56:36 INFO  [success] Total time: 0 s, completed 27 Jun 2022, 21:56:37
+2022.06.27 21:56:37 INFO  time: ran 'sbt bloopInstall' in 6.16s
+2022.06.27 21:56:37 INFO  Disconnecting from Bloop session...
+2022.06.27 21:56:37 INFO  Shut down connection with build server.
+2022.06.27 21:56:37 INFO  Shut down connection with build server.
+2022.06.27 21:56:37 INFO  Shut down connection with build server.
+2022.06.27 21:56:37 INFO  Attempting to connect to the build server...
+2022.06.27 21:56:37 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/.metals/bsp.trace.json or /Users/bertmeeuws/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.06.27 21:56:37 INFO  Attempting to connect to the build server...
+2022.06.27 21:56:37 INFO  Attempting to connect to the build server...
+2022.06.27 21:56:37 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/project/project/.metals/bsp.trace.json or /Users/bertmeeuws/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.06.27 21:56:37 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/project/.metals/bsp.trace.json or /Users/bertmeeuws/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.06.27 21:56:37 INFO  time: Connected to build server in 68ms
+2022.06.27 21:56:37 INFO  Connected to Build server: Bloop v1.5.0-18-003e6c7b
+2022.06.27 21:56:38 INFO  time: indexed workspace in 0.96s
+2022.06.27 21:56:38 INFO  compiling root (1 scala source)
+2022.06.27 21:56:38 INFO  time: compiled root in 0.93s
+2022.06.27 21:57:16 INFO  compiling root (1 scala source)
+2022.06.27 21:57:16 INFO  time: compiled root in 0.66s
+2022.06.27 21:57:25 INFO  compiling root (1 scala source)
+2022.06.27 21:57:25 INFO  time: compiled root in 31ms
+2022.06.27 21:57:30 INFO  compiling root (1 scala source)
+2022.06.27 21:57:30 INFO  time: compiled root in 35ms
+2022.06.27 21:57:38 INFO  compiling root (1 scala source)
+2022.06.27 21:57:38 INFO  time: compiled root in 41ms
+2022.06.27 21:57:39 INFO  compiling root (1 scala source)
+2022.06.27 21:57:39 INFO  time: compiled root in 38ms
+2022.06.27 21:58:32 INFO  compiling root (1 scala source)
+2022.06.27 21:58:32 INFO  time: compiled root in 39ms
+2022.06.27 21:58:32 INFO  compiling root (1 scala source)
+2022.06.27 21:58:32 INFO  time: compiled root in 13ms
+2022.06.27 21:58:35 INFO  compiling root (1 scala source)
+2022.06.27 21:58:35 INFO  time: compiled root in 33ms
+2022.06.27 21:59:19 INFO  compiling root (1 scala source)
+2022.06.27 21:59:19 INFO  time: compiled root in 0.14s
+2022.06.27 21:59:33 INFO  compiling root (1 scala source)
+2022.06.27 21:59:33 INFO  time: compiled root in 36ms
+2022.06.27 21:59:35 INFO  compiling root (1 scala source)
+2022.06.27 21:59:35 INFO  time: compiled root in 45ms
+2022.06.27 21:59:38 INFO  compiling root (1 scala source)
+2022.06.27 21:59:38 INFO  time: compiled root in 39ms
+2022.06.27 21:59:39 INFO  compiling root (1 scala source)
+2022.06.27 21:59:39 INFO  time: compiled root in 35ms
+2022.06.27 21:59:41 INFO  compiling root (1 scala source)
+2022.06.27 21:59:41 INFO  time: compiled root in 60ms
+Jun 27, 2022 9:59:41 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+2022.06.27 21:59:52 INFO  compiling root (1 scala source)
+2022.06.27 21:59:52 INFO  time: compiled root in 36ms
+2022.06.27 21:59:55 INFO  compiling root (1 scala source)
+2022.06.27 21:59:55 INFO  time: compiled root in 30ms
+2022.06.27 21:59:55 INFO  compiling root (1 scala source)
+2022.06.27 21:59:55 INFO  time: compiled root in 19ms
+2022.06.27 22:00:28 INFO  compiling root (1 scala source)
+2022.06.27 22:00:28 INFO  time: compiled root in 0.11s
+2022.06.27 22:00:40 INFO  compiling root (1 scala source)
+2022.06.27 22:00:40 INFO  time: compiled root in 59ms
+2022.06.27 22:00:40 INFO  compiling root (1 scala source)
+2022.06.27 22:00:40 INFO  time: compiled root in 27ms
+2022.06.27 22:01:14 INFO  compiling root (1 scala source)
+2022.06.27 22:01:14 INFO  time: compiled root in 46ms
+2022.06.27 22:01:15 INFO  compiling root (1 scala source)
+2022.06.27 22:01:15 INFO  time: compiled root in 28ms
+2022.06.27 22:01:16 INFO  file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/dao/Connection.scala:6:12: stale bloop error: not found: value Database
+  val db = Database.forConfig("postgres")
+           ^^^^^^^^
+2022.06.27 22:01:16 INFO  file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/dao/Connection.scala:6:12: stale bloop error: not found: value Database
+  val db = Database.forConfig("postgres")
+           ^^^^^^^^
+2022.06.27 22:01:20 INFO  compiling root (1 scala source)
+2022.06.27 22:01:20 INFO  time: compiled root in 29ms
+2022.06.27 22:01:23 INFO  compiling root (1 scala source)
+2022.06.27 22:01:23 INFO  time: compiled root in 39ms
+2022.06.27 22:01:32 INFO  compiling root (1 scala source)
+2022.06.27 22:01:32 INFO  time: compiled root in 33ms
+2022.06.27 22:01:37 INFO  compiling root (1 scala source)
+2022.06.27 22:01:37 INFO  time: compiled root in 67ms
+2022.06.27 22:02:44 INFO  skipping build import with status 'Installed'
+2022.06.27 22:02:49 INFO  running '/Library/Java/JavaVirtualMachines/temurin-17.jdk/Contents/Home/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /var/folders/xx/z1dj89qx3jd0vyh21fv9n8rh0000gn/T/metals2715339730128349001/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2022.06.27 22:02:50 INFO  [info] welcome to sbt 1.6.2 (Eclipse Adoptium Java 17.0.3)
+2022.06.27 22:02:50 INFO  [info] loading settings for project akka-playground-build-build-build from metals.sbt ...
+2022.06.27 22:02:51 INFO  [info] loading project definition from /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/project/project/project
+2022.06.27 22:02:51 INFO  [info] loading settings for project akka-playground-build-build from metals.sbt ...
+2022.06.27 22:02:51 INFO  [info] loading project definition from /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/project/project
+2022.06.27 22:02:53 INFO  [success] Generated .bloop/akka-playground-build-build.json
+2022.06.27 22:02:53 INFO  [success] Total time: 1 s, completed 27 Jun 2022, 22:02:53
+2022.06.27 22:02:53 INFO  [info] loading settings for project akka-playground-build from metals.sbt,plugins.sbt ...
+2022.06.27 22:02:53 INFO  [info] loading project definition from /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/project
+2022.06.27 22:02:53 INFO  [success] Generated .bloop/akka-playground-build.json
+2022.06.27 22:02:53 INFO  [success] Total time: 0 s, completed 27 Jun 2022, 22:02:53
+2022.06.27 22:02:55 INFO  [info] loading settings for project root from build.sbt ...
+2022.06.27 22:02:55 INFO  [info] set current project to My Akka HTTP Project (in build file:/Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/)
+2022.06.27 22:02:58 INFO  [success] Generated .bloop/root-test.json
+2022.06.27 22:02:58 INFO  [success] Generated .bloop/root.json
+2022.06.27 22:02:58 INFO  [success] Total time: 3 s, completed 27 Jun 2022, 22:02:58
+2022.06.27 22:02:58 INFO  time: ran 'sbt bloopInstall' in 9.05s
+2022.06.27 22:02:58 INFO  Disconnecting from Bloop session...
+2022.06.27 22:02:58 INFO  Shut down connection with build server.
+2022.06.27 22:02:58 INFO  Shut down connection with build server.
+2022.06.27 22:02:58 INFO  Shut down connection with build server.
+2022.06.27 22:02:58 INFO  Attempting to connect to the build server...
+2022.06.27 22:02:58 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/.metals/bsp.trace.json or /Users/bertmeeuws/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.06.27 22:02:58 INFO  Attempting to connect to the build server...
+2022.06.27 22:02:58 INFO  Attempting to connect to the build server...
+2022.06.27 22:02:58 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/project/project/.metals/bsp.trace.json or /Users/bertmeeuws/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.06.27 22:02:58 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/project/.metals/bsp.trace.json or /Users/bertmeeuws/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.06.27 22:02:58 INFO  time: Connected to build server in 0.16s
+2022.06.27 22:02:58 INFO  Connected to Build server: Bloop v1.5.0-18-003e6c7b
+2022.06.27 22:02:58 INFO  time: Imported build in 0.17s
+2022.06.27 22:03:00 INFO  skipping build import with status 'Installed'
+2022.06.27 22:03:01 INFO  time: indexed workspace in 2.13s
+2022.06.27 22:03:01 INFO  compiling root (10 scala sources)
+2022.06.27 22:03:03 INFO  time: compiled root in 1.49s
+2022.06.27 22:03:03 INFO  time: code lens generation in 1.1s
+2022.06.27 22:03:03 INFO  time: code lens generation in 1.69s
+2022.06.27 22:03:42 INFO  compiling root (10 scala sources)
+2022.06.27 22:03:44 WARN  one deprecation (since 3.2); re-run with -deprecation for details
+2022.06.27 22:03:44 WARN  two feature warnings; re-run with -feature for details
+2022.06.27 22:03:44 INFO  time: compiled root in 1.91s
+2022.06.27 22:03:45 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/dao/Connection.scala
+2022.06.27 22:03:45 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/dao/Connection.scala
+2022.06.27 22:03:46 INFO  compiling root (1 scala source)
+2022.06.27 22:03:46 INFO  time: compiled root in 0.17s
+2022.06.27 22:03:55 INFO  compiling root-test (1 scala source)
+2022.06.27 22:03:55 INFO  time: compiled root-test in 0.93s
+2022.06.27 22:04:19 INFO  compiling root (1 scala source)
+2022.06.27 22:04:19 INFO  time: compiled root in 76ms
+2022.06.27 22:04:21 INFO  compiling root (1 scala source)
+2022.06.27 22:04:21 INFO  time: compiled root in 44ms
+2022.06.27 22:04:24 INFO  compiling root (1 scala source)
+2022.06.27 22:04:24 INFO  time: compiled root in 34ms
+2022.06.27 22:04:31 INFO  compiling root (1 scala source)
+2022.06.27 22:04:31 INFO  time: compiled root in 32ms
+Exception in thread "pool-24-thread-1" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:139)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
