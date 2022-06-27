@@ -26,7 +26,8 @@ lazy val root = (project in file(".")).
 
       "com.typesafe.akka" %% "akka-http-testkit"        % akkaHttpVersion % Test,
       "com.typesafe.akka" %% "akka-actor-testkit-typed" % akkaVersion     % Test,
-      "org.scalatest"     %% "scalatest"                % "3.1.4"         % Test
+      "org.scalatest"     %% "scalatest"                % "3.1.4"         % Test,
+      "org.scalameta" %% "sbt-scalafmt" % "2.4.6"
     ),
     resolvers ++= Seq("central" at "https://repo1.maven.org/maven2/")
   )

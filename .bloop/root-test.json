@@ -2,55 +2,55 @@
     "version": "1.4.0",
     "project": {
         "name": "root-test",
-        "directory": "/home/bert/Desktop/projects/my-akka-http-project",
-        "workspaceDir": "/home/bert/Desktop/projects/my-akka-http-project",
+        "directory": "/Users/bertmeeuws/Desktop/Side-Projects/Akka-playground",
+        "workspaceDir": "/Users/bertmeeuws/Desktop/Side-Projects/Akka-playground",
         "sources": [
-            "/home/bert/Desktop/projects/my-akka-http-project/src/test/scala",
-            "/home/bert/Desktop/projects/my-akka-http-project/src/test/scala-2.12",
-            "/home/bert/Desktop/projects/my-akka-http-project/src/test/scala-2",
-            "/home/bert/Desktop/projects/my-akka-http-project/src/test/java",
-            "/home/bert/Desktop/projects/my-akka-http-project/target/scala-2.12/src_managed/test"
+            "/Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/test/scala",
+            "/Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/test/scala-2.12",
+            "/Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/test/scala-2",
+            "/Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/test/java",
+            "/Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/target/scala-2.12/src_managed/test"
         ],
         "dependencies": [
             "root"
         ],
         "classpath": [
-            "/home/bert/Desktop/projects/my-akka-http-project/.bloop/root/scala-2.12/classes",
-            "/home/bert/.sbt/boot/scala-2.12.15/lib/scala-library.jar",
-            "/home/bert/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-http_2.12/10.2.9/akka-http_2.12-10.2.9.jar",
-            "/home/bert/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-http-spray-json_2.12/10.2.9/akka-http-spray-json_2.12-10.2.9.jar",
-            "/home/bert/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-actor-typed_2.12/2.6.19/akka-actor-typed_2.12-2.6.19.jar",
-            "/home/bert/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.12/2.6.19/akka-stream_2.12-2.6.19.jar",
-            "/home/bert/.cache/coursier/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar",
-            "/home/bert/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/slick/slick_2.12/3.3.3/slick_2.12-3.3.3.jar",
-            "/home/bert/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/config/1.4.2/config-1.4.2.jar",
-            "/home/bert/.cache/coursier/v1/https/repo1.maven.org/maven2/mysql/mysql-connector-java/8.0.27/mysql-connector-java-8.0.27.jar",
-            "/home/bert/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-http-testkit_2.12/10.2.9/akka-http-testkit_2.12-10.2.9.jar",
-            "/home/bert/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-actor-testkit-typed_2.12/2.6.19/akka-actor-testkit-typed_2.12-2.6.19.jar",
-            "/home/bert/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest_2.12/3.1.4/scalatest_2.12-3.1.4.jar",
-            "/home/bert/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-http-core_2.12/10.2.9/akka-http-core_2.12-10.2.9.jar",
-            "/home/bert/.cache/coursier/v1/https/repo1.maven.org/maven2/io/spray/spray-json_2.12/1.3.6/spray-json_2.12-1.3.6.jar",
-            "/home/bert/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.12/2.6.19/akka-actor_2.12-2.6.19.jar",
-            "/home/bert/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_2.12/2.6.19/akka-slf4j_2.12-2.6.19.jar",
-            "/home/bert/.cache/coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar",
-            "/home/bert/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf-v3_2.12/2.6.19/akka-protobuf-v3_2.12-2.6.19.jar",
-            "/home/bert/.cache/coursier/v1/https/repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar",
-            "/home/bert/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.12/0.4.3/ssl-config-core_2.12-0.4.3.jar",
-            "/home/bert/.cache/coursier/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar",
-            "/home/bert/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_2.12/2.0.0/scala-collection-compat_2.12-2.0.0.jar",
-            "/home/bert/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-testkit_2.12/2.6.19/akka-testkit_2.12-2.6.19.jar",
-            "/home/bert/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalactic/scalactic_2.12/3.1.4/scalactic_2.12-3.1.4.jar",
-            "/home/bert/.sbt/boot/scala-2.12.15/lib/scala-reflect.jar",
-            "/home/bert/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.2.0/scala-xml_2.12-1.2.0.jar",
-            "/home/bert/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-parsing_2.12/10.2.9/akka-parsing_2.12-10.2.9.jar",
-            "/home/bert/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.12/0.8.0/scala-java8-compat_2.12-0.8.0.jar",
-            "/home/bert/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.1.2/scala-parser-combinators_2.12-1.1.2.jar"
+            "/Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/.bloop/root/scala-2.12/classes",
+            "/Users/bertmeeuws/.sbt/boot/scala-2.12.15/lib/scala-library.jar",
+            "/Users/bertmeeuws/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-http_2.12/10.2.9/akka-http_2.12-10.2.9.jar",
+            "/Users/bertmeeuws/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-http-spray-json_2.12/10.2.9/akka-http-spray-json_2.12-10.2.9.jar",
+            "/Users/bertmeeuws/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-actor-typed_2.12/2.6.19/akka-actor-typed_2.12-2.6.19.jar",
+            "/Users/bertmeeuws/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.12/2.6.19/akka-stream_2.12-2.6.19.jar",
+            "/Users/bertmeeuws/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar",
+            "/Users/bertmeeuws/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/slick/slick_2.12/3.3.3/slick_2.12-3.3.3.jar",
+            "/Users/bertmeeuws/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/config/1.4.2/config-1.4.2.jar",
+            "/Users/bertmeeuws/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/mysql/mysql-connector-java/8.0.27/mysql-connector-java-8.0.27.jar",
+            "/Users/bertmeeuws/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-http-testkit_2.12/10.2.9/akka-http-testkit_2.12-10.2.9.jar",
+            "/Users/bertmeeuws/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-actor-testkit-typed_2.12/2.6.19/akka-actor-testkit-typed_2.12-2.6.19.jar",
+            "/Users/bertmeeuws/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest_2.12/3.1.4/scalatest_2.12-3.1.4.jar",
+            "/Users/bertmeeuws/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-http-core_2.12/10.2.9/akka-http-core_2.12-10.2.9.jar",
+            "/Users/bertmeeuws/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/spray/spray-json_2.12/1.3.6/spray-json_2.12-1.3.6.jar",
+            "/Users/bertmeeuws/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.12/2.6.19/akka-actor_2.12-2.6.19.jar",
+            "/Users/bertmeeuws/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_2.12/2.6.19/akka-slf4j_2.12-2.6.19.jar",
+            "/Users/bertmeeuws/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar",
+            "/Users/bertmeeuws/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf-v3_2.12/2.6.19/akka-protobuf-v3_2.12-2.6.19.jar",
+            "/Users/bertmeeuws/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar",
+            "/Users/bertmeeuws/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.12/0.4.3/ssl-config-core_2.12-0.4.3.jar",
+            "/Users/bertmeeuws/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar",
+            "/Users/bertmeeuws/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_2.12/2.0.0/scala-collection-compat_2.12-2.0.0.jar",
+            "/Users/bertmeeuws/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-testkit_2.12/2.6.19/akka-testkit_2.12-2.6.19.jar",
+            "/Users/bertmeeuws/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalactic/scalactic_2.12/3.1.4/scalactic_2.12-3.1.4.jar",
+            "/Users/bertmeeuws/.sbt/boot/scala-2.12.15/lib/scala-reflect.jar",
+            "/Users/bertmeeuws/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.2.0/scala-xml_2.12-1.2.0.jar",
+            "/Users/bertmeeuws/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-parsing_2.12/10.2.9/akka-parsing_2.12-10.2.9.jar",
+            "/Users/bertmeeuws/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.12/0.8.0/scala-java8-compat_2.12-0.8.0.jar",
+            "/Users/bertmeeuws/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.1.2/scala-parser-combinators_2.12-1.1.2.jar"
         ],
-        "out": "/home/bert/Desktop/projects/my-akka-http-project/.bloop/root",
-        "classesDir": "/home/bert/Desktop/projects/my-akka-http-project/.bloop/root/scala-2.12/test-classes",
+        "out": "/Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/.bloop/root",
+        "classesDir": "/Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/.bloop/root/scala-2.12/test-classes",
         "resources": [
-            "/home/bert/Desktop/projects/my-akka-http-project/src/test/resources",
-            "/home/bert/Desktop/projects/my-akka-http-project/target/scala-2.12/resource_managed/test"
+            "/Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/test/resources",
+            "/Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/target/scala-2.12/resource_managed/test"
         ],
         "scala": {
             "organization": "org.scala-lang",
@@ -60,11 +60,11 @@
                 
             ],
             "jars": [
-                "/home/bert/.sbt/boot/scala-2.12.15/lib/scala-library.jar",
-                "/home/bert/.sbt/boot/scala-2.12.15/lib/scala-compiler.jar",
-                "/home/bert/.sbt/boot/scala-2.12.15/lib/jline.jar",
-                "/home/bert/.sbt/boot/scala-2.12.15/lib/scala-reflect.jar",
-                "/home/bert/.sbt/boot/scala-2.12.15/lib/scala-xml_2.12.jar"
+                "/Users/bertmeeuws/.sbt/boot/scala-2.12.15/lib/scala-library.jar",
+                "/Users/bertmeeuws/.sbt/boot/scala-2.12.15/lib/scala-compiler.jar",
+                "/Users/bertmeeuws/.sbt/boot/scala-2.12.15/lib/jline.jar",
+                "/Users/bertmeeuws/.sbt/boot/scala-2.12.15/lib/scala-reflect.jar",
+                "/Users/bertmeeuws/.sbt/boot/scala-2.12.15/lib/scala-xml_2.12.jar"
             ],
             "setup": {
                 "order": "mixed",
@@ -127,9 +127,9 @@
         "platform": {
             "name": "jvm",
             "config": {
-                "home": "/usr/lib/jvm/java-17-openjdk-amd64",
+                "home": "/Library/Java/JavaVirtualMachines/temurin-17.jdk/Contents/Home",
                 "options": [
-                    "-Duser.dir=/home/bert/Desktop/projects/my-akka-http-project"
+                    "-Duser.dir=/Users/bertmeeuws/Desktop/Side-Projects/Akka-playground"
                 ]
             },
             "mainClass": [
@@ -146,12 +146,12 @@
                     "artifacts": [
                         {
                             "name": "scala-library",
-                            "path": "/home/bert/.sbt/boot/scala-2.12.15/lib/scala-library.jar"
+                            "path": "/Users/bertmeeuws/.sbt/boot/scala-2.12.15/lib/scala-library.jar"
                         },
                         {
                             "name": "scala-library",
                             "classifier": "sources",
-                            "path": "/home/bert/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.15/scala-library-2.12.15-sources.jar"
+                            "path": "/Users/bertmeeuws/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.15/scala-library-2.12.15-sources.jar"
                         }
                     ]
                 },
@@ -163,12 +163,12 @@
                     "artifacts": [
                         {
                             "name": "akka-http_2.12",
-                            "path": "/home/bert/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-http_2.12/10.2.9/akka-http_2.12-10.2.9.jar"
+                            "path": "/Users/bertmeeuws/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-http_2.12/10.2.9/akka-http_2.12-10.2.9.jar"
                         },
                         {
                             "name": "akka-http_2.12",
                             "classifier": "sources",
-                            "path": "/home/bert/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-http_2.12/10.2.9/akka-http_2.12-10.2.9-sources.jar"
+                            "path": "/Users/bertmeeuws/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-http_2.12/10.2.9/akka-http_2.12-10.2.9-sources.jar"
                         }
                     ]
                 },
@@ -180,12 +180,12 @@
                     "artifacts": [
                         {
                             "name": "akka-http-spray-json_2.12",
-                            "path": "/home/bert/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-http-spray-json_2.12/10.2.9/akka-http-spray-json_2.12-10.2.9.jar"
+                            "path": "/Users/bertmeeuws/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-http-spray-json_2.12/10.2.9/akka-http-spray-json_2.12-10.2.9.jar"
                         },
                         {
                             "name": "akka-http-spray-json_2.12",
                             "classifier": "sources",
-                            "path": "/home/bert/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-http-spray-json_2.12/10.2.9/akka-http-spray-json_2.12-10.2.9-sources.jar"
+                            "path": "/Users/bertmeeuws/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-http-spray-json_2.12/10.2.9/akka-http-spray-json_2.12-10.2.9-sources.jar"
                         }
                     ]
                 },
@@ -197,12 +197,12 @@
                     "artifacts": [
                         {
                             "name": "akka-actor-typed_2.12",
-                            "path": "/home/bert/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-actor-typed_2.12/2.6.19/akka-actor-typed_2.12-2.6.19.jar"
+                            "path": "/Users/bertmeeuws/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-actor-typed_2.12/2.6.19/akka-actor-typed_2.12-2.6.19.jar"
                         },
                         {
                             "name": "akka-actor-typed_2.12",
                             "classifier": "sources",
-                            "path": "/home/bert/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-actor-typed_2.12/2.6.19/akka-actor-typed_2.12-2.6.19-sources.jar"
+                            "path": "/Users/bertmeeuws/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-actor-typed_2.12/2.6.19/akka-actor-typed_2.12-2.6.19-sources.jar"
                         }
                     ]
                 },
@@ -214,12 +214,12 @@
                     "artifacts": [
                         {
                             "name": "akka-stream_2.12",
-                            "path": "/home/bert/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.12/2.6.19/akka-stream_2.12-2.6.19.jar"
+                            "path": "/Users/bertmeeuws/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.12/2.6.19/akka-stream_2.12-2.6.19.jar"
                         },
                         {
                             "name": "akka-stream_2.12",
                             "classifier": "sources",
-                            "path": "/home/bert/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.12/2.6.19/akka-stream_2.12-2.6.19-sources.jar"
+                            "path": "/Users/bertmeeuws/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.12/2.6.19/akka-stream_2.12-2.6.19-sources.jar"
                         }
                     ]
                 },
@@ -231,12 +231,12 @@
                     "artifacts": [
                         {
                             "name": "logback-classic",
-                            "path": "/home/bert/.cache/coursier/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar"
+                            "path": "/Users/bertmeeuws/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar"
                         },
                         {
                             "name": "logback-classic",
                             "classifier": "sources",
-                            "path": "/home/bert/.cache/coursier/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3-sources.jar"
+                            "path": "/Users/bertmeeuws/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3-sources.jar"
                         }
                     ]
                 },
@@ -248,12 +248,12 @@
                     "artifacts": [
                         {
                             "name": "slick_2.12",
-                            "path": "/home/bert/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/slick/slick_2.12/3.3.3/slick_2.12-3.3.3.jar"
+                            "path": "/Users/bertmeeuws/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/slick/slick_2.12/3.3.3/slick_2.12-3.3.3.jar"
                         },
                         {
                             "name": "slick_2.12",
                             "classifier": "sources",
-                            "path": "/home/bert/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/slick/slick_2.12/3.3.3/slick_2.12-3.3.3-sources.jar"
+                            "path": "/Users/bertmeeuws/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/slick/slick_2.12/3.3.3/slick_2.12-3.3.3-sources.jar"
                         }
                     ]
                 },
@@ -265,12 +265,12 @@
                     "artifacts": [
                         {
                             "name": "config",
-                            "path": "/home/bert/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/config/1.4.2/config-1.4.2.jar"
+                            "path": "/Users/bertmeeuws/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/config/1.4.2/config-1.4.2.jar"
                         },
                         {
                             "name": "config",
                             "classifier": "sources",
-                            "path": "/home/bert/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/config/1.4.2/config-1.4.2-sources.jar"
+                            "path": "/Users/bertmeeuws/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/config/1.4.2/config-1.4.2-sources.jar"
                         }
                     ]
                 },
@@ -282,7 +282,7 @@
                     "artifacts": [
                         {
                             "name": "mysql-connector-java_2.12",
-                            "path": "/home/bert/.cache/coursier/v1/https/repo1.maven.org/maven2/mysql/mysql-connector-java/8.0.27/mysql-connector-java-8.0.27.jar"
+                            "path": "/Users/bertmeeuws/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/mysql/mysql-connector-java/8.0.27/mysql-connector-java-8.0.27.jar"
                         }
                     ]
                 },
@@ -294,12 +294,12 @@
                     "artifacts": [
                         {
                             "name": "akka-http-core_2.12",
-                            "path": "/home/bert/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-http-core_2.12/10.2.9/akka-http-core_2.12-10.2.9.jar"
+                            "path": "/Users/bertmeeuws/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-http-core_2.12/10.2.9/akka-http-core_2.12-10.2.9.jar"
                         },
                         {
                             "name": "akka-http-core_2.12",
                             "classifier": "sources",
-                            "path": "/home/bert/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-http-core_2.12/10.2.9/akka-http-core_2.12-10.2.9-sources.jar"
+                            "path": "/Users/bertmeeuws/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-http-core_2.12/10.2.9/akka-http-core_2.12-10.2.9-sources.jar"
                         }
                     ]
                 },
@@ -311,12 +311,12 @@
                     "artifacts": [
                         {
                             "name": "spray-json_2.12",
-                            "path": "/home/bert/.cache/coursier/v1/https/repo1.maven.org/maven2/io/spray/spray-json_2.12/1.3.6/spray-json_2.12-1.3.6.jar"
+                            "path": "/Users/bertmeeuws/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/spray/spray-json_2.12/1.3.6/spray-json_2.12-1.3.6.jar"
                         },
                         {
                             "name": "spray-json_2.12",
                             "classifier": "sources",
-                            "path": "/home/bert/.cache/coursier/v1/https/repo1.maven.org/maven2/io/spray/spray-json_2.12/1.3.6/spray-json_2.12-1.3.6-sources.jar"
+                            "path": "/Users/bertmeeuws/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/spray/spray-json_2.12/1.3.6/spray-json_2.12-1.3.6-sources.jar"
                         }
                     ]
                 },
@@ -328,12 +328,12 @@
                     "artifacts": [
                         {
                             "name": "akka-actor_2.12",
-                            "path": "/home/bert/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.12/2.6.19/akka-actor_2.12-2.6.19.jar"
+                            "path": "/Users/bertmeeuws/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.12/2.6.19/akka-actor_2.12-2.6.19.jar"
                         },
                         {
                             "name": "akka-actor_2.12",
                             "classifier": "sources",
-                            "path": "/home/bert/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.12/2.6.19/akka-actor_2.12-2.6.19-sources.jar"
+                            "path": "/Users/bertmeeuws/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.12/2.6.19/akka-actor_2.12-2.6.19-sources.jar"
                         }
                     ]
                 },
@@ -345,12 +345,12 @@
                     "artifacts": [
                         {
                             "name": "akka-slf4j_2.12",
-                            "path": "/home/bert/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_2.12/2.6.19/akka-slf4j_2.12-2.6.19.jar"
+                            "path": "/Users/bertmeeuws/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_2.12/2.6.19/akka-slf4j_2.12-2.6.19.jar"
                         },
                         {
                             "name": "akka-slf4j_2.12",
                             "classifier": "sources",
-                            "path": "/home/bert/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_2.12/2.6.19/akka-slf4j_2.12-2.6.19-sources.jar"
+                            "path": "/Users/bertmeeuws/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_2.12/2.6.19/akka-slf4j_2.12-2.6.19-sources.jar"
                         }
                     ]
                 },
@@ -362,12 +362,12 @@
                     "artifacts": [
                         {
                             "name": "slf4j-api",
-                            "path": "/home/bert/.cache/coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar"
+                            "path": "/Users/bertmeeuws/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar"
                         },
                         {
                             "name": "slf4j-api",
                             "classifier": "sources",
-                            "path": "/home/bert/.cache/coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36-sources.jar"
+                            "path": "/Users/bertmeeuws/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36-sources.jar"
                         }
                     ]
                 },
@@ -379,12 +379,12 @@
                     "artifacts": [
                         {
                             "name": "akka-protobuf-v3_2.12",
-                            "path": "/home/bert/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf-v3_2.12/2.6.19/akka-protobuf-v3_2.12-2.6.19.jar"
+                            "path": "/Users/bertmeeuws/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf-v3_2.12/2.6.19/akka-protobuf-v3_2.12-2.6.19.jar"
                         },
                         {
                             "name": "akka-protobuf-v3_2.12",
                             "classifier": "sources",
-                            "path": "/home/bert/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf-v3_2.12/2.6.19/akka-protobuf-v3_2.12-2.6.19-sources.jar"
+                            "path": "/Users/bertmeeuws/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf-v3_2.12/2.6.19/akka-protobuf-v3_2.12-2.6.19-sources.jar"
                         }
                     ]
                 },
@@ -396,12 +396,12 @@
                     "artifacts": [
                         {
                             "name": "reactive-streams",
-                            "path": "/home/bert/.cache/coursier/v1/https/repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar"
+                            "path": "/Users/bertmeeuws/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar"
                         },
                         {
                             "name": "reactive-streams",
                             "classifier": "sources",
-                            "path": "/home/bert/.cache/coursier/v1/https/repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3-sources.jar"
+                            "path": "/Users/bertmeeuws/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3-sources.jar"
                         }
                     ]
                 },
@@ -413,12 +413,12 @@
                     "artifacts": [
                         {
                             "name": "ssl-config-core_2.12",
-                            "path": "/home/bert/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.12/0.4.3/ssl-config-core_2.12-0.4.3.jar"
+                            "path": "/Users/bertmeeuws/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.12/0.4.3/ssl-config-core_2.12-0.4.3.jar"
                         },
                         {
                             "name": "ssl-config-core_2.12",
                             "classifier": "sources",
-                            "path": "/home/bert/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.12/0.4.3/ssl-config-core_2.12-0.4.3-sources.jar"
+                            "path": "/Users/bertmeeuws/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.12/0.4.3/ssl-config-core_2.12-0.4.3-sources.jar"
                         }
                     ]
                 },
@@ -430,12 +430,12 @@
                     "artifacts": [
                         {
                             "name": "logback-core",
-                            "path": "/home/bert/.cache/coursier/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar"
+                            "path": "/Users/bertmeeuws/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar"
                         },
                         {
                             "name": "logback-core",
                             "classifier": "sources",
-                            "path": "/home/bert/.cache/coursier/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3-sources.jar"
+                            "path": "/Users/bertmeeuws/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3-sources.jar"
                         }
                     ]
                 },
@@ -447,12 +447,12 @@
                     "artifacts": [
                         {
                             "name": "scala-collection-compat_2.12",
-                            "path": "/home/bert/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_2.12/2.0.0/scala-collection-compat_2.12-2.0.0.jar"
+                            "path": "/Users/bertmeeuws/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_2.12/2.0.0/scala-collection-compat_2.12-2.0.0.jar"
                         },
                         {
                             "name": "scala-collection-compat_2.12",
                             "classifier": "sources",
-                            "path": "/home/bert/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_2.12/2.0.0/scala-collection-compat_2.12-2.0.0-sources.jar"
+                            "path": "/Users/bertmeeuws/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_2.12/2.0.0/scala-collection-compat_2.12-2.0.0-sources.jar"
                         }
                     ]
                 },
@@ -464,12 +464,12 @@
                     "artifacts": [
                         {
                             "name": "akka-parsing_2.12",
-                            "path": "/home/bert/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-parsing_2.12/10.2.9/akka-parsing_2.12-10.2.9.jar"
+                            "path": "/Users/bertmeeuws/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-parsing_2.12/10.2.9/akka-parsing_2.12-10.2.9.jar"
                         },
                         {
                             "name": "akka-parsing_2.12",
                             "classifier": "sources",
-                            "path": "/home/bert/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-parsing_2.12/10.2.9/akka-parsing_2.12-10.2.9-sources.jar"
+                            "path": "/Users/bertmeeuws/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-parsing_2.12/10.2.9/akka-parsing_2.12-10.2.9-sources.jar"
                         }
                     ]
                 },
@@ -481,12 +481,12 @@
                     "artifacts": [
                         {
                             "name": "scala-java8-compat_2.12",
-                            "path": "/home/bert/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.12/0.8.0/scala-java8-compat_2.12-0.8.0.jar"
+                            "path": "/Users/bertmeeuws/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.12/0.8.0/scala-java8-compat_2.12-0.8.0.jar"
                         },
                         {
                             "name": "scala-java8-compat_2.12",
                             "classifier": "sources",
-                            "path": "/home/bert/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.12/0.8.0/scala-java8-compat_2.12-0.8.0-sources.jar"
+                            "path": "/Users/bertmeeuws/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.12/0.8.0/scala-java8-compat_2.12-0.8.0-sources.jar"
                         }
                     ]
                 },
@@ -498,12 +498,12 @@
                     "artifacts": [
                         {
                             "name": "scala-parser-combinators_2.12",
-                            "path": "/home/bert/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.1.2/scala-parser-combinators_2.12-1.1.2.jar"
+                            "path": "/Users/bertmeeuws/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.1.2/scala-parser-combinators_2.12-1.1.2.jar"
                         },
                         {
                             "name": "scala-parser-combinators_2.12",
                             "classifier": "sources",
-                            "path": "/home/bert/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.1.2/scala-parser-combinators_2.12-1.1.2-sources.jar"
+                            "path": "/Users/bertmeeuws/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.1.2/scala-parser-combinators_2.12-1.1.2-sources.jar"
                         }
                     ]
                 },
@@ -515,12 +515,12 @@
                     "artifacts": [
                         {
                             "name": "scala-library",
-                            "path": "/home/bert/.sbt/boot/scala-2.12.15/lib/scala-library.jar"
+                            "path": "/Users/bertmeeuws/.sbt/boot/scala-2.12.15/lib/scala-library.jar"
                         },
                         {
                             "name": "scala-library",
                             "classifier": "sources",
-                            "path": "/home/bert/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.15/scala-library-2.12.15-sources.jar"
+                            "path": "/Users/bertmeeuws/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.15/scala-library-2.12.15-sources.jar"
                         }
                     ]
                 },
@@ -532,12 +532,12 @@
                     "artifacts": [
                         {
                             "name": "scala-reflect",
-                            "path": "/home/bert/.sbt/boot/scala-2.12.15/lib/scala-reflect.jar"
+                            "path": "/Users/bertmeeuws/.sbt/boot/scala-2.12.15/lib/scala-reflect.jar"
                         },
                         {
                             "name": "scala-reflect",
                             "classifier": "sources",
-                            "path": "/home/bert/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.15/scala-reflect-2.12.15-sources.jar"
+                            "path": "/Users/bertmeeuws/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.15/scala-reflect-2.12.15-sources.jar"
                         }
                     ]
                 },
@@ -549,12 +549,12 @@
                     "artifacts": [
                         {
                             "name": "akka-http-testkit_2.12",
-                            "path": "/home/bert/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-http-testkit_2.12/10.2.9/akka-http-testkit_2.12-10.2.9.jar"
+                            "path": "/Users/bertmeeuws/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-http-testkit_2.12/10.2.9/akka-http-testkit_2.12-10.2.9.jar"
                         },
                         {
                             "name": "akka-http-testkit_2.12",
                             "classifier": "sources",
-                            "path": "/home/bert/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-http-testkit_2.12/10.2.9/akka-http-testkit_2.12-10.2.9-sources.jar"
+                            "path": "/Users/bertmeeuws/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-http-testkit_2.12/10.2.9/akka-http-testkit_2.12-10.2.9-sources.jar"
                         }
                     ]
                 },
@@ -566,12 +566,12 @@
                     "artifacts": [
                         {
                             "name": "akka-actor-testkit-typed_2.12",
-                            "path": "/home/bert/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-actor-testkit-typed_2.12/2.6.19/akka-actor-testkit-typed_2.12-2.6.19.jar"
+                            "path": "/Users/bertmeeuws/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-actor-testkit-typed_2.12/2.6.19/akka-actor-testkit-typed_2.12-2.6.19.jar"
                         },
                         {
                             "name": "akka-actor-testkit-typed_2.12",
                             "classifier": "sources",
-                            "path": "/home/bert/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-actor-testkit-typed_2.12/2.6.19/akka-actor-testkit-typed_2.12-2.6.19-sources.jar"
+                            "path": "/Users/bertmeeuws/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-actor-testkit-typed_2.12/2.6.19/akka-actor-testkit-typed_2.12-2.6.19-sources.jar"
                         }
                     ]
                 },
@@ -583,12 +583,12 @@
                     "artifacts": [
                         {
                             "name": "scalatest_2.12",
-                            "path": "/home/bert/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest_2.12/3.1.4/scalatest_2.12-3.1.4.jar"
+                            "path": "/Users/bertmeeuws/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest_2.12/3.1.4/scalatest_2.12-3.1.4.jar"
                         },
                         {
                             "name": "scalatest_2.12",
                             "classifier": "sources",
-                            "path": "/home/bert/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest_2.12/3.1.4/scalatest_2.12-3.1.4-sources.jar"
+                            "path": "/Users/bertmeeuws/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest_2.12/3.1.4/scalatest_2.12-3.1.4-sources.jar"
                         }
                     ]
                 },
@@ -600,12 +600,12 @@
                     "artifacts": [
                         {
                             "name": "akka-testkit_2.12",
-                            "path": "/home/bert/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-testkit_2.12/2.6.19/akka-testkit_2.12-2.6.19.jar"
+                            "path": "/Users/bertmeeuws/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-testkit_2.12/2.6.19/akka-testkit_2.12-2.6.19.jar"
                         },
                         {
                             "name": "akka-testkit_2.12",
                             "classifier": "sources",
-                            "path": "/home/bert/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-testkit_2.12/2.6.19/akka-testkit_2.12-2.6.19-sources.jar"
+                            "path": "/Users/bertmeeuws/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-testkit_2.12/2.6.19/akka-testkit_2.12-2.6.19-sources.jar"
                         }
                     ]
                 },
@@ -617,12 +617,12 @@
                     "artifacts": [
                         {
                             "name": "scalactic_2.12",
-                            "path": "/home/bert/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalactic/scalactic_2.12/3.1.4/scalactic_2.12-3.1.4.jar"
+                            "path": "/Users/bertmeeuws/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalactic/scalactic_2.12/3.1.4/scalactic_2.12-3.1.4.jar"
                         },
                         {
                             "name": "scalactic_2.12",
                             "classifier": "sources",
-                            "path": "/home/bert/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalactic/scalactic_2.12/3.1.4/scalactic_2.12-3.1.4-sources.jar"
+                            "path": "/Users/bertmeeuws/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalactic/scalactic_2.12/3.1.4/scalactic_2.12-3.1.4-sources.jar"
                         }
                     ]
                 },
@@ -634,12 +634,12 @@
                     "artifacts": [
                         {
                             "name": "scala-xml_2.12",
-                            "path": "/home/bert/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.2.0/scala-xml_2.12-1.2.0.jar"
+                            "path": "/Users/bertmeeuws/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.2.0/scala-xml_2.12-1.2.0.jar"
                         },
                         {
                             "name": "scala-xml_2.12",
                             "classifier": "sources",
-                            "path": "/home/bert/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.2.0/scala-xml_2.12-1.2.0-sources.jar"
+                            "path": "/Users/bertmeeuws/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.2.0/scala-xml_2.12-1.2.0-sources.jar"
                         }
                     ]
                 }

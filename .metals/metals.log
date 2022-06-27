@@ -3064,3 +3064,1310 @@ import com.example.utils{DatabaseConfig}
 2022.04.28 18:53:47 INFO  time: compiled root in 0.31s
 2022.04.28 18:54:40 INFO  skipping build import with status 'Dismissed'
 2022.04.28 18:54:45 INFO  skipping build import with status 'Dismissed'
+2022.06.10 18:31:56 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/.metals/lsp.trace.json or /Users/bertmeeuws/Library/Caches/org.scalameta.metals/lsp.trace.json[0m
+2022.06.10 18:31:57 INFO  logging to file /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/.metals/metals.log[0m
+2022.06.10 18:31:57 INFO  Started: Metals version 0.11.6 in workspace '/Users/bertmeeuws/Desktop/Side-Projects/Akka-playground' for client Visual Studio Code 1.68.0.[0m
+2022.06.10 18:31:57 INFO  time: initialize in 0.31s[0m
+2022.06.10 18:32:01 WARN  Flyway upgrade recommended: H2 2.1.212 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.[0m
+2022.06.10 18:32:01 INFO  Attempting to connect to the build server...[0m
+2022.06.10 18:32:01 ERROR Starting the bsp launcher for bloop...[0m
+2022.06.10 18:32:01 ERROR Opening a bsp server connection with 'bsp --protocol local --socket /var/folders/xx/z1dj89qx3jd0vyh21fv9n8rh0000gn/T/bsp-launcher2949700643206716415/bsp.socket'...[0m
+2022.06.10 18:32:01 ERROR Waiting for the bsp connection to come up...[0m
+2022.06.10 18:32:01 ERROR error: The command bsp --protocol local --socket /var/folders/xx/z1dj89qx3jd0vyh21fv9n8rh0000gn/T/bsp-launcher2949700643206716415/bsp.socket returned with an error[0m
+2022.06.10 18:32:01 ERROR > [0m[32m[D][0m Loading workspace settings from bloop.settings.json[0m
+2022.06.10 18:32:01 ERROR > [0m[32m[D][0m Loading 2 projects from '/Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/.bloop'...[0m
+2022.06.10 18:32:01 ERROR > [0m[32m[D][0m Loading project from '/Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/.bloop/root-test.json'[0m
+2022.06.10 18:32:01 ERROR > [0m[32m[D][0m Loading project from '/Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/.bloop/root.json'[0m
+2022.06.10 18:32:01 ERROR > [0m[33m[W][0m Scala instance jar /home/bert/.sbt/boot/scala-2.12.15/lib/scala-library.jar doesn't exist![0m
+2022.06.10 18:32:01 ERROR > [0m[33m[W][0m Scala instance jar /home/bert/.sbt/boot/scala-2.12.15/lib/scala-library.jar doesn't exist![0m
+2022.06.10 18:32:01 ERROR > [0m[33m[W][0m Scala instance jar /home/bert/.sbt/boot/scala-2.12.15/lib/scala-compiler.jar doesn't exist![0m
+2022.06.10 18:32:01 ERROR > [0m[33m[W][0m Scala instance jar /home/bert/.sbt/boot/scala-2.12.15/lib/scala-compiler.jar doesn't exist![0m
+2022.06.10 18:32:01 ERROR > [0m[33m[W][0m Scala instance jar /home/bert/.sbt/boot/scala-2.12.15/lib/jline.jar doesn't exist![0m
+2022.06.10 18:32:01 ERROR > [0m[33m[W][0m Scala instance jar /home/bert/.sbt/boot/scala-2.12.15/lib/scala-reflect.jar doesn't exist![0m
+2022.06.10 18:32:01 ERROR > [0m[33m[W][0m Scala instance jar /home/bert/.sbt/boot/scala-2.12.15/lib/scala-xml_2.12.jar doesn't exist![0m
+2022.06.10 18:32:01 ERROR > [0m[33m[W][0m Scala instance jar /home/bert/.sbt/boot/scala-2.12.15/lib/jline.jar doesn't exist![0m
+2022.06.10 18:32:01 ERROR > [0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.12.15.[0m
+2022.06.10 18:32:01 ERROR > [0m[32m[D][0m   => /home/bert/.sbt/boot/scala-2.12.15/lib/jline.jar[0m
+2022.06.10 18:32:01 ERROR > [0m[32m[D][0m   => /home/bert/.sbt/boot/scala-2.12.15/lib/scala-compiler.jar[0m
+2022.06.10 18:32:01 ERROR > [0m[33m[W][0m Scala instance jar /home/bert/.sbt/boot/scala-2.12.15/lib/scala-reflect.jar doesn't exist![0m
+2022.06.10 18:32:01 ERROR > [0m[32m[D][0m   => /home/bert/.sbt/boot/scala-2.12.15/lib/scala-library.jar[0m
+2022.06.10 18:32:01 ERROR > [0m[32m[D][0m   => /home/bert/.sbt/boot/scala-2.12.15/lib/scala-reflect.jar[0m
+2022.06.10 18:32:01 ERROR > [0m[33m[W][0m Scala instance jar /home/bert/.sbt/boot/scala-2.12.15/lib/scala-xml_2.12.jar doesn't exist![0m
+2022.06.10 18:32:01 ERROR > [0m[32m[D][0m   => /home/bert/.sbt/boot/scala-2.12.15/lib/scala-xml_2.12.jar[0m
+2022.06.10 18:32:01 ERROR > [0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.12.15.[0m
+2022.06.10 18:32:01 ERROR > [0m[32m[D][0m   => /home/bert/.sbt/boot/scala-2.12.15/lib/jline.jar[0m
+2022.06.10 18:32:01 ERROR > [0m[32m[D][0m   => /home/bert/.sbt/boot/scala-2.12.15/lib/scala-compiler.jar[0m
+2022.06.10 18:32:01 ERROR > [0m[32m[D][0m   => /home/bert/.sbt/boot/scala-2.12.15/lib/scala-library.jar[0m
+2022.06.10 18:32:01 ERROR > [0m[32m[D][0m   => /home/bert/.sbt/boot/scala-2.12.15/lib/scala-reflect.jar[0m
+2022.06.10 18:32:01 ERROR > [0m[32m[D][0m   => /home/bert/.sbt/boot/scala-2.12.15/lib/scala-xml_2.12.jar[0m
+2022.06.10 18:32:01 ERROR > [0m[32m[D][0m Elapsed: 202.844334 ms[0m
+2022.06.10 18:32:01 ERROR > [0m[31m[E][0m Failed to load project from /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/.bloop/root.json[0m
+2022.06.10 18:32:01 ERROR > [0m[36m[T][0m bloop.data.Project$ProjectReadException: Failed to load project from /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/.bloop/root.json[0m
+2022.06.10 18:32:01 ERROR > [0m[36m[T][0m 	bloop.data.Project$.fromBytesAndOrigin(Project.scala:290)[0m
+2022.06.10 18:32:01 ERROR > [0m[36m[T][0m 	bloop.engine.BuildLoader$.loadProject(BuildLoader.scala:254)[0m
+2022.06.10 18:32:01 ERROR > [0m[36m[T][0m 	bloop.engine.BuildLoader$.$anonfun$loadBuildIncrementally$3(BuildLoader.scala:61)[0m
+2022.06.10 18:32:01 ERROR > [0m[36m[T][0m 	monix.eval.internal.TaskRunLoop$.monix$eval$internal$TaskRunLoop$$loop$1(TaskRunLoop.scala:187)[0m
+2022.06.10 18:32:01 ERROR > [0m[36m[T][0m 	monix.eval.internal.TaskRunLoop$RestartCallback$1.onSuccess(TaskRunLoop.scala:119)[0m
+2022.06.10 18:32:01 ERROR > [0m[36m[T][0m 	monix.eval.Task$.$anonfun$forkedUnit$2(Task.scala:1463)[0m
+2022.06.10 18:32:01 ERROR > [0m[36m[T][0m 	java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)[0m
+2022.06.10 18:32:01 ERROR > [0m[36m[T][0m 	java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)[0m
+2022.06.10 18:32:01 ERROR > [0m[36m[T][0m 	java.base/java.lang.Thread.run(Thread.java:833)[0m
+2022.06.10 18:32:01 ERROR > [0m[36m[T][0m Caused by: java.nio.file.NoSuchFileException: /home/bert/.sbt/boot/scala-2.12.15/lib/scala-library.jar[0m
+2022.06.10 18:32:01 ERROR > [0m[36m[T][0m 	java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)[0m
+2022.06.10 18:32:01 ERROR > [0m[36m[T][0m 	java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)[0m
+2022.06.10 18:32:01 ERROR > [0m[36m[T][0m 	java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)[0m
+2022.06.10 18:32:01 ERROR > [0m[36m[T][0m 	java.base/sun.nio.fs.UnixFileAttributeViews$Basic.readAttributes(UnixFileAttributeViews.java:55)[0m
+2022.06.10 18:32:01 ERROR > [0m[36m[T][0m 	java.base/sun.nio.fs.UnixFileSystemProvider.readAttributes(UnixFileSystemProvider.java:148)[0m
+2022.06.10 18:32:01 ERROR > [0m[36m[T][0m 	java.base/java.nio.file.Files.readAttributes(Files.java:1851)[0m
+2022.06.10 18:32:01 ERROR > [0m[36m[T][0m 	bloop.ScalaInstance.$anonfun$hashCode$1(ScalaInstance.scala:111)[0m
+2022.06.10 18:32:01 ERROR > [0m[36m[T][0m 	scala.collection.TraversableLike.$anonfun$map$1(TraversableLike.scala:286)[0m
+2022.06.10 18:32:01 ERROR > [0m[36m[T][0m 	scala.collection.IndexedSeqOptimized.foreach(IndexedSeqOptimized.scala:36)[0m
+2022.06.10 18:32:01 ERROR > [0m[36m[T][0m 	scala.collection.IndexedSeqOptimized.foreach$(IndexedSeqOptimized.scala:33)[0m
+2022.06.10 18:32:01 ERROR > [0m[36m[T][0m 	scala.collection.mutable.WrappedArray.foreach(WrappedArray.scala:38)[0m
+2022.06.10 18:32:01 ERROR > [0m[36m[T][0m 	scala.collection.TraversableLike.map(TraversableLike.scala:286)[0m
+2022.06.10 18:32:01 ERROR > [0m[36m[T][0m 	scala.collection.TraversableLike.map$(TraversableLike.scala:279)[0m
+2022.06.10 18:32:01 ERROR > [0m[36m[T][0m 	scala.collection.AbstractTraversable.map(Traversable.scala:108)[0m
+2022.06.10 18:32:01 ERROR > [0m[36m[T][0m 	bloop.ScalaInstance.<init>(ScalaInstance.scala:107)[0m
+2022.06.10 18:32:01 ERROR > [0m[36m[T][0m 	bloop.ScalaInstance$.newInstance$1(ScalaInstance.scala:180)[0m
+2022.06.10 18:32:01 ERROR > [0m[36m[T][0m 	bloop.ScalaInstance$.$anonfun$apply$7(ScalaInstance.scala:185)[0m
+2022.06.10 18:32:01 ERROR > [0m[36m[T][0m 	java.base/java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1708)[0m
+2022.06.10 18:32:01 ERROR > [0m[36m[T][0m 	bloop.ScalaInstance$.apply(ScalaInstance.scala:185)[0m
+2022.06.10 18:32:01 ERROR > [0m[36m[T][0m 	bloop.data.Project$.$anonfun$fromConfig$1(Project.scala:306)[0m
+2022.06.10 18:32:01 ERROR > [0m[36m[T][0m 	scala.Option.flatMap(Option.scala:271)[0m
+2022.06.10 18:32:01 ERROR > [0m[36m[T][0m 	bloop.data.Project$.fromConfig(Project.scala:301)[0m
+2022.06.10 18:32:01 ERROR > [0m[36m[T][0m 	bloop.data.Project$.fromBytesAndOrigin(Project.scala:284)[0m
+2022.06.10 18:32:01 ERROR > [0m[36m[T][0m 	bloop.engine.BuildLoader$.loadProject(BuildLoader.scala:254)[0m
+2022.06.10 18:32:01 ERROR > [0m[36m[T][0m 	bloop.engine.BuildLoader$.$anonfun$loadBuildIncrementally$3(BuildLoader.scala:61)[0m
+2022.06.10 18:32:01 ERROR > [0m[36m[T][0m 	monix.eval.internal.TaskRunLoop$.monix$eval$internal$TaskRunLoop$$loop$1(TaskRunLoop.scala:187)[0m
+2022.06.10 18:32:01 ERROR > [0m[36m[T][0m 	monix.eval.internal.TaskRunLoop$RestartCallback$1.onSuccess(TaskRunLoop.scala:119)[0m
+2022.06.10 18:32:01 ERROR > [0m[36m[T][0m 	monix.eval.Task$.$anonfun$forkedUnit$2(Task.scala:1463)[0m
+2022.06.10 18:32:01 ERROR > [0m[36m[T][0m 	java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)[0m
+2022.06.10 18:32:01 ERROR > [0m[36m[T][0m 	java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)[0m
+2022.06.10 18:32:01 ERROR > [0m[36m[T][0m 	java.base/java.lang.Thread.run(Thread.java:833)[0m
+2022.06.10 18:32:01 ERROR error: Trying a tcp-based connection to the server instead...[0m
+2022.06.10 18:32:01 ERROR Opening a bsp server connection with 'bsp --protocol tcp --port 37295'...[0m
+2022.06.10 18:32:01 ERROR Waiting for the bsp connection to come up...[0m
+2022.06.10 18:32:01 ERROR error: The command bsp --protocol tcp --port 37295 returned with an error[0m
+2022.06.10 18:32:01 ERROR > [0m[32m[D][0m Loading workspace settings from bloop.settings.json[0m
+2022.06.10 18:32:01 ERROR > [0m[32m[D][0m Loading 2 projects from '/Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/.bloop'...[0m
+2022.06.10 18:32:01 ERROR > [0m[32m[D][0m Loading project from '/Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/.bloop/root.json'[0m
+2022.06.10 18:32:01 ERROR > [0m[32m[D][0m Loading project from '/Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/.bloop/root-test.json'[0m
+2022.06.10 18:32:01 ERROR > [0m[33m[W][0m Scala instance jar /home/bert/.sbt/boot/scala-2.12.15/lib/scala-library.jar doesn't exist![0m
+2022.06.10 18:32:01 ERROR > [0m[33m[W][0m Scala instance jar /home/bert/.sbt/boot/scala-2.12.15/lib/scala-compiler.jar doesn't exist![0m
+2022.06.10 18:32:01 ERROR > [0m[33m[W][0m Scala instance jar /home/bert/.sbt/boot/scala-2.12.15/lib/jline.jar doesn't exist![0m
+2022.06.10 18:32:01 ERROR > [0m[33m[W][0m Scala instance jar /home/bert/.sbt/boot/scala-2.12.15/lib/scala-reflect.jar doesn't exist![0m
+2022.06.10 18:32:01 ERROR > [0m[33m[W][0m Scala instance jar /home/bert/.sbt/boot/scala-2.12.15/lib/scala-xml_2.12.jar doesn't exist![0m
+2022.06.10 18:32:01 ERROR > [0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.12.15.[0m
+2022.06.10 18:32:01 ERROR > [0m[32m[D][0m   => /home/bert/.sbt/boot/scala-2.12.15/lib/jline.jar[0m
+2022.06.10 18:32:01 ERROR > [0m[32m[D][0m   => /home/bert/.sbt/boot/scala-2.12.15/lib/scala-compiler.jar[0m
+2022.06.10 18:32:01 ERROR > [0m[32m[D][0m   => /home/bert/.sbt/boot/scala-2.12.15/lib/scala-library.jar[0m
+2022.06.10 18:32:01 ERROR > [0m[32m[D][0m   => /home/bert/.sbt/boot/scala-2.12.15/lib/scala-reflect.jar[0m
+2022.06.10 18:32:01 ERROR > [0m[32m[D][0m   => /home/bert/.sbt/boot/scala-2.12.15/lib/scala-xml_2.12.jar[0m
+2022.06.10 18:32:01 ERROR > [0m[33m[W][0m Scala instance jar /home/bert/.sbt/boot/scala-2.12.15/lib/scala-library.jar doesn't exist![0m
+2022.06.10 18:32:01 ERROR > [0m[33m[W][0m Scala instance jar /home/bert/.sbt/boot/scala-2.12.15/lib/scala-compiler.jar doesn't exist![0m
+2022.06.10 18:32:01 ERROR > [0m[33m[W][0m Scala instance jar /home/bert/.sbt/boot/scala-2.12.15/lib/jline.jar doesn't exist![0m
+2022.06.10 18:32:01 ERROR > [0m[33m[W][0m Scala instance jar /home/bert/.sbt/boot/scala-2.12.15/lib/scala-reflect.jar doesn't exist![0m
+2022.06.10 18:32:01 ERROR > [0m[33m[W][0m Scala instance jar /home/bert/.sbt/boot/scala-2.12.15/lib/scala-xml_2.12.jar doesn't exist![0m
+2022.06.10 18:32:01 ERROR > [0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.12.15.[0m
+2022.06.10 18:32:01 ERROR > [0m[32m[D][0m   => /home/bert/.sbt/boot/scala-2.12.15/lib/jline.jar[0m
+2022.06.10 18:32:01 ERROR > [0m[32m[D][0m Elapsed: 108.807 ms[0m
+2022.06.10 18:32:01 ERROR > [0m[32m[D][0m   => /home/bert/.sbt/boot/scala-2.12.15/lib/scala-compiler.jar[0m
+2022.06.10 18:32:01 ERROR > [0m[32m[D][0m   => /home/bert/.sbt/boot/scala-2.12.15/lib/scala-library.jar[0m
+2022.06.10 18:32:01 ERROR > [0m[32m[D][0m   => /home/bert/.sbt/boot/scala-2.12.15/lib/scala-reflect.jar[0m
+2022.06.10 18:32:01 ERROR > [0m[32m[D][0m   => /home/bert/.sbt/boot/scala-2.12.15/lib/scala-xml_2.12.jar[0m
+2022.06.10 18:32:01 ERROR > [0m[31m[E][0m Failed to load project from /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/.bloop/root.json[0m
+2022.06.10 18:32:01 ERROR > [0m[36m[T][0m bloop.data.Project$ProjectReadException: Failed to load project from /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/.bloop/root.json[0m
+2022.06.10 18:32:01 ERROR > [0m[36m[T][0m 	bloop.data.Project$.fromBytesAndOrigin(Project.scala:290)[0m
+2022.06.10 18:32:01 ERROR > [0m[36m[T][0m 	bloop.engine.BuildLoader$.loadProject(BuildLoader.scala:254)[0m
+2022.06.10 18:32:01 ERROR > [0m[36m[T][0m 	bloop.engine.BuildLoader$.$anonfun$loadBuildIncrementally$3(BuildLoader.scala:61)[0m
+2022.06.10 18:32:01 ERROR > [0m[36m[T][0m 	monix.eval.internal.TaskRunLoop$.monix$eval$internal$TaskRunLoop$$loop$1(TaskRunLoop.scala:187)[0m
+2022.06.10 18:32:01 ERROR > [0m[36m[T][0m 	monix.eval.internal.TaskRunLoop$RestartCallback$1.onSuccess(TaskRunLoop.scala:119)[0m
+2022.06.10 18:32:01 ERROR > [0m[36m[T][0m 	monix.eval.Task$.$anonfun$forkedUnit$2(Task.scala:1463)[0m
+2022.06.10 18:32:01 ERROR > [0m[36m[T][0m 	java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)[0m
+2022.06.10 18:32:01 ERROR > [0m[36m[T][0m 	java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)[0m
+2022.06.10 18:32:01 ERROR > [0m[36m[T][0m 	java.base/java.lang.Thread.run(Thread.java:833)[0m
+2022.06.10 18:32:01 ERROR > [0m[36m[T][0m Caused by: java.nio.file.NoSuchFileException: /home/bert/.sbt/boot/scala-2.12.15/lib/scala-library.jar[0m
+2022.06.10 18:32:01 ERROR > [0m[36m[T][0m 	java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)[0m
+2022.06.10 18:32:01 ERROR > [0m[36m[T][0m 	java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)[0m
+2022.06.10 18:32:01 ERROR > [0m[36m[T][0m 	java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)[0m
+2022.06.10 18:32:01 ERROR > [0m[36m[T][0m 	java.base/sun.nio.fs.UnixFileAttributeViews$Basic.readAttributes(UnixFileAttributeViews.java:55)[0m
+2022.06.10 18:32:01 ERROR > [0m[36m[T][0m 	java.base/sun.nio.fs.UnixFileSystemProvider.readAttributes(UnixFileSystemProvider.java:148)[0m
+2022.06.10 18:32:01 ERROR > [0m[36m[T][0m 	java.base/java.nio.file.Files.readAttributes(Files.java:1851)[0m
+2022.06.10 18:32:01 ERROR > [0m[36m[T][0m 	bloop.ScalaInstance.$anonfun$hashCode$1(ScalaInstance.scala:111)[0m
+2022.06.10 18:32:01 ERROR > [0m[36m[T][0m 	scala.collection.TraversableLike.$anonfun$map$1(TraversableLike.scala:286)[0m
+2022.06.10 18:32:01 ERROR > [0m[36m[T][0m 	scala.collection.IndexedSeqOptimized.foreach(IndexedSeqOptimized.scala:36)[0m
+2022.06.10 18:32:01 ERROR > [0m[36m[T][0m 	scala.collection.IndexedSeqOptimized.foreach$(IndexedSeqOptimized.scala:33)[0m
+2022.06.10 18:32:01 ERROR > [0m[36m[T][0m 	scala.collection.mutable.WrappedArray.foreach(WrappedArray.scala:38)[0m
+2022.06.10 18:32:01 ERROR > [0m[36m[T][0m 	scala.collection.TraversableLike.map(TraversableLike.scala:286)[0m
+2022.06.10 18:32:01 ERROR > [0m[36m[T][0m 	scala.collection.TraversableLike.map$(TraversableLike.scala:279)[0m
+2022.06.10 18:32:01 ERROR > [0m[36m[T][0m 	scala.collection.AbstractTraversable.map(Traversable.scala:108)[0m
+2022.06.10 18:32:01 ERROR > [0m[36m[T][0m 	bloop.ScalaInstance.<init>(ScalaInstance.scala:107)[0m
+2022.06.10 18:32:01 ERROR > [0m[36m[T][0m 	bloop.ScalaInstance$.newInstance$1(ScalaInstance.scala:180)[0m
+2022.06.10 18:32:01 ERROR > [0m[36m[T][0m 	bloop.ScalaInstance$.$anonfun$apply$7(ScalaInstance.scala:185)[0m
+2022.06.10 18:32:01 ERROR > [0m[36m[T][0m 	java.base/java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1708)[0m
+2022.06.10 18:32:01 ERROR > [0m[36m[T][0m 	bloop.ScalaInstance$.apply(ScalaInstance.scala:185)[0m
+2022.06.10 18:32:01 ERROR > [0m[36m[T][0m 	bloop.data.Project$.$anonfun$fromConfig$1(Project.scala:306)[0m
+2022.06.10 18:32:01 ERROR > [0m[36m[T][0m 	scala.Option.flatMap(Option.scala:271)[0m
+2022.06.10 18:32:01 ERROR > [0m[36m[T][0m 	bloop.data.Project$.fromConfig(Project.scala:301)[0m
+2022.06.10 18:32:01 ERROR > [0m[36m[T][0m 	bloop.data.Project$.fromBytesAndOrigin(Project.scala:284)[0m
+2022.06.10 18:32:01 ERROR > [0m[36m[T][0m 	bloop.engine.BuildLoader$.loadProject(BuildLoader.scala:254)[0m
+2022.06.10 18:32:01 ERROR > [0m[36m[T][0m 	bloop.engine.BuildLoader$.$anonfun$loadBuildIncrementally$3(BuildLoader.scala:61)[0m
+2022.06.10 18:32:01 ERROR > [0m[36m[T][0m 	monix.eval.internal.TaskRunLoop$.monix$eval$internal$TaskRunLoop$$loop$1(TaskRunLoop.scala:187)[0m
+2022.06.10 18:32:01 ERROR > [0m[36m[T][0m 	monix.eval.internal.TaskRunLoop$RestartCallback$1.onSuccess(TaskRunLoop.scala:119)[0m
+2022.06.10 18:32:01 ERROR > [0m[36m[T][0m 	monix.eval.Task$.$anonfun$forkedUnit$2(Task.scala:1463)[0m
+2022.06.10 18:32:01 ERROR > [0m[36m[T][0m 	java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)[0m
+2022.06.10 18:32:01 ERROR > [0m[36m[T][0m 	java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)[0m
+2022.06.10 18:32:01 ERROR > [0m[36m[T][0m 	java.base/java.lang.Thread.run(Thread.java:833)[0m
+2022.06.10 18:32:01 ERROR error: The launcher failed to establish a bsp connection, aborting...[0m
+2022.06.10 18:32:01 ERROR Failed to connect with build server, no functionality will work.
+java.lang.RuntimeException: The server did not start, got FailedToOpenBspConnection
+	at bloop.launcher.LauncherMain.failPromise$1(Launcher.scala:92)
+	at bloop.launcher.LauncherMain.runLauncher(Launcher.scala:119)
+	at scala.meta.internal.metals.BloopServers$$anon$2.run(BloopServers.scala:434)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+[0m
+2022.06.10 19:14:03 WARN  no build target for: /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/dao/BaseDAO.scala[0m
+2022.06.10 19:14:05 INFO  no build target found for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/dao/BaseDAO.scala. Using presentation compiler with project's scala-library version: 3.1.2[0m
+2022.06.10 19:14:06 INFO  time: code lens generation in 2.66s[0m
+2022.06.10 19:14:18 WARN  no build target for: /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala[0m
+2022.06.10 19:15:16 WARN  no build target for: /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/UserRoutes.scala[0m
+2022.06.10 19:15:21 WARN  no build target for: /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/UserRegistry.scala[0m
+2022.06.10 19:15:28 WARN  no build target for: /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/actors/AccountActor.scala[0m
+2022.06.10 19:15:31 WARN  no build target for: /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/dao/BaseDAO.scala[0m
+2022.06.10 19:15:33 WARN  no build target for: /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala[0m
+2022.06.10 19:15:34 WARN  no build target for: /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/mappings/JsonFormats.scala[0m
+2022.06.10 19:15:41 WARN  no build target for: /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/utils/Config.scala[0m
+2022.06.10 19:15:43 WARN  no build target for: /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/utils/DatabaseConfig.scala[0m
+2022.06.10 19:15:47 WARN  no build target for: /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/UserRegistry.scala[0m
+2022.06.10 19:15:48 WARN  no build target for: /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/QuickstartApp.scala[0m
+2022.06.10 19:16:15 WARN  no build target for: /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/QuickstartApp.scala[0m
+2022.06.10 19:16:15 WARN  no build target for: /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/QuickstartApp.scala[0m
+2022.06.10 19:16:15 WARN  no build target for: /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/QuickstartApp.scala[0m
+2022.06.10 19:17:25 WARN  no build target for: /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala[0m
+2022.06.10 19:18:16 INFO  running '/Library/Java/JavaVirtualMachines/temurin-17.jdk/Contents/Home/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /var/folders/xx/z1dj89qx3jd0vyh21fv9n8rh0000gn/T/metals3024210839023573535/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+2022.06.10 19:18:16 WARN  no build target for: /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/project/metals.sbt[0m
+2022.06.10 19:18:16 WARN  no build target for: /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/project/project/metals.sbt[0m
+2022.06.10 19:18:16 INFO  skipping build import with status 'Started'[0m
+2022.06.10 19:18:17 INFO  [info] welcome to sbt 1.6.2 (Eclipse Adoptium Java 17.0.3)[0m
+2022.06.10 19:18:18 INFO  [info] loading settings for project akka-playground-build-build-build from metals.sbt ...[0m
+2022.06.10 19:18:18 INFO  [info] loading project definition from /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/project/project/project[0m
+2022.06.10 19:18:20 INFO  [info] loading settings for project akka-playground-build-build from metals.sbt ...[0m
+2022.06.10 19:18:20 INFO  [info] loading project definition from /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/project/project[0m
+2022.06.10 19:18:21 INFO  [success] Generated .bloop/akka-playground-build-build.json[0m
+2022.06.10 19:18:21 INFO  [success] Total time: 1 s, completed 10 Jun 2022, 19:18:21[0m
+2022.06.10 19:18:21 INFO  [info] loading settings for project akka-playground-build from metals.sbt,plugins.sbt ...[0m
+2022.06.10 19:18:21 INFO  [info] loading project definition from /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/project[0m
+2022.06.10 19:18:24 INFO  [success] Generated .bloop/akka-playground-build.json[0m
+2022.06.10 19:18:24 INFO  [success] Total time: 2 s, completed 10 Jun 2022, 19:18:24[0m
+2022.06.10 19:18:24 INFO  [info] loading settings for project root from build.sbt ...[0m
+2022.06.10 19:18:24 INFO  [info] set current project to My Akka HTTP Project (in build file:/Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/)[0m
+2022.06.10 19:18:26 INFO  [success] Generated .bloop/root.json[0m
+2022.06.10 19:18:26 INFO  [success] Generated .bloop/root-test.json[0m
+2022.06.10 19:18:26 INFO  [success] Total time: 1 s, completed 10 Jun 2022, 19:18:26[0m
+2022.06.10 19:18:26 INFO  time: ran 'sbt bloopInstall' in 9.5s[0m
+2022.06.10 19:18:26 INFO  Attempting to connect to the build server...[0m
+2022.06.10 19:18:26 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/.metals/bsp.trace.json or /Users/bertmeeuws/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2022.06.10 19:18:26 INFO  Attempting to connect to the build server...[0m
+2022.06.10 19:18:26 INFO  Attempting to connect to the build server...[0m
+2022.06.10 19:18:26 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/project/project/.metals/bsp.trace.json or /Users/bertmeeuws/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2022.06.10 19:18:26 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/project/.metals/bsp.trace.json or /Users/bertmeeuws/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2022.06.10 19:18:26 INFO  time: Connected to build server in 0.19s[0m
+2022.06.10 19:18:26 INFO  Connected to Build server: Bloop v1.5.0-18-003e6c7b[0m
+2022.06.10 19:18:28 INFO  time: indexed workspace in 2.54s[0m
+2022.06.10 19:21:54 INFO  compiling root (9 scala sources)[0m
+2022.06.10 19:22:02 WARN  one deprecation (since 3.2); re-run with -deprecation for details[0m
+2022.06.10 19:22:02 WARN  two feature warnings; re-run with -feature for details[0m
+2022.06.10 19:22:02 INFO  compiling root-test (1 scala source)[0m
+2022.06.10 19:22:02 INFO  time: compiled root in 7.97s[0m
+2022.06.10 19:22:02 INFO  time: compiled root-test in 0.47s[0m
+2022.06.10 19:23:14 INFO  compiling root (1 scala source)[0m
+2022.06.10 19:23:14 INFO  time: compiled root in 0.51s[0m
+2022.06.10 19:23:17 INFO  compiling root (1 scala source)[0m
+2022.06.10 19:23:17 INFO  time: compiled root in 0.46s[0m
+2022.06.10 19:23:20 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala[0m
+2022.06.10 19:23:20 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala[0m
+2022.06.10 19:23:20 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala[0m
+2022.06.10 19:23:20 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala[0m
+2022.06.10 19:23:20 INFO  compiling root (1 scala source)[0m
+2022.06.10 19:23:20 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala[0m
+2022.06.10 19:23:20 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala[0m
+2022.06.10 19:23:20 INFO  time: compiled root in 0.1s[0m
+2022.06.10 19:23:20 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala[0m
+2022.06.10 19:23:22 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala[0m
+2022.06.10 19:23:22 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala[0m
+2022.06.10 19:23:22 INFO  compiling root (1 scala source)[0m
+2022.06.10 19:23:22 INFO  time: compiled root in 36ms[0m
+2022.06.10 19:23:22 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala[0m
+2022.06.10 19:23:22 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala[0m
+2022.06.10 19:23:23 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala[0m
+2022.06.10 19:23:24 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala[0m
+2022.06.10 19:23:24 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala[0m
+2022.06.10 19:23:24 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala[0m
+2022.06.10 19:23:24 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala[0m
+2022.06.10 19:23:24 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala[0m
+2022.06.10 19:23:24 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala[0m
+2022.06.10 19:23:24 INFO  compiling root (1 scala source)[0m
+2022.06.10 19:23:24 INFO  time: compiled root in 39ms[0m
+2022.06.10 19:23:25 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala[0m
+2022.06.10 19:23:25 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala[0m
+2022.06.10 19:23:25 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala[0m
+2022.06.10 19:23:26 INFO  compiling root (1 scala source)[0m
+2022.06.10 19:23:26 INFO  time: compiled root in 45ms[0m
+2022.06.10 19:23:27 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala[0m
+2022.06.10 19:23:27 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala[0m
+2022.06.10 19:23:27 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala[0m
+2022.06.10 19:23:27 INFO  compiling root (1 scala source)[0m
+2022.06.10 19:23:27 INFO  time: compiled root in 0.44s[0m
+2022.06.10 19:23:30 INFO  compiling root (1 scala source)[0m
+2022.06.10 19:23:30 INFO  time: compiled root in 0.35s[0m
+2022.06.10 19:23:32 INFO  compiling root (1 scala source)[0m
+2022.06.10 19:23:32 INFO  time: compiled root in 0.12s[0m
+2022.06.10 19:23:35 INFO  compiling root (1 scala source)[0m
+2022.06.10 19:23:35 INFO  time: compiled root in 0.11s[0m
+2022.06.10 19:23:35 INFO  file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala:42:7: stale bloop error: not enough arguments for method path: (pm: akka.http.scaladsl.server.PathMatcher[L])akka.http.scaladsl.server.Directive[L].
+Unspecified value parameter pm.
+      path()
+      ^^^^^^[0m
+2022.06.10 19:23:35 INFO  file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala:42:7: stale bloop error: not enough arguments for method path: (pm: akka.http.scaladsl.server.PathMatcher[L])akka.http.scaladsl.server.Directive[L].
+Unspecified value parameter pm.
+      path()
+      ^^^^^^[0m
+2022.06.10 19:23:37 INFO  compiling root (1 scala source)[0m
+2022.06.10 19:23:37 INFO  time: compiled root in 0.11s[0m
+2022.06.10 19:23:39 INFO  compiling root (1 scala source)[0m
+2022.06.10 19:23:39 INFO  time: compiled root in 0.1s[0m
+2022.06.10 19:23:47 INFO  compiling root (1 scala source)[0m
+2022.06.10 19:23:47 INFO  time: compiled root in 0.1s[0m
+2022.06.10 19:23:50 INFO  compiling root (1 scala source)[0m
+2022.06.10 19:23:50 INFO  time: compiled root in 0.12s[0m
+2022.06.10 19:23:56 INFO  compiling root (1 scala source)[0m
+2022.06.10 19:23:56 INFO  time: compiled root in 0.39s[0m
+2022.06.10 19:24:39 INFO  compiling root (1 scala source)[0m
+2022.06.10 19:24:39 INFO  time: compiled root in 87ms[0m
+2022.06.10 19:24:41 INFO  compiling root (1 scala source)[0m
+2022.06.10 19:24:41 INFO  time: compiled root in 81ms[0m
+2022.06.10 19:24:45 INFO  compiling root (1 scala source)[0m
+2022.06.10 19:24:45 INFO  time: compiled root in 99ms[0m
+2022.06.10 19:26:17 INFO  compiling root (1 scala source)[0m
+2022.06.10 19:26:17 INFO  time: compiled root in 44ms[0m
+2022.06.10 19:26:28 INFO  compiling root (1 scala source)[0m
+2022.06.10 19:26:28 INFO  time: compiled root in 87ms[0m
+2022.06.10 19:26:34 INFO  compiling root (1 scala source)[0m
+2022.06.10 19:26:34 INFO  time: compiled root in 0.39s[0m
+2022.06.10 19:26:49 INFO  compiling root (1 scala source)[0m
+2022.06.10 19:26:49 INFO  time: compiled root in 82ms[0m
+2022.06.10 19:26:53 INFO  compiling root (1 scala source)[0m
+2022.06.10 19:26:53 INFO  time: compiled root in 0.43s[0m
+2022.06.10 19:26:55 INFO  compiling root (1 scala source)[0m
+2022.06.10 19:26:55 INFO  time: compiled root in 0.4s[0m
+2022.06.10 19:26:58 INFO  compiling root (1 scala source)[0m
+2022.06.10 19:26:58 INFO  time: compiled root in 0.41s[0m
+2022.06.10 19:27:59 INFO  compiling root (1 scala source)[0m
+2022.06.10 19:27:59 INFO  time: compiled root in 30ms[0m
+2022.06.10 19:28:06 INFO  compiling root (1 scala source)[0m
+2022.06.10 19:28:06 INFO  time: compiled root in 0.16s[0m
+2022.06.10 19:28:13 INFO  compiling root (1 scala source)[0m
+2022.06.10 19:28:13 INFO  time: compiled root in 0.18s[0m
+2022.06.10 19:28:14 INFO  compiling root (1 scala source)[0m
+2022.06.10 19:28:14 INFO  time: compiled root in 12ms[0m
+2022.06.10 19:28:15 INFO  compiling root (1 scala source)[0m
+2022.06.10 19:28:15 INFO  time: compiled root in 39ms[0m
+2022.06.10 19:28:20 INFO  compiling root (1 scala source)[0m
+2022.06.10 19:28:20 INFO  time: compiled root in 27ms[0m
+2022.06.10 19:28:22 INFO  compiling root (1 scala source)[0m
+2022.06.10 19:28:22 INFO  time: compiled root in 25ms[0m
+2022.06.10 19:28:33 INFO  compiling root (1 scala source)[0m
+2022.06.10 19:28:33 INFO  time: compiled root in 32ms[0m
+2022.06.10 19:28:49 INFO  compiling root (1 scala source)[0m
+2022.06.10 19:28:49 INFO  time: compiled root in 30ms[0m
+2022.06.10 19:28:51 INFO  compiling root (1 scala source)[0m
+2022.06.10 19:28:51 INFO  time: compiled root in 36ms[0m
+2022.06.10 19:28:51 INFO  compiling root (1 scala source)[0m
+2022.06.10 19:28:51 INFO  time: compiled root in 67ms[0m
+2022.06.10 19:28:59 INFO  compiling root (1 scala source)[0m
+2022.06.10 19:28:59 INFO  time: compiled root in 74ms[0m
+2022.06.10 19:29:07 INFO  compiling root (1 scala source)[0m
+2022.06.10 19:29:07 INFO  time: compiled root in 84ms[0m
+2022.06.10 19:29:50 INFO  compiling root (1 scala source)[0m
+2022.06.10 19:29:50 INFO  time: compiled root in 89ms[0m
+2022.06.10 19:30:12 INFO  compiling root (1 scala source)[0m
+2022.06.10 19:30:12 INFO  time: compiled root in 73ms[0m
+2022.06.10 19:30:19 INFO  compiling root (1 scala source)[0m
+2022.06.10 19:30:19 INFO  time: compiled root in 79ms[0m
+2022.06.10 19:30:29 INFO  compiling root (1 scala source)[0m
+2022.06.10 19:30:29 INFO  time: compiled root in 87ms[0m
+2022.06.10 19:31:48 INFO  compiling root (1 scala source)[0m
+2022.06.10 19:31:48 INFO  time: compiled root in 81ms[0m
+2022.06.10 19:31:51 INFO  compiling root (1 scala source)[0m
+2022.06.10 19:31:51 INFO  time: compiled root in 0.25s[0m
+2022.06.10 19:32:00 INFO  compiling root (1 scala source)[0m
+2022.06.10 19:32:00 INFO  time: compiled root in 79ms[0m
+2022.06.10 19:32:08 INFO  compiling root (1 scala source)[0m
+2022.06.10 19:32:08 INFO  time: compiled root in 85ms[0m
+2022.06.10 19:32:12 INFO  compiling root (1 scala source)[0m
+2022.06.10 19:32:12 INFO  time: compiled root in 89ms[0m
+2022.06.10 19:32:26 INFO  compiling root (1 scala source)[0m
+2022.06.10 19:32:26 INFO  time: compiled root in 83ms[0m
+2022.06.10 19:32:28 INFO  compiling root (1 scala source)[0m
+2022.06.10 19:32:28 INFO  time: compiled root in 90ms[0m
+2022.06.10 19:32:29 INFO  compiling root (1 scala source)[0m
+2022.06.10 19:32:29 INFO  time: compiled root in 93ms[0m
+2022.06.10 19:32:35 INFO  compiling root (1 scala source)[0m
+2022.06.10 19:32:35 INFO  time: compiled root in 38ms[0m
+2022.06.10 19:32:40 INFO  compiling root (1 scala source)[0m
+2022.06.10 19:32:40 INFO  time: compiled root in 75ms[0m
+2022.06.10 19:33:17 INFO  compiling root (1 scala source)[0m
+2022.06.10 19:33:17 INFO  time: compiled root in 72ms[0m
+2022.06.10 19:33:17 INFO  compiling root (1 scala source)[0m
+2022.06.10 19:33:17 INFO  time: compiled root in 62ms[0m
+Jun 10, 2022 7:33:24 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1127
+2022.06.10 19:34:21 INFO  compiling root (1 scala source)[0m
+2022.06.10 19:34:21 INFO  time: compiled root in 74ms[0m
+2022.06.10 19:34:25 INFO  compiling root (1 scala source)[0m
+2022.06.10 19:34:25 INFO  time: compiled root in 90ms[0m
+2022.06.10 19:43:47 INFO  compiling root (1 scala source)[0m
+2022.06.10 19:43:47 INFO  time: compiled root in 0.14s[0m
+2022.06.10 19:43:47 INFO  compiling root (1 scala source)[0m
+2022.06.10 19:43:48 INFO  time: compiled root in 0.13s[0m
+2022.06.10 19:43:48 INFO  compiling root (1 scala source)[0m
+2022.06.10 19:43:48 INFO  time: compiled root in 0.22s[0m
+2022.06.10 19:43:48 INFO  compiling root (1 scala source)[0m
+2022.06.10 19:43:48 INFO  time: compiled root in 0.19s[0m
+2022.06.10 19:43:48 INFO  compiling root (1 scala source)[0m
+2022.06.10 19:43:48 INFO  time: compiled root in 0.11s[0m
+Exception in thread "pool-4-thread-1" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:139)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022.06.10 19:43:56 INFO  compiling root (1 scala source)[0m
+2022.06.10 19:43:56 INFO  time: compiled root in 0.12s[0m
+2022.06.10 19:44:02 INFO  compiling root (1 scala source)[0m
+2022.06.10 19:44:02 INFO  time: compiled root in 0.12s[0m
+2022.06.10 19:44:11 INFO  compiling root (1 scala source)[0m
+2022.06.10 19:44:11 INFO  time: compiled root in 0.1s[0m
+2022.06.10 19:44:30 INFO  compiling root (1 scala source)[0m
+2022.06.10 19:44:30 INFO  time: compiled root in 0.1s[0m
+2022.06.10 19:44:33 INFO  compiling root (1 scala source)[0m
+2022.06.10 19:44:33 INFO  time: compiled root in 0.11s[0m
+2022.06.10 19:44:33 INFO  compiling root (1 scala source)[0m
+2022.06.10 19:44:33 INFO  time: compiled root in 83ms[0m
+2022.06.10 19:44:33 INFO  compiling root (1 scala source)[0m
+2022.06.10 19:44:33 INFO  time: compiled root in 73ms[0m
+2022.06.10 19:44:33 INFO  compiling root (1 scala source)[0m
+2022.06.10 19:44:33 INFO  time: compiled root in 72ms[0m
+2022.06.10 19:44:54 INFO  compiling root (1 scala source)[0m
+2022.06.10 19:44:54 INFO  time: compiled root in 94ms[0m
+2022.06.10 19:44:55 INFO  compiling root (1 scala source)[0m
+2022.06.10 19:44:55 INFO  time: compiled root in 89ms[0m
+2022.06.10 19:45:07 INFO  compiling root (1 scala source)[0m
+2022.06.10 19:45:07 INFO  time: compiled root in 92ms[0m
+2022.06.10 19:45:12 INFO  compiling root (1 scala source)[0m
+2022.06.10 19:45:12 INFO  time: compiled root in 98ms[0m
+2022.06.10 19:45:20 INFO  compiling root (1 scala source)[0m
+2022.06.10 19:45:20 INFO  time: compiled root in 0.1s[0m
+2022.06.10 19:45:36 INFO  compiling root (1 scala source)[0m
+2022.06.10 19:45:36 INFO  time: compiled root in 93ms[0m
+2022.06.10 19:45:40 INFO  compiling root (1 scala source)[0m
+2022.06.10 19:45:40 INFO  time: compiled root in 90ms[0m
+2022.06.10 19:45:43 INFO  compiling root (1 scala source)[0m
+2022.06.10 19:45:43 INFO  time: compiled root in 42ms[0m
+2022.06.10 19:45:43 INFO  compiling root (1 scala source)[0m
+2022.06.10 19:45:43 INFO  time: compiled root in 80ms[0m
+2022.06.10 19:46:04 INFO  compiling root (1 scala source)[0m
+2022.06.10 19:46:04 INFO  time: compiled root in 91ms[0m
+2022.06.10 19:46:07 INFO  compiling root (1 scala source)[0m
+2022.06.10 19:46:07 INFO  time: compiled root in 91ms[0m
+2022.06.10 19:46:41 INFO  compiling root (1 scala source)[0m
+2022.06.10 19:46:41 INFO  time: compiled root in 33ms[0m
+2022.06.10 19:46:43 INFO  compiling root (1 scala source)[0m
+2022.06.10 19:46:43 INFO  time: compiled root in 26ms[0m
+2022.06.10 19:46:45 INFO  compiling root (1 scala source)[0m
+2022.06.10 19:46:45 INFO  time: compiled root in 31ms[0m
+2022.06.10 19:46:47 INFO  compiling root (1 scala source)[0m
+2022.06.10 19:46:47 INFO  time: compiled root in 0.1s[0m
+2022.06.10 19:47:04 INFO  compiling root (1 scala source)[0m
+2022.06.10 19:47:04 INFO  time: compiled root in 99ms[0m
+2022.06.10 19:47:07 INFO  compiling root (1 scala source)[0m
+2022.06.10 19:47:07 INFO  time: compiled root in 86ms[0m
+2022.06.10 19:47:07 INFO  compiling root (1 scala source)[0m
+2022.06.10 19:47:07 INFO  time: compiled root in 76ms[0m
+2022.06.10 19:47:28 INFO  compiling root (1 scala source)[0m
+2022.06.10 19:47:28 INFO  time: compiled root in 91ms[0m
+2022.06.10 19:47:29 INFO  file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala:64:22: stale bloop error: value seconds is not a member of Int
+          b.toStrict(2.seconds).map(strict =>
+                     ^^^^^^^^^[0m
+2022.06.10 19:47:29 INFO  file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala:72:9: stale bloop error: not found: value db
+        db.create(Video(
+        ^^[0m
+2022.06.10 19:47:29 INFO  file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala:72:19: stale bloop error: not found: value Video
+        db.create(Video(
+                  ^^^^^[0m
+2022.06.10 19:47:29 INFO  file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala:73:11: stale bloop error: not found: value file
+          file = allParts("file").asInstanceOf[File],
+          ^^^^[0m
+2022.06.10 19:47:29 INFO  file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala:74:11: stale bloop error: not found: value title
+          title = allParts("title").asInstanceOf[String],
+          ^^^^^[0m
+2022.06.10 19:47:29 INFO  file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala:75:11: stale bloop error: not found: value author
+          author = allParts("author").asInstanceOf[String]))
+          ^^^^^^[0m
+2022.06.10 19:47:29 INFO  file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala:64:22: stale bloop error: value seconds is not a member of Int
+          b.toStrict(2.seconds).map(strict =>
+                     ^^^^^^^^^[0m
+2022.06.10 19:47:29 INFO  file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala:72:9: stale bloop error: not found: value db
+        db.create(Video(
+        ^^[0m
+2022.06.10 19:47:29 INFO  file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala:72:19: stale bloop error: not found: value Video
+        db.create(Video(
+                  ^^^^^[0m
+2022.06.10 19:47:29 INFO  file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala:73:11: stale bloop error: not found: value file
+          file = allParts("file").asInstanceOf[File],
+          ^^^^[0m
+2022.06.10 19:47:29 INFO  file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala:74:11: stale bloop error: not found: value title
+          title = allParts("title").asInstanceOf[String],
+          ^^^^^[0m
+2022.06.10 19:47:29 INFO  file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala:75:11: stale bloop error: not found: value author
+          author = allParts("author").asInstanceOf[String]))
+          ^^^^^^[0m
+2022.06.10 19:47:30 INFO  file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala:64:22: stale bloop error: value seconds is not a member of Int
+          b.toStrict(2.seconds).map(strict =>
+                     ^^^^^^^^^[0m
+2022.06.10 19:47:30 INFO  file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala:72:9: stale bloop error: not found: value db
+        db.create(Video(
+        ^^[0m
+2022.06.10 19:47:30 INFO  file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala:72:19: stale bloop error: not found: value Video
+        db.create(Video(
+                  ^^^^^[0m
+2022.06.10 19:47:30 INFO  file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala:73:11: stale bloop error: not found: value file
+          file = allParts("file").asInstanceOf[File],
+          ^^^^[0m
+2022.06.10 19:47:30 INFO  file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala:74:11: stale bloop error: not found: value title
+          title = allParts("title").asInstanceOf[String],
+          ^^^^^[0m
+2022.06.10 19:47:30 INFO  file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala:75:11: stale bloop error: not found: value author
+          author = allParts("author").asInstanceOf[String]))
+          ^^^^^^[0m
+2022.06.10 19:47:30 INFO  compiling root (1 scala source)[0m
+2022.06.10 19:47:30 INFO  file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala:71:9: stale bloop error: unclosed comment
+        /*
+        ^[0m
+2022.06.10 19:47:30 INFO  file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala:71:9: stale bloop error: unclosed comment
+        /*
+        ^[0m
+2022.06.10 19:47:30 INFO  file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala:114:2: stale bloop error: Missing closing brace `}' assumed here
+}
+ ^[0m
+2022.06.10 19:47:30 INFO  time: compiled root in 31ms[0m
+2022.06.10 19:47:31 INFO  file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala:71:9: stale bloop error: unclosed comment
+        /*
+        ^[0m
+2022.06.10 19:47:31 INFO  file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala:114:2: stale bloop error: Missing closing brace `}' assumed here
+}
+ ^[0m
+2022.06.10 19:47:31 INFO  file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala:71:9: stale bloop error: unclosed comment
+        /*
+        ^[0m
+2022.06.10 19:47:31 INFO  file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala:114:2: stale bloop error: Missing closing brace `}' assumed here
+}
+ ^[0m
+2022.06.10 19:47:31 INFO  file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala:71:9: stale bloop error: unclosed comment
+        /*
+        ^[0m
+2022.06.10 19:47:31 INFO  file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala:114:2: stale bloop error: Missing closing brace `}' assumed here
+}
+ ^[0m
+2022.06.10 19:47:32 INFO  file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala:71:9: stale bloop error: unclosed comment
+        /*
+        ^[0m
+2022.06.10 19:47:32 INFO  file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala:114:2: stale bloop error: Missing closing brace `}' assumed here
+}
+ ^[0m
+2022.06.10 19:47:31 INFO  file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala:71:9: stale bloop error: unclosed comment
+        /*
+        ^[0m
+2022.06.10 19:47:31 INFO  file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala:114:2: stale bloop error: Missing closing brace `}' assumed here
+}
+ ^[0m
+2022.06.10 19:47:31 INFO  file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala:71:9: stale bloop error: unclosed comment
+        /*
+        ^[0m
+2022.06.10 19:47:31 INFO  file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala:114:2: stale bloop error: Missing closing brace `}' assumed here
+}
+ ^[0m
+2022.06.10 19:47:33 INFO  compiling root (1 scala source)[0m
+2022.06.10 19:47:33 INFO  time: compiled root in 98ms[0m
+2022.06.10 19:48:05 INFO  compiling root (1 scala source)[0m
+2022.06.10 19:48:05 INFO  time: compiled root in 87ms[0m
+2022.06.10 20:01:37 INFO  compiling root (1 scala source)[0m
+2022.06.10 20:01:37 INFO  time: compiled root in 0.12s[0m
+2022.06.10 20:01:52 INFO  compiling root (1 scala source)[0m
+2022.06.10 20:01:52 INFO  time: compiled root in 94ms[0m
+2022.06.10 20:01:57 INFO  compiling root (1 scala source)[0m
+2022.06.10 20:01:57 INFO  time: compiled root in 88ms[0m
+2022.06.10 20:02:07 INFO  compiling root (1 scala source)[0m
+2022.06.10 20:02:07 INFO  time: compiled root in 79ms[0m
+2022.06.10 20:03:11 INFO  compiling root (1 scala source)[0m
+2022.06.10 20:03:11 INFO  time: compiled root in 81ms[0m
+2022.06.10 20:03:14 INFO  compiling root (1 scala source)[0m
+2022.06.10 20:03:14 INFO  time: compiled root in 97ms[0m
+2022.06.10 20:03:16 INFO  compiling root (1 scala source)[0m
+2022.06.10 20:03:16 INFO  time: compiled root in 89ms[0m
+2022.06.10 20:03:18 INFO  compiling root (1 scala source)[0m
+2022.06.10 20:03:18 INFO  time: compiled root in 90ms[0m
+2022.06.10 20:03:37 INFO  compiling root (1 scala source)[0m
+2022.06.10 20:03:37 INFO  time: compiled root in 93ms[0m
+2022.06.10 20:03:42 INFO  compiling root (1 scala source)[0m
+2022.06.10 20:03:42 INFO  time: compiled root in 92ms[0m
+2022.06.10 20:03:44 INFO  compiling root (1 scala source)[0m
+2022.06.10 20:03:44 INFO  time: compiled root in 95ms[0m
+2022.06.10 20:03:47 INFO  compiling root (1 scala source)[0m
+2022.06.10 20:03:47 INFO  time: compiled root in 93ms[0m
+2022.06.10 20:03:47 INFO  compiling root (1 scala source)[0m
+2022.06.10 20:03:47 INFO  time: compiled root in 70ms[0m
+2022.06.10 20:03:54 INFO  compiling root (1 scala source)[0m
+2022.06.10 20:03:54 INFO  time: compiled root in 0.11s[0m
+2022.06.10 20:04:14 INFO  compiling root (1 scala source)[0m
+2022.06.10 20:04:14 INFO  time: compiled root in 95ms[0m
+2022.06.10 20:05:29 INFO  compiling root (1 scala source)[0m
+2022.06.10 20:05:29 INFO  time: compiled root in 85ms[0m
+2022.06.10 20:05:32 INFO  compiling root (1 scala source)[0m
+2022.06.10 20:05:32 INFO  time: compiled root in 84ms[0m
+2022.06.10 20:05:41 INFO  compiling root (1 scala source)[0m
+2022.06.10 20:05:41 INFO  time: compiled root in 78ms[0m
+2022.06.10 20:05:43 INFO  compiling root (1 scala source)[0m
+2022.06.10 20:05:43 INFO  time: compiled root in 90ms[0m
+2022.06.10 20:06:01 INFO  compiling root (1 scala source)[0m
+2022.06.10 20:06:01 INFO  time: compiled root in 90ms[0m
+2022.06.10 20:06:07 INFO  compiling root (1 scala source)[0m
+2022.06.10 20:06:07 INFO  time: compiled root in 81ms[0m
+2022.06.10 20:06:09 INFO  compiling root (1 scala source)[0m
+2022.06.10 20:06:09 INFO  time: compiled root in 82ms[0m
+2022.06.10 20:06:34 INFO  file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala:65:44: stale bloop error: type mismatch;
+ found   : String("second")
+ required: scala.concurrent.duration.TimeUnit
+    (which expands to)  java.util.concurrent.TimeUnit
+          b.toStrict(new FiniteDuration(2, "second")).map(strict =>
+                                           ^^^^^^^^[0m
+2022.06.10 20:06:34 INFO  file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala:65:44: stale bloop error: type mismatch;
+ found   : String("second")
+ required: scala.concurrent.duration.TimeUnit
+    (which expands to)  java.util.concurrent.TimeUnit
+          b.toStrict(new FiniteDuration(2, "second")).map(strict =>
+                                           ^^^^^^^^[0m
+2022.06.10 20:06:35 INFO  compiling root (1 scala source)[0m
+2022.06.10 20:06:35 INFO  time: compiled root in 85ms[0m
+Exception in thread "pool-4-thread-2" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:139)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022.06.10 20:06:47 INFO  compiling root (1 scala source)[0m
+2022.06.10 20:06:47 INFO  time: compiled root in 95ms[0m
+2022.06.10 20:06:47 INFO  compiling root (1 scala source)[0m
+2022.06.10 20:06:47 INFO  time: compiled root in 10ms[0m
+2022.06.10 20:06:50 INFO  compiling root (1 scala source)[0m
+2022.06.10 20:06:50 INFO  time: compiled root in 0.1s[0m
+2022.06.10 20:06:55 INFO  compiling root (1 scala source)[0m
+2022.06.10 20:06:55 INFO  time: compiled root in 0.55s[0m
+Exception in thread "pool-4-thread-3" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:139)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022.06.10 20:08:06 INFO  compiling root (1 scala source)[0m
+2022.06.10 20:08:06 INFO  time: compiled root in 0.47s[0m
+2022.06.10 20:08:08 INFO  compiling root (1 scala source)[0m
+2022.06.10 20:08:08 INFO  time: compiled root in 92ms[0m
+2022.06.10 20:08:10 INFO  compiling root (1 scala source)[0m
+2022.06.10 20:08:10 INFO  time: compiled root in 0.44s[0m
+2022.06.10 20:08:16 INFO  compiling root (1 scala source)[0m
+2022.06.10 20:08:16 INFO  time: compiled root in 0.42s[0m
+2022.06.10 20:08:24 INFO  compiling root (1 scala source)[0m
+2022.06.10 20:08:24 INFO  time: compiled root in 84ms[0m
+2022.06.10 20:08:32 INFO  compiling root (1 scala source)[0m
+2022.06.10 20:08:32 INFO  time: compiled root in 94ms[0m
+2022.06.10 20:08:41 INFO  compiling root (1 scala source)[0m
+2022.06.10 20:08:41 INFO  time: compiled root in 0.45s[0m
+2022.06.10 20:08:46 INFO  compiling root (1 scala source)[0m
+2022.06.10 20:08:46 INFO  time: compiled root in 0.42s[0m
+2022.06.10 20:13:31 INFO  compiling root (1 scala source)[0m
+2022.06.10 20:13:31 INFO  time: compiled root in 86ms[0m
+2022.06.10 20:13:39 INFO  compiling root (1 scala source)[0m
+2022.06.10 20:13:39 INFO  time: compiled root in 35ms[0m
+2022.06.10 20:13:42 INFO  compiling root (1 scala source)[0m
+2022.06.10 20:13:42 INFO  time: compiled root in 81ms[0m
+2022.06.10 20:14:01 INFO  compiling root (1 scala source)[0m
+2022.06.10 20:14:01 INFO  time: compiled root in 87ms[0m
+2022.06.10 20:14:02 INFO  compiling root (1 scala source)[0m
+2022.06.10 20:14:02 INFO  time: compiled root in 78ms[0m
+2022.06.10 20:14:09 INFO  compiling root (1 scala source)[0m
+2022.06.10 20:14:09 INFO  time: compiled root in 0.44s[0m
+2022.06.10 20:15:09 INFO  compiling root (1 scala source)[0m
+2022.06.10 20:15:09 INFO  time: compiled root in 81ms[0m
+2022.06.10 20:15:11 INFO  compiling root (1 scala source)[0m
+2022.06.10 20:15:11 INFO  time: compiled root in 0.74s[0m
+2022.06.10 20:17:24 INFO  compiling root (1 scala source)[0m
+2022.06.10 20:17:24 INFO  time: compiled root in 0.43s[0m
+2022.06.10 20:17:26 INFO  compiling root (1 scala source)[0m
+2022.06.10 20:17:26 INFO  time: compiled root in 0.39s[0m
+2022.06.10 20:17:28 INFO  compiling root (1 scala source)[0m
+2022.06.10 20:17:28 INFO  time: compiled root in 0.4s[0m
+2022.06.10 20:17:30 INFO  compiling root (1 scala source)[0m
+2022.06.10 20:17:30 INFO  time: compiled root in 0.4s[0m
+2022.06.10 20:17:33 INFO  compiling root (1 scala source)[0m
+2022.06.10 20:17:33 INFO  time: compiled root in 0.46s[0m
+2022.06.10 20:17:36 INFO  compiling root (1 scala source)[0m
+2022.06.10 20:17:36 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala[0m
+2022.06.10 20:17:36 INFO  time: compiled root in 0.47s[0m
+2022.06.10 20:17:38 INFO  compiling root (1 scala source)[0m
+2022.06.10 20:17:38 INFO  time: compiled root in 0.4s[0m
+2022.06.10 20:23:42 INFO  compiling root (1 scala source)[0m
+2022.06.10 20:23:42 INFO  time: compiled root in 0.11s[0m
+2022.06.10 20:23:45 INFO  compiling root (1 scala source)[0m
+2022.06.10 20:23:45 INFO  time: compiled root in 0.48s[0m
+2022.06.10 20:23:46 INFO  compiling root (1 scala source)[0m
+2022.06.10 20:23:46 INFO  time: compiled root in 29ms[0m
+2022.06.10 20:23:50 INFO  compiling root (1 scala source)[0m
+2022.06.10 20:23:50 INFO  time: compiled root in 37ms[0m
+2022.06.10 20:24:00 INFO  compiling root (1 scala source)[0m
+2022.06.10 20:24:00 INFO  time: compiled root in 86ms[0m
+2022.06.10 20:24:03 INFO  compiling root (1 scala source)[0m
+2022.06.10 20:24:03 INFO  time: compiled root in 0.44s[0m
+2022.06.10 20:24:08 INFO  compiling root (1 scala source)[0m
+2022.06.10 20:24:08 INFO  time: compiled root in 0.41s[0m
+2022.06.10 20:24:12 INFO  compiling root (1 scala source)[0m
+2022.06.10 20:24:12 INFO  time: compiled root in 0.4s[0m
+2022.06.10 20:24:15 INFO  compiling root (1 scala source)[0m
+2022.06.10 20:24:15 INFO  time: compiled root in 0.64s[0m
+2022.06.10 20:24:17 INFO  compiling root (1 scala source)[0m
+2022.06.10 20:24:17 INFO  time: compiled root in 91ms[0m
+2022.06.10 20:24:17 INFO  compiling root (1 scala source)[0m
+2022.06.10 20:24:19 INFO  time: compiled root in 0.39s[0m
+2022.06.10 20:24:21 INFO  compiling root (1 scala source)[0m
+2022.06.10 20:24:21 INFO  time: compiled root in 0.42s[0m
+2022.06.10 20:24:24 INFO  compiling root (1 scala source)[0m
+2022.06.10 20:24:24 INFO  time: compiled root in 0.42s[0m
+2022.06.15 09:16:37 INFO  shutting down Metals[0m
+2022.06.15 09:16:37 INFO  Shut down connection with build server.[0m
+2022.06.15 09:16:37 INFO  Shut down connection with build server.[0m
+2022.06.15 09:16:37 INFO  Shut down connection with build server.[0m
+2022.06.27 20:35:24 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/.metals/lsp.trace.json or /Users/bertmeeuws/Library/Caches/org.scalameta.metals/lsp.trace.json
+2022.06.27 20:35:25 INFO  logging to file /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/.metals/metals.log
+2022.06.27 20:35:25 INFO  Started: Metals version 0.11.6 in workspace '/Users/bertmeeuws/Desktop/Side-Projects/Akka-playground' for client Visual Studio Code 1.68.0.
+2022.06.27 20:35:26 INFO  time: initialize in 0.81s
+2022.06.27 20:35:26 WARN  Flyway upgrade recommended: H2 2.1.212 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.
+2022.06.27 20:35:27 INFO  Attempting to connect to the build server...
+2022.06.27 20:35:27 INFO  skipping build import with status 'Installed'
+2022.06.27 20:35:27 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/.metals/bsp.trace.json or /Users/bertmeeuws/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.06.27 20:35:27 INFO  Attempting to connect to the build server...
+2022.06.27 20:35:27 INFO  Attempting to connect to the build server...
+2022.06.27 20:35:28 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/project/project/.metals/bsp.trace.json or /Users/bertmeeuws/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.06.27 20:35:28 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/project/.metals/bsp.trace.json or /Users/bertmeeuws/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.06.27 20:35:28 INFO  time: Connected to build server in 1.21s
+2022.06.27 20:35:28 INFO  Connected to Build server: Bloop v1.5.0-18-003e6c7b
+2022.06.27 20:35:28 INFO  time: Imported build in 0.29s
+2022.06.27 20:35:31 INFO  time: indexed workspace in 2.75s
+Jun 27, 2022 8:41:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 70
+Jun 27, 2022 8:41:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 71
+2022.06.27 20:41:36 INFO  compiling root (1 scala source)
+2022.06.27 20:41:38 INFO  time: compiled root in 1.96s
+2022.06.27 20:41:38 INFO  compiling root (1 scala source)
+2022.06.27 20:41:38 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.27 20:41:38 INFO  time: compiled root in 0.41s
+2022.06.27 20:43:49 INFO  running '/Library/Java/JavaVirtualMachines/temurin-17.jdk/Contents/Home/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /var/folders/xx/z1dj89qx3jd0vyh21fv9n8rh0000gn/T/metals4319561402788546448/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2022.06.27 20:43:51 INFO  [info] welcome to sbt 1.6.2 (Eclipse Adoptium Java 17.0.3)
+2022.06.27 20:43:51 INFO  [info] loading settings for project akka-playground-build-build-build from metals.sbt ...
+2022.06.27 20:43:52 INFO  [info] loading project definition from /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/project/project/project
+2022.06.27 20:43:52 INFO  [info] loading settings for project akka-playground-build-build from metals.sbt ...
+2022.06.27 20:43:52 INFO  [info] loading project definition from /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/project/project
+2022.06.27 20:43:54 INFO  [success] Generated .bloop/akka-playground-build-build.json
+2022.06.27 20:43:54 INFO  [success] Total time: 2 s, completed 27 Jun 2022, 20:43:54
+2022.06.27 20:43:56 INFO  [info] loading settings for project akka-playground-build from metals.sbt,plugins.sbt ...
+2022.06.27 20:43:56 INFO  [info] loading project definition from /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/project
+2022.06.27 20:43:59 INFO  [warn] 
+2022.06.27 20:43:59 INFO  [warn] 	Note: Some unresolved dependencies have extra attributes.  Check that these dependencies exist with the requested attributes.
+2022.06.27 20:43:59 INFO  [warn] 		org.scalameta:sbt-scalafmt:1.6.2 (sbtVersion=1.0, scalaVersion=2.12)
+2022.06.27 20:43:59 INFO  [warn] 
+2022.06.27 20:43:59 INFO  [warn] 	Note: Unresolved dependencies path:
+2022.06.27 20:43:59 INFO  [error] Couldn't run bloopGenerate for akka-playground-build. Cause:
+2022.06.27 20:43:59 INFO  [error] Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/project/,akka-playground-build)), Zero, Zero, Zero),updateClassifiers)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/project/,akka-playground-build)), Zero, Select(updateClassifiers), Zero),classifiersModule)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/project/,akka-playground-build)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/project/,akka-playground-build)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.scalameta:sbt-scalafmt;sbtVersion=1.0;scalaVersion=2.12:1.6.2
+2022.06.27 20:43:59 INFO  [error]   Not found
+2022.06.27 20:43:59 INFO  [error]   Not found
+2022.06.27 20:43:59 INFO  [error]   not found: https://repo1.maven.org/maven2/org/scalameta/sbt-scalafmt_2.12_1.0/1.6.2/sbt-scalafmt-1.6.2.pom
+2022.06.27 20:43:59 INFO  [error]   not found: /Users/bertmeeuws/.ivy2/localorg.scalameta/sbt-scalafmt/scala_2.12/sbt_1.0/1.6.2/ivys/ivy.xml
+2022.06.27 20:43:59 INFO  [error]   not found: https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scalameta/sbt-scalafmt/scala_2.12/sbt_1.0/1.6.2/ivys/ivy.xml
+2022.06.27 20:43:59 INFO  [error]   not found: https://repo.typesafe.com/typesafe/ivy-releases/org.scalameta/sbt-scalafmt/scala_2.12/sbt_1.0/1.6.2/ivys/ivy.xml))), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None), Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/project/,akka-playground-build)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/project/,akka-playground-build)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.scalameta:sbt-scalafmt;sbtVersion=1.0;scalaVersion=2.12:1.6.2
+2022.06.27 20:43:59 INFO  [error]   Not found
+2022.06.27 20:43:59 INFO  [error]   Not found
+2022.06.27 20:43:59 INFO  [error]   not found: https://repo1.maven.org/maven2/org/scalameta/sbt-scalafmt_2.12_1.0/1.6.2/sbt-scalafmt-1.6.2.pom
+2022.06.27 20:43:59 INFO  [error]   not found: /Users/bertmeeuws/.ivy2/localorg.scalameta/sbt-scalafmt/scala_2.12/sbt_1.0/1.6.2/ivys/ivy.xml
+2022.06.27 20:43:59 INFO  [error]   not found: https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scalameta/sbt-scalafmt/scala_2.12/sbt_1.0/1.6.2/ivys/ivy.xml
+2022.06.27 20:43:59 INFO  [error]   not found: https://repo.typesafe.com/typesafe/ivy-releases/org.scalameta/sbt-scalafmt/scala_2.12/sbt_1.0/1.6.2/ivys/ivy.xml))), directCause=None), Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/project/,akka-playground-build)), Select(ConfigKey(compile)), Zero, Zero),externalDependencyClasspath)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/project/,akka-playground-build)), Select(ConfigKey(compile)), Zero, Zero),managedClasspath)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/project/,akka-playground-build)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/project/,akka-playground-build)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.scalameta:sbt-scalafmt;sbtVersion=1.0;scalaVersion=2.12:1.6.2
+2022.06.27 20:43:59 INFO  [error]   Not found
+2022.06.27 20:43:59 INFO  [error]   Not found
+2022.06.27 20:43:59 INFO  [error]   not found: https://repo1.maven.org/maven2/org/scalameta/sbt-scalafmt_2.12_1.0/1.6.2/sbt-scalafmt-1.6.2.pom
+2022.06.27 20:43:59 INFO  [error]   not found: /Users/bertmeeuws/.ivy2/localorg.scalameta/sbt-scalafmt/scala_2.12/sbt_1.0/1.6.2/ivys/ivy.xml
+2022.06.27 20:43:59 INFO  [error]   not found: https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scalameta/sbt-scalafmt/scala_2.12/sbt_1.0/1.6.2/ivys/ivy.xml
+2022.06.27 20:43:59 INFO  [error]   not found: https://repo.typesafe.com/typesafe/ivy-releases/org.scalameta/sbt-scalafmt/scala_2.12/sbt_1.0/1.6.2/ivys/ivy.xml))), directCause=None), Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/project/,akka-playground-build)), Select(ConfigKey(compile)), Zero, Zero),classpathConfiguration)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/project/,akka-playground-build)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/project/,akka-playground-build)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.scalameta:sbt-scalafmt;sbtVersion=1.0;scalaVersion=2.12:1.6.2
+2022.06.27 20:43:59 INFO  [error]   Not found
+2022.06.27 20:43:59 INFO  [error]   Not found
+2022.06.27 20:43:59 INFO  [error]   not found: https://repo1.maven.org/maven2/org/scalameta/sbt-scalafmt_2.12_1.0/1.6.2/sbt-scalafmt-1.6.2.pom
+2022.06.27 20:43:59 INFO  [error]   not found: /Users/bertmeeuws/.ivy2/localorg.scalameta/sbt-scalafmt/scala_2.12/sbt_1.0/1.6.2/ivys/ivy.xml
+2022.06.27 20:43:59 INFO  [error]   not found: https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scalameta/sbt-scalafmt/scala_2.12/sbt_1.0/1.6.2/ivys/ivy.xml
+2022.06.27 20:43:59 INFO  [error]   not found: https://repo.typesafe.com/typesafe/ivy-releases/org.scalameta/sbt-scalafmt/scala_2.12/sbt_1.0/1.6.2/ivys/ivy.xml))), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None), Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/project/,akka-playground-build)), Select(ConfigKey(compile)), Zero, Zero),bloopInternalClasspath)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/project/,akka-playground-build)), Select(ConfigKey(compile)), Zero, Zero),classpathConfiguration)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/project/,akka-playground-build)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/project/,akka-playground-build)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.scalameta:sbt-scalafmt;sbtVersion=1.0;scalaVersion=2.12:1.6.2
+2022.06.27 20:43:59 INFO  [error]   Not found
+2022.06.27 20:43:59 INFO  [error]   Not found
+2022.06.27 20:43:59 INFO  [error]   not found: https://repo1.maven.org/maven2/org/scalameta/sbt-scalafmt_2.12_1.0/1.6.2/sbt-scalafmt-1.6.2.pom
+2022.06.27 20:43:59 INFO  [error]   not found: /Users/bertmeeuws/.ivy2/localorg.scalameta/sbt-scalafmt/scala_2.12/sbt_1.0/1.6.2/ivys/ivy.xml
+2022.06.27 20:43:59 INFO  [error]   not found: https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scalameta/sbt-scalafmt/scala_2.12/sbt_1.0/1.6.2/ivys/ivy.xml
+2022.06.27 20:43:59 INFO  [error]   not found: https://repo.typesafe.com/typesafe/ivy-releases/org.scalameta/sbt-scalafmt/scala_2.12/sbt_1.0/1.6.2/ivys/ivy.xml))), directCause=None)), directCause=None)), directCause=None)), directCause=None), Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/project/,akka-playground-build)), Select(ConfigKey(compile)), Zero, Zero),scalacOptions)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/project/,akka-playground-build)), Select(ConfigKey(compile)), Zero, Zero),scalacOptions)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/project/,akka-playground-build)), Select(ConfigKey(compile)), Zero, Zero),scalacOptions)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/project/,akka-playground-build)), Select(ConfigKey(compile)), Zero, Zero),scalacOptions)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/project/,akka-playground-build)), Select(ConfigKey(compile)), Zero, Zero),scalacOptions)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/project/,akka-playground-build)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/project/,akka-playground-build)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.scalameta:sbt-scalafmt;sbtVersion=1.0;scalaVersion=2.12:1.6.2
+2022.06.27 20:43:59 INFO  [error]   Not found
+2022.06.27 20:43:59 INFO  [error]   Not found
+2022.06.27 20:43:59 INFO  [error]   not found: https://repo1.maven.org/maven2/org/scalameta/sbt-scalafmt_2.12_1.0/1.6.2/sbt-scalafmt-1.6.2.pom
+2022.06.27 20:43:59 INFO  [error]   not found: /Users/bertmeeuws/.ivy2/localorg.scalameta/sbt-scalafmt/scala_2.12/sbt_1.0/1.6.2/ivys/ivy.xml
+2022.06.27 20:43:59 INFO  [error]   not found: https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scalameta/sbt-scalafmt/scala_2.12/sbt_1.0/1.6.2/ivys/ivy.xml
+2022.06.27 20:43:59 INFO  [error]   not found: https://repo.typesafe.com/typesafe/ivy-releases/org.scalameta/sbt-scalafmt/scala_2.12/sbt_1.0/1.6.2/ivys/ivy.xml))), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None), Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/project/,akka-playground-build)), Select(ConfigKey(compile)), Zero, Zero),externalDependencyClasspath)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/project/,akka-playground-build)), Select(ConfigKey(compile)), Zero, Zero),managedClasspath)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/project/,akka-playground-build)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/project/,akka-playground-build)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.scalameta:sbt-scalafmt;sbtVersion=1.0;scalaVersion=2.12:1.6.2
+2022.06.27 20:43:59 INFO  [error]   Not found
+2022.06.27 20:43:59 INFO  [error]   Not found
+2022.06.27 20:43:59 INFO  [error]   not found: https://repo1.maven.org/maven2/org/scalameta/sbt-scalafmt_2.12_1.0/1.6.2/sbt-scalafmt-1.6.2.pom
+2022.06.27 20:43:59 INFO  [error]   not found: /Users/bertmeeuws/.ivy2/localorg.scalameta/sbt-scalafmt/scala_2.12/sbt_1.0/1.6.2/ivys/ivy.xml
+2022.06.27 20:43:59 INFO  [error]   not found: https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scalameta/sbt-scalafmt/scala_2.12/sbt_1.0/1.6.2/ivys/ivy.xml
+2022.06.27 20:43:59 INFO  [error]   not found: https://repo.typesafe.com/typesafe/ivy-releases/org.scalameta/sbt-scalafmt/scala_2.12/sbt_1.0/1.6.2/ivys/ivy.xml))), directCause=None), Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/project/,akka-playground-build)), Select(ConfigKey(compile)), Zero, Zero),classpathConfiguration)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/project/,akka-playground-build)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/project/,akka-playground-build)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.scalameta:sbt-scalafmt;sbtVersion=1.0;scalaVersion=2.12:1.6.2
+2022.06.27 20:43:59 INFO  [error]   Not found
+2022.06.27 20:43:59 INFO  [error]   Not found
+2022.06.27 20:43:59 INFO  [error]   not found: https://repo1.maven.org/maven2/org/scalameta/sbt-scalafmt_2.12_1.0/1.6.2/sbt-scalafmt-1.6.2.pom
+2022.06.27 20:43:59 INFO  [error]   not found: /Users/bertmeeuws/.ivy2/localorg.scalameta/sbt-scalafmt/scala_2.12/sbt_1.0/1.6.2/ivys/ivy.xml
+2022.06.27 20:43:59 INFO  [error]   not found: https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scalameta/sbt-scalafmt/scala_2.12/sbt_1.0/1.6.2/ivys/ivy.xml
+2022.06.27 20:43:59 INFO  [error]   not found: https://repo.typesafe.com/typesafe/ivy-releases/org.scalameta/sbt-scalafmt/scala_2.12/sbt_1.0/1.6.2/ivys/ivy.xml))), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None), Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/project/,akka-playground-build)), Select(ConfigKey(compile)), Zero, Zero),bloopInternalClasspath)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/project/,akka-playground-build)), Select(ConfigKey(compile)), Zero, Zero),classpathConfiguration)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/project/,akka-playground-build)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/project/,akka-playground-build)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.scalameta:sbt-scalafmt;sbtVersion=1.0;scalaVersion=2.12:1.6.2
+2022.06.27 20:43:59 INFO  [error]   Not found
+2022.06.27 20:43:59 INFO  [error]   Not found
+2022.06.27 20:43:59 INFO  [error]   not found: https://repo1.maven.org/maven2/org/scalameta/sbt-scalafmt_2.12_1.0/1.6.2/sbt-scalafmt-1.6.2.pom
+2022.06.27 20:43:59 INFO  [error]   not found: /Users/bertmeeuws/.ivy2/localorg.scalameta/sbt-scalafmt/scala_2.12/sbt_1.0/1.6.2/ivys/ivy.xml
+2022.06.27 20:43:59 INFO  [error]   not found: https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scalameta/sbt-scalafmt/scala_2.12/sbt_1.0/1.6.2/ivys/ivy.xml
+2022.06.27 20:43:59 INFO  [error]   not found: https://repo.typesafe.com/typesafe/ivy-releases/org.scalameta/sbt-scalafmt/scala_2.12/sbt_1.0/1.6.2/ivys/ivy.xml))), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None)
+2022.06.27 20:43:59 INFO  [warn] Removed stale /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/project/.bloop/akka-playground-build.json
+2022.06.27 20:43:59 INFO  [success] Total time: 3 s, completed 27 Jun 2022, 20:43:59
+2022.06.27 20:44:00 INFO  [warn] 
+2022.06.27 20:44:00 INFO  [warn] 	Note: Some unresolved dependencies have extra attributes.  Check that these dependencies exist with the requested attributes.
+2022.06.27 20:44:00 INFO  [warn] 		org.scalameta:sbt-scalafmt:1.6.2 (sbtVersion=1.0, scalaVersion=2.12)
+2022.06.27 20:44:00 INFO  [warn] 
+2022.06.27 20:44:00 INFO  [warn] 	Note: Unresolved dependencies path:
+2022.06.27 20:44:00 INFO  [error] sbt.librarymanagement.ResolveException: Error downloading org.scalameta:sbt-scalafmt;sbtVersion=1.0;scalaVersion=2.12:1.6.2
+2022.06.27 20:44:00 INFO  [error]   Not found
+2022.06.27 20:44:00 INFO  [error]   Not found
+2022.06.27 20:44:00 INFO  [error]   not found: https://repo1.maven.org/maven2/org/scalameta/sbt-scalafmt_2.12_1.0/1.6.2/sbt-scalafmt-1.6.2.pom
+2022.06.27 20:44:00 INFO  [error]   not found: /Users/bertmeeuws/.ivy2/localorg.scalameta/sbt-scalafmt/scala_2.12/sbt_1.0/1.6.2/ivys/ivy.xml
+2022.06.27 20:44:00 INFO  [error]   not found: https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scalameta/sbt-scalafmt/scala_2.12/sbt_1.0/1.6.2/ivys/ivy.xml
+2022.06.27 20:44:00 INFO  [error]   not found: https://repo.typesafe.com/typesafe/ivy-releases/org.scalameta/sbt-scalafmt/scala_2.12/sbt_1.0/1.6.2/ivys/ivy.xml
+2022.06.27 20:44:00 INFO  [error] 	at lmcoursier.CoursierDependencyResolution.unresolvedWarningOrThrow(CoursierDependencyResolution.scala:345)
+2022.06.27 20:44:00 INFO  [error] 	at lmcoursier.CoursierDependencyResolution.$anonfun$update$38(CoursierDependencyResolution.scala:314)
+2022.06.27 20:44:00 INFO  [error] 	at scala.util.Either$LeftProjection.map(Either.scala:573)
+2022.06.27 20:44:00 INFO  [error] 	at lmcoursier.CoursierDependencyResolution.update(CoursierDependencyResolution.scala:314)
+2022.06.27 20:44:00 INFO  [error] 	at sbt.librarymanagement.DependencyResolution.update(DependencyResolution.scala:60)
+2022.06.27 20:44:00 INFO  [error] 	at sbt.internal.LibraryManagement$.resolve$1(LibraryManagement.scala:59)
+2022.06.27 20:44:00 INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$12(LibraryManagement.scala:133)
+2022.06.27 20:44:00 INFO  [error] 	at sbt.util.Tracked$.$anonfun$lastOutput$1(Tracked.scala:73)
+2022.06.27 20:44:00 INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$20(LibraryManagement.scala:146)
+2022.06.27 20:44:00 INFO  [error] 	at scala.util.control.Exception$Catch.apply(Exception.scala:228)
+2022.06.27 20:44:00 INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$11(LibraryManagement.scala:146)
+2022.06.27 20:44:00 INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$11$adapted(LibraryManagement.scala:127)
+2022.06.27 20:44:00 INFO  [error] 	at sbt.util.Tracked$.$anonfun$inputChangedW$1(Tracked.scala:219)
+2022.06.27 20:44:00 INFO  [error] 	at sbt.internal.LibraryManagement$.cachedUpdate(LibraryManagement.scala:160)
+2022.06.27 20:44:00 INFO  [error] 	at sbt.Classpaths$.$anonfun$updateTask0$1(Defaults.scala:3690)
+2022.06.27 20:44:00 INFO  [error] 	at scala.Function1.$anonfun$compose$1(Function1.scala:49)
+2022.06.27 20:44:00 INFO  [error] 	at sbt.internal.util.$tilde$greater.$anonfun$$u2219$1(TypeFunctions.scala:62)
+2022.06.27 20:44:00 INFO  [error] 	at sbt.std.Transform$$anon$4.work(Transform.scala:68)
+2022.06.27 20:44:00 INFO  [error] 	at sbt.Execute.$anonfun$submit$2(Execute.scala:282)
+2022.06.27 20:44:00 INFO  [error] 	at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:23)
+2022.06.27 20:44:00 INFO  [error] 	at sbt.Execute.work(Execute.scala:291)
+2022.06.27 20:44:00 INFO  [error] 	at sbt.Execute.$anonfun$submit$1(Execute.scala:282)
+2022.06.27 20:44:00 INFO  [error] 	at sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:265)
+2022.06.27 20:44:00 INFO  [error] 	at sbt.CompletionService$$anon$2.call(CompletionService.scala:64)
+2022.06.27 20:44:00 INFO  [error] 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+2022.06.27 20:44:00 INFO  [error] 	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+2022.06.27 20:44:00 INFO  [error] 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+2022.06.27 20:44:00 INFO  [error] 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+2022.06.27 20:44:00 INFO  [error] 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+2022.06.27 20:44:00 INFO  [error] 	at java.base/java.lang.Thread.run(Thread.java:833)
+2022.06.27 20:44:00 INFO  [error] (update) sbt.librarymanagement.ResolveException: Error downloading org.scalameta:sbt-scalafmt;sbtVersion=1.0;scalaVersion=2.12:1.6.2
+2022.06.27 20:44:00 INFO  [error]   Not found
+2022.06.27 20:44:00 INFO  [error]   Not found
+2022.06.27 20:44:00 INFO  [error]   not found: https://repo1.maven.org/maven2/org/scalameta/sbt-scalafmt_2.12_1.0/1.6.2/sbt-scalafmt-1.6.2.pom
+2022.06.27 20:44:00 INFO  [error]   not found: /Users/bertmeeuws/.ivy2/localorg.scalameta/sbt-scalafmt/scala_2.12/sbt_1.0/1.6.2/ivys/ivy.xml
+2022.06.27 20:44:00 INFO  [error]   not found: https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scalameta/sbt-scalafmt/scala_2.12/sbt_1.0/1.6.2/ivys/ivy.xml
+2022.06.27 20:44:00 INFO  [error]   not found: https://repo.typesafe.com/typesafe/ivy-releases/org.scalameta/sbt-scalafmt/scala_2.12/sbt_1.0/1.6.2/ivys/ivy.xml
+2022.06.27 20:44:00 INFO  [warn] Project loading failed: (r)etry, (q)uit, (l)ast, or (i)gnore? (default: r)
+2022.06.27 20:44:01 INFO  time: ran 'sbt bloopInstall' in 11s
+2022.06.27 20:44:01 ERROR sbt command failed: /Library/Java/JavaVirtualMachines/temurin-17.jdk/Contents/Home/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /var/folders/xx/z1dj89qx3jd0vyh21fv9n8rh0000gn/T/metals4319561402788546448/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall
+2022.06.27 20:44:01 INFO  Disconnecting from Bloop session...
+2022.06.27 20:44:01 INFO  Shut down connection with build server.
+2022.06.27 20:44:01 INFO  Shut down connection with build server.
+2022.06.27 20:44:01 INFO  Shut down connection with build server.
+2022.06.27 20:44:01 INFO  Attempting to connect to the build server...
+2022.06.27 20:44:01 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/.metals/bsp.trace.json or /Users/bertmeeuws/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.06.27 20:44:01 INFO  Attempting to connect to the build server...
+2022.06.27 20:44:01 INFO  Attempting to connect to the build server...
+2022.06.27 20:44:01 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/project/.metals/bsp.trace.json or /Users/bertmeeuws/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.06.27 20:44:01 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/project/project/.metals/bsp.trace.json or /Users/bertmeeuws/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.06.27 20:44:01 INFO  time: Connected to build server in 57ms
+2022.06.27 20:44:01 INFO  Connected to Build server: Bloop v1.5.0-18-003e6c7b
+2022.06.27 20:44:01 ERROR Empty build targets. Expected at least one build target identifier.
+2022.06.27 20:44:01 ERROR Empty build targets. Expected at least one build target identifier.
+2022.06.27 20:44:01 ERROR Empty build targets. Expected at least one build target identifier.
+2022.06.27 20:44:01 ERROR Empty build targets. Expected at least one build target identifier.
+2022.06.27 20:44:01 INFO  time: indexed workspace in 0.94s
+Jun 27, 2022 8:45:28 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Jun 27, 2022 8:46:17 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2022.06.27 20:48:35 WARN  no build target for: /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/build.sbt
+2022.06.27 20:48:56 WARN  no build target for: /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/build.sbt
+2022.06.27 20:48:59 WARN  no build target for: /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/build.sbt
+2022.06.27 20:48:59 WARN  no build target for: /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/build.sbt
+2022.06.27 20:49:00 WARN  no build target for: /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/build.sbt
+2022.06.27 20:49:00 WARN  no build target for: /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/build.sbt
+2022.06.27 20:49:05 WARN  no build target for: /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/build.sbt
+2022.06.27 20:49:08 INFO  running '/Library/Java/JavaVirtualMachines/temurin-17.jdk/Contents/Home/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /var/folders/xx/z1dj89qx3jd0vyh21fv9n8rh0000gn/T/metals5718385517475338178/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2022.06.27 20:49:09 INFO  [info] welcome to sbt 1.6.2 (Eclipse Adoptium Java 17.0.3)
+2022.06.27 20:49:09 INFO  [info] loading settings for project akka-playground-build-build-build from metals.sbt ...
+2022.06.27 20:49:09 INFO  [info] loading project definition from /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/project/project/project
+2022.06.27 20:49:11 INFO  [info] loading settings for project akka-playground-build-build from metals.sbt ...
+2022.06.27 20:49:11 INFO  [info] loading project definition from /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/project/project
+2022.06.27 20:49:11 INFO  [success] Generated .bloop/akka-playground-build-build.json
+2022.06.27 20:49:12 INFO  [success] Total time: 1 s, completed 27 Jun 2022, 20:49:12
+2022.06.27 20:49:12 INFO  [info] loading settings for project akka-playground-build from metals.sbt,plugins.sbt ...
+2022.06.27 20:49:12 INFO  [info] loading project definition from /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/project
+2022.06.27 20:49:15 INFO  [warn] 
+2022.06.27 20:49:15 INFO  [warn] 	Note: Some unresolved dependencies have extra attributes.  Check that these dependencies exist with the requested attributes.
+2022.06.27 20:49:15 INFO  [warn] 		org.scalameta:sbt-scalafmt:1.6.2 (sbtVersion=1.0, scalaVersion=2.12)
+2022.06.27 20:49:15 INFO  [warn] 
+2022.06.27 20:49:15 INFO  [warn] 	Note: Unresolved dependencies path:
+2022.06.27 20:49:15 INFO  [error] Couldn't run bloopGenerate for akka-playground-build. Cause:
+2022.06.27 20:49:15 INFO  [error] Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/project/,akka-playground-build)), Zero, Zero, Zero),updateClassifiers)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/project/,akka-playground-build)), Zero, Select(updateClassifiers), Zero),classifiersModule)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/project/,akka-playground-build)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/project/,akka-playground-build)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.scalameta:sbt-scalafmt;sbtVersion=1.0;scalaVersion=2.12:1.6.2
+2022.06.27 20:49:15 INFO  [error]   Not found
+2022.06.27 20:49:15 INFO  [error]   Not found
+2022.06.27 20:49:15 INFO  [error]   not found: https://repo1.maven.org/maven2/org/scalameta/sbt-scalafmt_2.12_1.0/1.6.2/sbt-scalafmt-1.6.2.pom
+2022.06.27 20:49:15 INFO  [error]   not found: /Users/bertmeeuws/.ivy2/localorg.scalameta/sbt-scalafmt/scala_2.12/sbt_1.0/1.6.2/ivys/ivy.xml
+2022.06.27 20:49:15 INFO  [error]   not found: https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scalameta/sbt-scalafmt/scala_2.12/sbt_1.0/1.6.2/ivys/ivy.xml
+2022.06.27 20:49:15 INFO  [error]   not found: https://repo.typesafe.com/typesafe/ivy-releases/org.scalameta/sbt-scalafmt/scala_2.12/sbt_1.0/1.6.2/ivys/ivy.xml))), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None), Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/project/,akka-playground-build)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/project/,akka-playground-build)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.scalameta:sbt-scalafmt;sbtVersion=1.0;scalaVersion=2.12:1.6.2
+2022.06.27 20:49:15 INFO  [error]   Not found
+2022.06.27 20:49:15 INFO  [error]   Not found
+2022.06.27 20:49:15 INFO  [error]   not found: https://repo1.maven.org/maven2/org/scalameta/sbt-scalafmt_2.12_1.0/1.6.2/sbt-scalafmt-1.6.2.pom
+2022.06.27 20:49:15 INFO  [error]   not found: /Users/bertmeeuws/.ivy2/localorg.scalameta/sbt-scalafmt/scala_2.12/sbt_1.0/1.6.2/ivys/ivy.xml
+2022.06.27 20:49:15 INFO  [error]   not found: https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scalameta/sbt-scalafmt/scala_2.12/sbt_1.0/1.6.2/ivys/ivy.xml
+2022.06.27 20:49:15 INFO  [error]   not found: https://repo.typesafe.com/typesafe/ivy-releases/org.scalameta/sbt-scalafmt/scala_2.12/sbt_1.0/1.6.2/ivys/ivy.xml))), directCause=None), Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/project/,akka-playground-build)), Select(ConfigKey(compile)), Zero, Zero),externalDependencyClasspath)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/project/,akka-playground-build)), Select(ConfigKey(compile)), Zero, Zero),managedClasspath)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/project/,akka-playground-build)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/project/,akka-playground-build)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.scalameta:sbt-scalafmt;sbtVersion=1.0;scalaVersion=2.12:1.6.2
+2022.06.27 20:49:15 INFO  [error]   Not found
+2022.06.27 20:49:15 INFO  [error]   Not found
+2022.06.27 20:49:15 INFO  [error]   not found: https://repo1.maven.org/maven2/org/scalameta/sbt-scalafmt_2.12_1.0/1.6.2/sbt-scalafmt-1.6.2.pom
+2022.06.27 20:49:15 INFO  [error]   not found: /Users/bertmeeuws/.ivy2/localorg.scalameta/sbt-scalafmt/scala_2.12/sbt_1.0/1.6.2/ivys/ivy.xml
+2022.06.27 20:49:15 INFO  [error]   not found: https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scalameta/sbt-scalafmt/scala_2.12/sbt_1.0/1.6.2/ivys/ivy.xml
+2022.06.27 20:49:15 INFO  [error]   not found: https://repo.typesafe.com/typesafe/ivy-releases/org.scalameta/sbt-scalafmt/scala_2.12/sbt_1.0/1.6.2/ivys/ivy.xml))), directCause=None), Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/project/,akka-playground-build)), Select(ConfigKey(compile)), Zero, Zero),classpathConfiguration)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/project/,akka-playground-build)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/project/,akka-playground-build)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.scalameta:sbt-scalafmt;sbtVersion=1.0;scalaVersion=2.12:1.6.2
+2022.06.27 20:49:15 INFO  [error]   Not found
+2022.06.27 20:49:15 INFO  [error]   Not found
+2022.06.27 20:49:15 INFO  [error]   not found: https://repo1.maven.org/maven2/org/scalameta/sbt-scalafmt_2.12_1.0/1.6.2/sbt-scalafmt-1.6.2.pom
+2022.06.27 20:49:15 INFO  [error]   not found: /Users/bertmeeuws/.ivy2/localorg.scalameta/sbt-scalafmt/scala_2.12/sbt_1.0/1.6.2/ivys/ivy.xml
+2022.06.27 20:49:15 INFO  [error]   not found: https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scalameta/sbt-scalafmt/scala_2.12/sbt_1.0/1.6.2/ivys/ivy.xml
+2022.06.27 20:49:15 INFO  [error]   not found: https://repo.typesafe.com/typesafe/ivy-releases/org.scalameta/sbt-scalafmt/scala_2.12/sbt_1.0/1.6.2/ivys/ivy.xml))), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None), Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/project/,akka-playground-build)), Select(ConfigKey(compile)), Zero, Zero),bloopInternalClasspath)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/project/,akka-playground-build)), Select(ConfigKey(compile)), Zero, Zero),classpathConfiguration)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/project/,akka-playground-build)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/project/,akka-playground-build)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.scalameta:sbt-scalafmt;sbtVersion=1.0;scalaVersion=2.12:1.6.2
+2022.06.27 20:49:15 INFO  [error]   Not found
+2022.06.27 20:49:15 INFO  [error]   Not found
+2022.06.27 20:49:15 INFO  [error]   not found: https://repo1.maven.org/maven2/org/scalameta/sbt-scalafmt_2.12_1.0/1.6.2/sbt-scalafmt-1.6.2.pom
+2022.06.27 20:49:15 INFO  [error]   not found: /Users/bertmeeuws/.ivy2/localorg.scalameta/sbt-scalafmt/scala_2.12/sbt_1.0/1.6.2/ivys/ivy.xml
+2022.06.27 20:49:15 INFO  [error]   not found: https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scalameta/sbt-scalafmt/scala_2.12/sbt_1.0/1.6.2/ivys/ivy.xml
+2022.06.27 20:49:15 INFO  [error]   not found: https://repo.typesafe.com/typesafe/ivy-releases/org.scalameta/sbt-scalafmt/scala_2.12/sbt_1.0/1.6.2/ivys/ivy.xml))), directCause=None)), directCause=None)), directCause=None)), directCause=None), Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/project/,akka-playground-build)), Select(ConfigKey(compile)), Zero, Zero),scalacOptions)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/project/,akka-playground-build)), Select(ConfigKey(compile)), Zero, Zero),scalacOptions)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/project/,akka-playground-build)), Select(ConfigKey(compile)), Zero, Zero),scalacOptions)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/project/,akka-playground-build)), Select(ConfigKey(compile)), Zero, Zero),scalacOptions)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/project/,akka-playground-build)), Select(ConfigKey(compile)), Zero, Zero),scalacOptions)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/project/,akka-playground-build)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/project/,akka-playground-build)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.scalameta:sbt-scalafmt;sbtVersion=1.0;scalaVersion=2.12:1.6.2
+2022.06.27 20:49:15 INFO  [error]   Not found
+2022.06.27 20:49:15 INFO  [error]   Not found
+2022.06.27 20:49:15 INFO  [error]   not found: https://repo1.maven.org/maven2/org/scalameta/sbt-scalafmt_2.12_1.0/1.6.2/sbt-scalafmt-1.6.2.pom
+2022.06.27 20:49:15 INFO  [error]   not found: /Users/bertmeeuws/.ivy2/localorg.scalameta/sbt-scalafmt/scala_2.12/sbt_1.0/1.6.2/ivys/ivy.xml
+2022.06.27 20:49:15 INFO  [error]   not found: https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scalameta/sbt-scalafmt/scala_2.12/sbt_1.0/1.6.2/ivys/ivy.xml
+2022.06.27 20:49:15 INFO  [error]   not found: https://repo.typesafe.com/typesafe/ivy-releases/org.scalameta/sbt-scalafmt/scala_2.12/sbt_1.0/1.6.2/ivys/ivy.xml))), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None), Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/project/,akka-playground-build)), Select(ConfigKey(compile)), Zero, Zero),externalDependencyClasspath)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/project/,akka-playground-build)), Select(ConfigKey(compile)), Zero, Zero),managedClasspath)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/project/,akka-playground-build)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/project/,akka-playground-build)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.scalameta:sbt-scalafmt;sbtVersion=1.0;scalaVersion=2.12:1.6.2
+2022.06.27 20:49:15 INFO  [error]   Not found
+2022.06.27 20:49:15 INFO  [error]   Not found
+2022.06.27 20:49:15 INFO  [error]   not found: https://repo1.maven.org/maven2/org/scalameta/sbt-scalafmt_2.12_1.0/1.6.2/sbt-scalafmt-1.6.2.pom
+2022.06.27 20:49:15 INFO  [error]   not found: /Users/bertmeeuws/.ivy2/localorg.scalameta/sbt-scalafmt/scala_2.12/sbt_1.0/1.6.2/ivys/ivy.xml
+2022.06.27 20:49:15 INFO  [error]   not found: https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scalameta/sbt-scalafmt/scala_2.12/sbt_1.0/1.6.2/ivys/ivy.xml
+2022.06.27 20:49:15 INFO  [error]   not found: https://repo.typesafe.com/typesafe/ivy-releases/org.scalameta/sbt-scalafmt/scala_2.12/sbt_1.0/1.6.2/ivys/ivy.xml))), directCause=None), Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/project/,akka-playground-build)), Select(ConfigKey(compile)), Zero, Zero),classpathConfiguration)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/project/,akka-playground-build)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/project/,akka-playground-build)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.scalameta:sbt-scalafmt;sbtVersion=1.0;scalaVersion=2.12:1.6.2
+2022.06.27 20:49:15 INFO  [error]   Not found
+2022.06.27 20:49:15 INFO  [error]   Not found
+2022.06.27 20:49:15 INFO  [error]   not found: https://repo1.maven.org/maven2/org/scalameta/sbt-scalafmt_2.12_1.0/1.6.2/sbt-scalafmt-1.6.2.pom
+2022.06.27 20:49:15 INFO  [error]   not found: /Users/bertmeeuws/.ivy2/localorg.scalameta/sbt-scalafmt/scala_2.12/sbt_1.0/1.6.2/ivys/ivy.xml
+2022.06.27 20:49:15 INFO  [error]   not found: https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scalameta/sbt-scalafmt/scala_2.12/sbt_1.0/1.6.2/ivys/ivy.xml
+2022.06.27 20:49:15 INFO  [error]   not found: https://repo.typesafe.com/typesafe/ivy-releases/org.scalameta/sbt-scalafmt/scala_2.12/sbt_1.0/1.6.2/ivys/ivy.xml))), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None), Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/project/,akka-playground-build)), Select(ConfigKey(compile)), Zero, Zero),bloopInternalClasspath)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/project/,akka-playground-build)), Select(ConfigKey(compile)), Zero, Zero),classpathConfiguration)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/project/,akka-playground-build)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/project/,akka-playground-build)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.scalameta:sbt-scalafmt;sbtVersion=1.0;scalaVersion=2.12:1.6.2
+2022.06.27 20:49:15 INFO  [error]   Not found
+2022.06.27 20:49:15 INFO  [error]   Not found
+2022.06.27 20:49:15 INFO  [error]   not found: https://repo1.maven.org/maven2/org/scalameta/sbt-scalafmt_2.12_1.0/1.6.2/sbt-scalafmt-1.6.2.pom
+2022.06.27 20:49:15 INFO  [error]   not found: /Users/bertmeeuws/.ivy2/localorg.scalameta/sbt-scalafmt/scala_2.12/sbt_1.0/1.6.2/ivys/ivy.xml
+2022.06.27 20:49:15 INFO  [error]   not found: https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scalameta/sbt-scalafmt/scala_2.12/sbt_1.0/1.6.2/ivys/ivy.xml
+2022.06.27 20:49:15 INFO  [error]   not found: https://repo.typesafe.com/typesafe/ivy-releases/org.scalameta/sbt-scalafmt/scala_2.12/sbt_1.0/1.6.2/ivys/ivy.xml))), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None)
+2022.06.27 20:49:15 INFO  [success] Total time: 3 s, completed 27 Jun 2022, 20:49:15
+2022.06.27 20:49:16 INFO  [warn] 
+2022.06.27 20:49:16 INFO  [warn] 	Note: Some unresolved dependencies have extra attributes.  Check that these dependencies exist with the requested attributes.
+2022.06.27 20:49:16 INFO  [warn] 		org.scalameta:sbt-scalafmt:1.6.2 (sbtVersion=1.0, scalaVersion=2.12)
+2022.06.27 20:49:16 INFO  [warn] 
+2022.06.27 20:49:16 INFO  [warn] 	Note: Unresolved dependencies path:
+2022.06.27 20:49:16 INFO  [error] sbt.librarymanagement.ResolveException: Error downloading org.scalameta:sbt-scalafmt;sbtVersion=1.0;scalaVersion=2.12:1.6.2
+2022.06.27 20:49:16 INFO  [error]   Not found
+2022.06.27 20:49:16 INFO  [error]   Not found
+2022.06.27 20:49:16 INFO  [error]   not found: https://repo1.maven.org/maven2/org/scalameta/sbt-scalafmt_2.12_1.0/1.6.2/sbt-scalafmt-1.6.2.pom
+2022.06.27 20:49:16 INFO  [error]   not found: /Users/bertmeeuws/.ivy2/localorg.scalameta/sbt-scalafmt/scala_2.12/sbt_1.0/1.6.2/ivys/ivy.xml
+2022.06.27 20:49:16 INFO  [error]   not found: https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scalameta/sbt-scalafmt/scala_2.12/sbt_1.0/1.6.2/ivys/ivy.xml
+2022.06.27 20:49:16 INFO  [error]   not found: https://repo.typesafe.com/typesafe/ivy-releases/org.scalameta/sbt-scalafmt/scala_2.12/sbt_1.0/1.6.2/ivys/ivy.xml
+2022.06.27 20:49:16 INFO  [error] 	at lmcoursier.CoursierDependencyResolution.unresolvedWarningOrThrow(CoursierDependencyResolution.scala:345)
+2022.06.27 20:49:16 INFO  [error] 	at lmcoursier.CoursierDependencyResolution.$anonfun$update$38(CoursierDependencyResolution.scala:314)
+2022.06.27 20:49:16 INFO  [error] 	at scala.util.Either$LeftProjection.map(Either.scala:573)
+2022.06.27 20:49:16 INFO  [error] 	at lmcoursier.CoursierDependencyResolution.update(CoursierDependencyResolution.scala:314)
+2022.06.27 20:49:16 INFO  [error] 	at sbt.librarymanagement.DependencyResolution.update(DependencyResolution.scala:60)
+2022.06.27 20:49:16 INFO  [error] 	at sbt.internal.LibraryManagement$.resolve$1(LibraryManagement.scala:59)
+2022.06.27 20:49:16 INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$12(LibraryManagement.scala:133)
+2022.06.27 20:49:16 INFO  [error] 	at sbt.util.Tracked$.$anonfun$lastOutput$1(Tracked.scala:73)
+2022.06.27 20:49:16 INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$20(LibraryManagement.scala:146)
+2022.06.27 20:49:16 INFO  [error] 	at scala.util.control.Exception$Catch.apply(Exception.scala:228)
+2022.06.27 20:49:16 INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$11(LibraryManagement.scala:146)
+2022.06.27 20:49:16 INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$11$adapted(LibraryManagement.scala:127)
+2022.06.27 20:49:16 INFO  [error] 	at sbt.util.Tracked$.$anonfun$inputChangedW$1(Tracked.scala:219)
+2022.06.27 20:49:16 INFO  [error] 	at sbt.internal.LibraryManagement$.cachedUpdate(LibraryManagement.scala:160)
+2022.06.27 20:49:16 INFO  [error] 	at sbt.Classpaths$.$anonfun$updateTask0$1(Defaults.scala:3690)
+2022.06.27 20:49:16 INFO  [error] 	at scala.Function1.$anonfun$compose$1(Function1.scala:49)
+2022.06.27 20:49:16 INFO  [error] 	at sbt.internal.util.$tilde$greater.$anonfun$$u2219$1(TypeFunctions.scala:62)
+2022.06.27 20:49:16 INFO  [error] 	at sbt.std.Transform$$anon$4.work(Transform.scala:68)
+2022.06.27 20:49:16 INFO  [error] 	at sbt.Execute.$anonfun$submit$2(Execute.scala:282)
+2022.06.27 20:49:16 INFO  [error] 	at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:23)
+2022.06.27 20:49:16 INFO  [error] 	at sbt.Execute.work(Execute.scala:291)
+2022.06.27 20:49:16 INFO  [error] 	at sbt.Execute.$anonfun$submit$1(Execute.scala:282)
+2022.06.27 20:49:16 INFO  [error] 	at sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:265)
+2022.06.27 20:49:16 INFO  [error] 	at sbt.CompletionService$$anon$2.call(CompletionService.scala:64)
+2022.06.27 20:49:16 INFO  [error] 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+2022.06.27 20:49:16 INFO  [error] 	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+2022.06.27 20:49:16 INFO  [error] 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+2022.06.27 20:49:16 INFO  [error] 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+2022.06.27 20:49:16 INFO  [error] 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+2022.06.27 20:49:16 INFO  [error] 	at java.base/java.lang.Thread.run(Thread.java:833)
+2022.06.27 20:49:16 INFO  [error] (update) sbt.librarymanagement.ResolveException: Error downloading org.scalameta:sbt-scalafmt;sbtVersion=1.0;scalaVersion=2.12:1.6.2
+2022.06.27 20:49:16 INFO  [error]   Not found
+2022.06.27 20:49:16 INFO  [error]   Not found
+2022.06.27 20:49:16 INFO  [error]   not found: https://repo1.maven.org/maven2/org/scalameta/sbt-scalafmt_2.12_1.0/1.6.2/sbt-scalafmt-1.6.2.pom
+2022.06.27 20:49:16 INFO  [error]   not found: /Users/bertmeeuws/.ivy2/localorg.scalameta/sbt-scalafmt/scala_2.12/sbt_1.0/1.6.2/ivys/ivy.xml
+2022.06.27 20:49:16 INFO  [error]   not found: https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scalameta/sbt-scalafmt/scala_2.12/sbt_1.0/1.6.2/ivys/ivy.xml
+2022.06.27 20:49:16 INFO  [error]   not found: https://repo.typesafe.com/typesafe/ivy-releases/org.scalameta/sbt-scalafmt/scala_2.12/sbt_1.0/1.6.2/ivys/ivy.xml
+2022.06.27 20:49:16 INFO  [warn] Project loading failed: (r)etry, (q)uit, (l)ast, or (i)gnore? (default: r)
+2022.06.27 20:49:16 INFO  time: ran 'sbt bloopInstall' in 8.56s
+2022.06.27 20:49:16 ERROR sbt command failed: /Library/Java/JavaVirtualMachines/temurin-17.jdk/Contents/Home/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /var/folders/xx/z1dj89qx3jd0vyh21fv9n8rh0000gn/T/metals5718385517475338178/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall
+2022.06.27 20:49:16 INFO  Disconnecting from Bloop session...
+2022.06.27 20:49:16 INFO  Shut down connection with build server.
+2022.06.27 20:49:16 INFO  Shut down connection with build server.
+2022.06.27 20:49:16 INFO  Shut down connection with build server.
+2022.06.27 20:49:16 INFO  Attempting to connect to the build server...
+2022.06.27 20:49:16 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/.metals/bsp.trace.json or /Users/bertmeeuws/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.06.27 20:49:16 INFO  Attempting to connect to the build server...
+2022.06.27 20:49:16 INFO  Attempting to connect to the build server...
+2022.06.27 20:49:16 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/project/project/.metals/bsp.trace.json or /Users/bertmeeuws/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.06.27 20:49:17 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/project/.metals/bsp.trace.json or /Users/bertmeeuws/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.06.27 20:49:17 INFO  time: Connected to build server in 64ms
+2022.06.27 20:49:17 INFO  Connected to Build server: Bloop v1.5.0-18-003e6c7b
+2022.06.27 20:49:16 ERROR Empty build targets. Expected at least one build target identifier.
+2022.06.27 20:49:16 ERROR Empty build targets. Expected at least one build target identifier.
+2022.06.27 20:49:16 ERROR Empty build targets. Expected at least one build target identifier.
+2022.06.27 20:49:16 ERROR Empty build targets. Expected at least one build target identifier.
+2022.06.27 20:49:17 INFO  time: indexed workspace in 0.98s
+2022.06.27 20:49:18 WARN  no build target for: /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/build.sbt
+2022.06.27 20:49:18 INFO  skipping build import with status 'Failed'
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.13/3.5.8/scalafmt-core_2.13-3.5.8.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.13/3.5.8/scalafmt-core_2.13-3.5.8.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalameta_2.13/4.5.9/scalameta_2.13-4.5.9.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-sysops_2.13/3.5.8/scalafmt-sysops_2.13-3.5.8.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-config_2.13/3.5.8/scalafmt-config_2.13-3.5.8.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalameta_2.13/4.5.9/scalameta_2.13-4.5.9.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-config_2.13/3.5.8/scalafmt-config_2.13-3.5.8.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-sysops_2.13/3.5.8/scalafmt-sysops_2.13-3.5.8.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/parsers_2.13/4.5.9/parsers_2.13-4.5.9.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/parsers_2.13/4.5.9/parsers_2.13-4.5.9.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/trees_2.13/4.5.9/trees_2.13-4.5.9.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/trees_2.13/4.5.9/trees_2.13-4.5.9.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/common_2.13/4.5.9/common_2.13-4.5.9.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/common_2.13/4.5.9/common_2.13-4.5.9.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalameta_2.13/4.5.9/scalameta_2.13-4.5.9.jar
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-config_2.13/3.5.8/scalafmt-config_2.13-3.5.8.jar
+Downloading https://repo1.maven.org/maven2/org/scalameta/common_2.13/4.5.9/common_2.13-4.5.9.jar
+Downloading https://repo1.maven.org/maven2/org/scalameta/parsers_2.13/4.5.9/parsers_2.13-4.5.9.jar
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.13/3.5.8/scalafmt-core_2.13-3.5.8.jar
+Downloading https://repo1.maven.org/maven2/org/scalameta/trees_2.13/4.5.9/trees_2.13-4.5.9.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-config_2.13/3.5.8/scalafmt-config_2.13-3.5.8.jar
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-sysops_2.13/3.5.8/scalafmt-sysops_2.13-3.5.8.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-sysops_2.13/3.5.8/scalafmt-sysops_2.13-3.5.8.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalameta_2.13/4.5.9/scalameta_2.13-4.5.9.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/parsers_2.13/4.5.9/parsers_2.13-4.5.9.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.13/3.5.8/scalafmt-core_2.13-3.5.8.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/common_2.13/4.5.9/common_2.13-4.5.9.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/trees_2.13/4.5.9/trees_2.13-4.5.9.jar
+2022.06.27 20:49:47 ERROR scalafmt: /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/.scalafmt.conf: Invalid config: Default dialect is deprecated; use explicit: [sbt0137,sbt1,scala211,scala212,scala212source3,scala213,scala213source3,scala3]
+Also see https://scalameta.org/scalafmt/docs/configuration.html#scala-dialects"
+
+Jun 27, 2022 8:49:47 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2022.06.27 20:49:47 ERROR scalafmt: /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/.scalafmt.conf: Invalid config: Default dialect is deprecated; use explicit: [sbt0137,sbt1,scala211,scala212,scala212source3,scala213,scala213source3,scala3]
+Also see https://scalameta.org/scalafmt/docs/configuration.html#scala-dialects"
+
+2022.06.27 20:49:50 ERROR scalafmt: /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/.scalafmt.conf: Invalid config: Default dialect is deprecated; use explicit: [sbt0137,sbt1,scala211,scala212,scala212source3,scala213,scala213source3,scala3]
+Also see https://scalameta.org/scalafmt/docs/configuration.html#scala-dialects"
+
+2022.06.27 20:49:59 ERROR scalafmt: /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/.scalafmt.conf: Invalid config: Default dialect is deprecated; use explicit: [sbt0137,sbt1,scala211,scala212,scala212source3,scala213,scala213source3,scala3]
+Also see https://scalameta.org/scalafmt/docs/configuration.html#scala-dialects"
+
+2022.06.27 20:50:00 ERROR scalafmt: /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/.scalafmt.conf: Invalid config: Default dialect is deprecated; use explicit: [sbt0137,sbt1,scala211,scala212,scala212source3,scala213,scala213source3,scala3]
+Also see https://scalameta.org/scalafmt/docs/configuration.html#scala-dialects"
+
+2022.06.27 20:50:00 ERROR scalafmt: /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/.scalafmt.conf: Invalid config: Default dialect is deprecated; use explicit: [sbt0137,sbt1,scala211,scala212,scala212source3,scala213,scala213source3,scala3]
+Also see https://scalameta.org/scalafmt/docs/configuration.html#scala-dialects"
+
+2022.06.27 20:50:01 ERROR scalafmt: /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/.scalafmt.conf: Invalid config: Default dialect is deprecated; use explicit: [sbt0137,sbt1,scala211,scala212,scala212source3,scala213,scala213source3,scala3]
+Also see https://scalameta.org/scalafmt/docs/configuration.html#scala-dialects"
+
+2022.06.27 20:50:01 ERROR scalafmt: /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/.scalafmt.conf: Invalid config: Default dialect is deprecated; use explicit: [sbt0137,sbt1,scala211,scala212,scala212source3,scala213,scala213source3,scala3]
+Also see https://scalameta.org/scalafmt/docs/configuration.html#scala-dialects"
+
+2022.06.27 20:50:01 ERROR scalafmt: /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/.scalafmt.conf: Invalid config: Default dialect is deprecated; use explicit: [sbt0137,sbt1,scala211,scala212,scala212source3,scala213,scala213source3,scala3]
+Also see https://scalameta.org/scalafmt/docs/configuration.html#scala-dialects"
+
+2022.06.27 20:50:03 ERROR scalafmt: /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/.scalafmt.conf: Invalid config: Default dialect is deprecated; use explicit: [sbt0137,sbt1,scala211,scala212,scala212source3,scala213,scala213source3,scala3]
+Also see https://scalameta.org/scalafmt/docs/configuration.html#scala-dialects"
+
+2022.06.27 20:50:03 INFO  compiling root (1 scala source)
+2022.06.27 20:50:03 ERROR scalafmt: /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/.scalafmt.conf: Invalid config: Default dialect is deprecated; use explicit: [sbt0137,sbt1,scala211,scala212,scala212source3,scala213,scala213source3,scala3]
+Also see https://scalameta.org/scalafmt/docs/configuration.html#scala-dialects"
+
+2022.06.27 20:50:03 ERROR scalafmt: /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/.scalafmt.conf: Invalid config: Default dialect is deprecated; use explicit: [sbt0137,sbt1,scala211,scala212,scala212source3,scala213,scala213source3,scala3]
+Also see https://scalameta.org/scalafmt/docs/configuration.html#scala-dialects"
+
+2022.06.27 20:50:03 INFO  time: compiled root in 0.78s
+2022.06.27 20:50:04 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.27 20:50:11 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.27 20:50:21 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.27 20:50:22 ERROR scalafmt: /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/.scalafmt.conf: Invalid config: Default dialect is deprecated; use explicit: [sbt0137,sbt1,scala211,scala212,scala212source3,scala213,scala213source3,scala3]
+Also see https://scalameta.org/scalafmt/docs/configuration.html#scala-dialects"
+
+2022.06.27 20:50:23 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.27 20:50:22 ERROR scalafmt: /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/.scalafmt.conf: Invalid config: Default dialect is deprecated; use explicit: [sbt0137,sbt1,scala211,scala212,scala212source3,scala213,scala213source3,scala3]
+Also see https://scalameta.org/scalafmt/docs/configuration.html#scala-dialects"
+
+2022.06.27 20:50:23 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.27 20:50:24 ERROR scalafmt: /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/.scalafmt.conf: Invalid config: Default dialect is deprecated; use explicit: [sbt0137,sbt1,scala211,scala212,scala212source3,scala213,scala213source3,scala3]
+Also see https://scalameta.org/scalafmt/docs/configuration.html#scala-dialects"
+
+2022.06.27 20:50:24 ERROR scalafmt: /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/.scalafmt.conf: Invalid config: Default dialect is deprecated; use explicit: [sbt0137,sbt1,scala211,scala212,scala212source3,scala213,scala213source3,scala3]
+Also see https://scalameta.org/scalafmt/docs/configuration.html#scala-dialects"
+
+2022.06.27 20:50:24 ERROR scalafmt: /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/.scalafmt.conf: Invalid config: Default dialect is deprecated; use explicit: [sbt0137,sbt1,scala211,scala212,scala212source3,scala213,scala213source3,scala3]
+Also see https://scalameta.org/scalafmt/docs/configuration.html#scala-dialects"
+
+2022.06.27 20:50:24 ERROR scalafmt: /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/.scalafmt.conf: Invalid config: Default dialect is deprecated; use explicit: [sbt0137,sbt1,scala211,scala212,scala212source3,scala213,scala213source3,scala3]
+Also see https://scalameta.org/scalafmt/docs/configuration.html#scala-dialects"
+
+2022.06.27 20:50:24 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.27 20:50:42 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.27 20:50:47 ERROR scalafmt: /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/.scalafmt.conf: Invalid config: Default dialect is deprecated; use explicit: [sbt0137,sbt1,scala211,scala212,scala212source3,scala213,scala213source3,scala3]
+Also see https://scalameta.org/scalafmt/docs/configuration.html#scala-dialects"
+
+2022.06.27 20:50:47 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.27 20:50:58 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.27 20:51:01 INFO  running '/Library/Java/JavaVirtualMachines/temurin-17.jdk/Contents/Home/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /var/folders/xx/z1dj89qx3jd0vyh21fv9n8rh0000gn/T/metals8953832813769090530/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2022.06.27 20:51:02 INFO  [info] welcome to sbt 1.6.2 (Eclipse Adoptium Java 17.0.3)
+2022.06.27 20:51:02 INFO  [info] loading settings for project akka-playground-build-build-build from metals.sbt ...
+2022.06.27 20:51:03 INFO  [info] loading project definition from /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/project/project/project
+2022.06.27 20:51:03 INFO  [info] loading settings for project akka-playground-build-build from metals.sbt ...
+2022.06.27 20:51:03 INFO  [info] loading project definition from /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/project/project
+2022.06.27 20:51:05 INFO  [success] Generated .bloop/akka-playground-build-build.json
+2022.06.27 20:51:05 INFO  [success] Total time: 1 s, completed 27 Jun 2022, 20:51:05
+2022.06.27 20:51:05 INFO  [info] loading settings for project akka-playground-build from metals.sbt,plugins.sbt ...
+2022.06.27 20:51:05 INFO  [info] loading project definition from /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/project
+2022.06.27 20:51:08 INFO  [warn] 
+2022.06.27 20:51:08 INFO  [warn] 	Note: Some unresolved dependencies have extra attributes.  Check that these dependencies exist with the requested attributes.
+2022.06.27 20:51:08 INFO  [warn] 		org.scalameta:sbt-scalafmt:1.6.2 (sbtVersion=1.0, scalaVersion=2.12)
+2022.06.27 20:51:08 INFO  [warn] 
+2022.06.27 20:51:08 INFO  [warn] 	Note: Unresolved dependencies path:
+2022.06.27 20:51:08 INFO  [error] Couldn't run bloopGenerate for akka-playground-build. Cause:
+2022.06.27 20:51:08 INFO  [error] Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/project/,akka-playground-build)), Zero, Zero, Zero),updateClassifiers)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/project/,akka-playground-build)), Zero, Select(updateClassifiers), Zero),classifiersModule)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/project/,akka-playground-build)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/project/,akka-playground-build)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.scalameta:sbt-scalafmt;sbtVersion=1.0;scalaVersion=2.12:1.6.2
+2022.06.27 20:51:08 INFO  [error]   Not found
+2022.06.27 20:51:08 INFO  [error]   Not found
+2022.06.27 20:51:08 INFO  [error]   not found: https://repo1.maven.org/maven2/org/scalameta/sbt-scalafmt_2.12_1.0/1.6.2/sbt-scalafmt-1.6.2.pom
+2022.06.27 20:51:08 INFO  [error]   not found: /Users/bertmeeuws/.ivy2/localorg.scalameta/sbt-scalafmt/scala_2.12/sbt_1.0/1.6.2/ivys/ivy.xml
+2022.06.27 20:51:08 INFO  [error]   not found: https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scalameta/sbt-scalafmt/scala_2.12/sbt_1.0/1.6.2/ivys/ivy.xml
+2022.06.27 20:51:08 INFO  [error]   not found: https://repo.typesafe.com/typesafe/ivy-releases/org.scalameta/sbt-scalafmt/scala_2.12/sbt_1.0/1.6.2/ivys/ivy.xml))), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None), Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/project/,akka-playground-build)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/project/,akka-playground-build)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.scalameta:sbt-scalafmt;sbtVersion=1.0;scalaVersion=2.12:1.6.2
+2022.06.27 20:51:08 INFO  [error]   Not found
+2022.06.27 20:51:08 INFO  [error]   Not found
+2022.06.27 20:51:08 INFO  [error]   not found: https://repo1.maven.org/maven2/org/scalameta/sbt-scalafmt_2.12_1.0/1.6.2/sbt-scalafmt-1.6.2.pom
+2022.06.27 20:51:08 INFO  [error]   not found: /Users/bertmeeuws/.ivy2/localorg.scalameta/sbt-scalafmt/scala_2.12/sbt_1.0/1.6.2/ivys/ivy.xml
+2022.06.27 20:51:08 INFO  [error]   not found: https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scalameta/sbt-scalafmt/scala_2.12/sbt_1.0/1.6.2/ivys/ivy.xml
+2022.06.27 20:51:08 INFO  [error]   not found: https://repo.typesafe.com/typesafe/ivy-releases/org.scalameta/sbt-scalafmt/scala_2.12/sbt_1.0/1.6.2/ivys/ivy.xml))), directCause=None), Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/project/,akka-playground-build)), Select(ConfigKey(compile)), Zero, Zero),externalDependencyClasspath)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/project/,akka-playground-build)), Select(ConfigKey(compile)), Zero, Zero),managedClasspath)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/project/,akka-playground-build)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/project/,akka-playground-build)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.scalameta:sbt-scalafmt;sbtVersion=1.0;scalaVersion=2.12:1.6.2
+2022.06.27 20:51:08 INFO  [error]   Not found
+2022.06.27 20:51:08 INFO  [error]   Not found
+2022.06.27 20:51:08 INFO  [error]   not found: https://repo1.maven.org/maven2/org/scalameta/sbt-scalafmt_2.12_1.0/1.6.2/sbt-scalafmt-1.6.2.pom
+2022.06.27 20:51:08 INFO  [error]   not found: /Users/bertmeeuws/.ivy2/localorg.scalameta/sbt-scalafmt/scala_2.12/sbt_1.0/1.6.2/ivys/ivy.xml
+2022.06.27 20:51:08 INFO  [error]   not found: https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scalameta/sbt-scalafmt/scala_2.12/sbt_1.0/1.6.2/ivys/ivy.xml
+2022.06.27 20:51:08 INFO  [error]   not found: https://repo.typesafe.com/typesafe/ivy-releases/org.scalameta/sbt-scalafmt/scala_2.12/sbt_1.0/1.6.2/ivys/ivy.xml))), directCause=None), Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/project/,akka-playground-build)), Select(ConfigKey(compile)), Zero, Zero),classpathConfiguration)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/project/,akka-playground-build)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/project/,akka-playground-build)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.scalameta:sbt-scalafmt;sbtVersion=1.0;scalaVersion=2.12:1.6.2
+2022.06.27 20:51:08 INFO  [error]   Not found
+2022.06.27 20:51:08 INFO  [error]   Not found
+2022.06.27 20:51:08 INFO  [error]   not found: https://repo1.maven.org/maven2/org/scalameta/sbt-scalafmt_2.12_1.0/1.6.2/sbt-scalafmt-1.6.2.pom
+2022.06.27 20:51:08 INFO  [error]   not found: /Users/bertmeeuws/.ivy2/localorg.scalameta/sbt-scalafmt/scala_2.12/sbt_1.0/1.6.2/ivys/ivy.xml
+2022.06.27 20:51:08 INFO  [error]   not found: https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scalameta/sbt-scalafmt/scala_2.12/sbt_1.0/1.6.2/ivys/ivy.xml
+2022.06.27 20:51:08 INFO  [error]   not found: https://repo.typesafe.com/typesafe/ivy-releases/org.scalameta/sbt-scalafmt/scala_2.12/sbt_1.0/1.6.2/ivys/ivy.xml))), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None), Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/project/,akka-playground-build)), Select(ConfigKey(compile)), Zero, Zero),bloopInternalClasspath)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/project/,akka-playground-build)), Select(ConfigKey(compile)), Zero, Zero),classpathConfiguration)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/project/,akka-playground-build)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/project/,akka-playground-build)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.scalameta:sbt-scalafmt;sbtVersion=1.0;scalaVersion=2.12:1.6.2
+2022.06.27 20:51:08 INFO  [error]   Not found
+2022.06.27 20:51:08 INFO  [error]   Not found
+2022.06.27 20:51:08 INFO  [error]   not found: https://repo1.maven.org/maven2/org/scalameta/sbt-scalafmt_2.12_1.0/1.6.2/sbt-scalafmt-1.6.2.pom
+2022.06.27 20:51:08 INFO  [error]   not found: /Users/bertmeeuws/.ivy2/localorg.scalameta/sbt-scalafmt/scala_2.12/sbt_1.0/1.6.2/ivys/ivy.xml
+2022.06.27 20:51:08 INFO  [error]   not found: https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scalameta/sbt-scalafmt/scala_2.12/sbt_1.0/1.6.2/ivys/ivy.xml
+2022.06.27 20:51:08 INFO  [error]   not found: https://repo.typesafe.com/typesafe/ivy-releases/org.scalameta/sbt-scalafmt/scala_2.12/sbt_1.0/1.6.2/ivys/ivy.xml))), directCause=None)), directCause=None)), directCause=None)), directCause=None), Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/project/,akka-playground-build)), Select(ConfigKey(compile)), Zero, Zero),scalacOptions)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/project/,akka-playground-build)), Select(ConfigKey(compile)), Zero, Zero),scalacOptions)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/project/,akka-playground-build)), Select(ConfigKey(compile)), Zero, Zero),scalacOptions)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/project/,akka-playground-build)), Select(ConfigKey(compile)), Zero, Zero),scalacOptions)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/project/,akka-playground-build)), Select(ConfigKey(compile)), Zero, Zero),scalacOptions)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/project/,akka-playground-build)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/project/,akka-playground-build)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.scalameta:sbt-scalafmt;sbtVersion=1.0;scalaVersion=2.12:1.6.2
+2022.06.27 20:51:08 INFO  [error]   Not found
+2022.06.27 20:51:08 INFO  [error]   Not found
+2022.06.27 20:51:08 INFO  [error]   not found: https://repo1.maven.org/maven2/org/scalameta/sbt-scalafmt_2.12_1.0/1.6.2/sbt-scalafmt-1.6.2.pom
+2022.06.27 20:51:08 INFO  [error]   not found: /Users/bertmeeuws/.ivy2/localorg.scalameta/sbt-scalafmt/scala_2.12/sbt_1.0/1.6.2/ivys/ivy.xml
+2022.06.27 20:51:08 INFO  [error]   not found: https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scalameta/sbt-scalafmt/scala_2.12/sbt_1.0/1.6.2/ivys/ivy.xml
+2022.06.27 20:51:08 INFO  [error]   not found: https://repo.typesafe.com/typesafe/ivy-releases/org.scalameta/sbt-scalafmt/scala_2.12/sbt_1.0/1.6.2/ivys/ivy.xml))), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None), Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/project/,akka-playground-build)), Select(ConfigKey(compile)), Zero, Zero),externalDependencyClasspath)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/project/,akka-playground-build)), Select(ConfigKey(compile)), Zero, Zero),managedClasspath)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/project/,akka-playground-build)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/project/,akka-playground-build)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.scalameta:sbt-scalafmt;sbtVersion=1.0;scalaVersion=2.12:1.6.2
+2022.06.27 20:51:08 INFO  [error]   Not found
+2022.06.27 20:51:08 INFO  [error]   Not found
+2022.06.27 20:51:08 INFO  [error]   not found: https://repo1.maven.org/maven2/org/scalameta/sbt-scalafmt_2.12_1.0/1.6.2/sbt-scalafmt-1.6.2.pom
+2022.06.27 20:51:08 INFO  [error]   not found: /Users/bertmeeuws/.ivy2/localorg.scalameta/sbt-scalafmt/scala_2.12/sbt_1.0/1.6.2/ivys/ivy.xml
+2022.06.27 20:51:08 INFO  [error]   not found: https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scalameta/sbt-scalafmt/scala_2.12/sbt_1.0/1.6.2/ivys/ivy.xml
+2022.06.27 20:51:08 INFO  [error]   not found: https://repo.typesafe.com/typesafe/ivy-releases/org.scalameta/sbt-scalafmt/scala_2.12/sbt_1.0/1.6.2/ivys/ivy.xml))), directCause=None), Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/project/,akka-playground-build)), Select(ConfigKey(compile)), Zero, Zero),classpathConfiguration)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/project/,akka-playground-build)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/project/,akka-playground-build)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.scalameta:sbt-scalafmt;sbtVersion=1.0;scalaVersion=2.12:1.6.2
+2022.06.27 20:51:08 INFO  [error]   Not found
+2022.06.27 20:51:08 INFO  [error]   Not found
+2022.06.27 20:51:08 INFO  [error]   not found: https://repo1.maven.org/maven2/org/scalameta/sbt-scalafmt_2.12_1.0/1.6.2/sbt-scalafmt-1.6.2.pom
+2022.06.27 20:51:08 INFO  [error]   not found: /Users/bertmeeuws/.ivy2/localorg.scalameta/sbt-scalafmt/scala_2.12/sbt_1.0/1.6.2/ivys/ivy.xml
+2022.06.27 20:51:08 INFO  [error]   not found: https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scalameta/sbt-scalafmt/scala_2.12/sbt_1.0/1.6.2/ivys/ivy.xml
+2022.06.27 20:51:08 INFO  [error]   not found: https://repo.typesafe.com/typesafe/ivy-releases/org.scalameta/sbt-scalafmt/scala_2.12/sbt_1.0/1.6.2/ivys/ivy.xml))), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None), Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/project/,akka-playground-build)), Select(ConfigKey(compile)), Zero, Zero),bloopInternalClasspath)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/project/,akka-playground-build)), Select(ConfigKey(compile)), Zero, Zero),classpathConfiguration)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/project/,akka-playground-build)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/project/,akka-playground-build)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.scalameta:sbt-scalafmt;sbtVersion=1.0;scalaVersion=2.12:1.6.2
+2022.06.27 20:51:08 INFO  [error]   Not found
+2022.06.27 20:51:08 INFO  [error]   Not found
+2022.06.27 20:51:08 INFO  [error]   not found: https://repo1.maven.org/maven2/org/scalameta/sbt-scalafmt_2.12_1.0/1.6.2/sbt-scalafmt-1.6.2.pom
+2022.06.27 20:51:08 INFO  [error]   not found: /Users/bertmeeuws/.ivy2/localorg.scalameta/sbt-scalafmt/scala_2.12/sbt_1.0/1.6.2/ivys/ivy.xml
+2022.06.27 20:51:08 INFO  [error]   not found: https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scalameta/sbt-scalafmt/scala_2.12/sbt_1.0/1.6.2/ivys/ivy.xml
+2022.06.27 20:51:08 INFO  [error]   not found: https://repo.typesafe.com/typesafe/ivy-releases/org.scalameta/sbt-scalafmt/scala_2.12/sbt_1.0/1.6.2/ivys/ivy.xml))), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None)
+2022.06.27 20:51:08 INFO  [success] Total time: 3 s, completed 27 Jun 2022, 20:51:08
+2022.06.27 20:51:10 INFO  [warn] 
+2022.06.27 20:51:10 INFO  [warn] 	Note: Some unresolved dependencies have extra attributes.  Check that these dependencies exist with the requested attributes.
+2022.06.27 20:51:10 INFO  [warn] 		org.scalameta:sbt-scalafmt:1.6.2 (sbtVersion=1.0, scalaVersion=2.12)
+2022.06.27 20:51:10 INFO  [warn] 
+2022.06.27 20:51:10 INFO  [warn] 	Note: Unresolved dependencies path:
+2022.06.27 20:51:10 INFO  [error] sbt.librarymanagement.ResolveException: Error downloading org.scalameta:sbt-scalafmt;sbtVersion=1.0;scalaVersion=2.12:1.6.2
+2022.06.27 20:51:10 INFO  [error]   Not found
+2022.06.27 20:51:10 INFO  [error]   Not found
+2022.06.27 20:51:10 INFO  [error]   not found: https://repo1.maven.org/maven2/org/scalameta/sbt-scalafmt_2.12_1.0/1.6.2/sbt-scalafmt-1.6.2.pom
+2022.06.27 20:51:10 INFO  [error]   not found: /Users/bertmeeuws/.ivy2/localorg.scalameta/sbt-scalafmt/scala_2.12/sbt_1.0/1.6.2/ivys/ivy.xml
+2022.06.27 20:51:10 INFO  [error]   not found: https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scalameta/sbt-scalafmt/scala_2.12/sbt_1.0/1.6.2/ivys/ivy.xml
+2022.06.27 20:51:10 INFO  [error]   not found: https://repo.typesafe.com/typesafe/ivy-releases/org.scalameta/sbt-scalafmt/scala_2.12/sbt_1.0/1.6.2/ivys/ivy.xml
+2022.06.27 20:51:10 INFO  [error] 	at lmcoursier.CoursierDependencyResolution.unresolvedWarningOrThrow(CoursierDependencyResolution.scala:345)
+2022.06.27 20:51:10 INFO  [error] 	at lmcoursier.CoursierDependencyResolution.$anonfun$update$38(CoursierDependencyResolution.scala:314)
+2022.06.27 20:51:10 INFO  [error] 	at scala.util.Either$LeftProjection.map(Either.scala:573)
+2022.06.27 20:51:10 INFO  [error] 	at lmcoursier.CoursierDependencyResolution.update(CoursierDependencyResolution.scala:314)
+2022.06.27 20:51:10 INFO  [error] 	at sbt.librarymanagement.DependencyResolution.update(DependencyResolution.scala:60)
+2022.06.27 20:51:10 INFO  [error] 	at sbt.internal.LibraryManagement$.resolve$1(LibraryManagement.scala:59)
+2022.06.27 20:51:10 INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$12(LibraryManagement.scala:133)
+2022.06.27 20:51:10 INFO  [error] 	at sbt.util.Tracked$.$anonfun$lastOutput$1(Tracked.scala:73)
+2022.06.27 20:51:10 INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$20(LibraryManagement.scala:146)
+2022.06.27 20:51:10 INFO  [error] 	at scala.util.control.Exception$Catch.apply(Exception.scala:228)
+2022.06.27 20:51:10 INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$11(LibraryManagement.scala:146)
+2022.06.27 20:51:10 INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$11$adapted(LibraryManagement.scala:127)
+2022.06.27 20:51:10 INFO  [error] 	at sbt.util.Tracked$.$anonfun$inputChangedW$1(Tracked.scala:219)
+2022.06.27 20:51:10 INFO  [error] 	at sbt.internal.LibraryManagement$.cachedUpdate(LibraryManagement.scala:160)
+2022.06.27 20:51:10 INFO  [error] 	at sbt.Classpaths$.$anonfun$updateTask0$1(Defaults.scala:3690)
+2022.06.27 20:51:10 INFO  [error] 	at scala.Function1.$anonfun$compose$1(Function1.scala:49)
+2022.06.27 20:51:10 INFO  [error] 	at sbt.internal.util.$tilde$greater.$anonfun$$u2219$1(TypeFunctions.scala:62)
+2022.06.27 20:51:10 INFO  [error] 	at sbt.std.Transform$$anon$4.work(Transform.scala:68)
+2022.06.27 20:51:10 INFO  [error] 	at sbt.Execute.$anonfun$submit$2(Execute.scala:282)
+2022.06.27 20:51:10 INFO  [error] 	at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:23)
+2022.06.27 20:51:10 INFO  [error] 	at sbt.Execute.work(Execute.scala:291)
+2022.06.27 20:51:10 INFO  [error] 	at sbt.Execute.$anonfun$submit$1(Execute.scala:282)
+2022.06.27 20:51:10 INFO  [error] 	at sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:265)
+2022.06.27 20:51:10 INFO  [error] 	at sbt.CompletionService$$anon$2.call(CompletionService.scala:64)
+2022.06.27 20:51:10 INFO  [error] 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+2022.06.27 20:51:10 INFO  [error] 	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+2022.06.27 20:51:10 INFO  [error] 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+2022.06.27 20:51:10 INFO  [error] 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+2022.06.27 20:51:10 INFO  [error] 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+2022.06.27 20:51:10 INFO  [error] 	at java.base/java.lang.Thread.run(Thread.java:833)
+2022.06.27 20:51:10 INFO  [error] (update) sbt.librarymanagement.ResolveException: Error downloading org.scalameta:sbt-scalafmt;sbtVersion=1.0;scalaVersion=2.12:1.6.2
+2022.06.27 20:51:10 INFO  [error]   Not found
+2022.06.27 20:51:10 INFO  [error]   Not found
+2022.06.27 20:51:10 INFO  [error]   not found: https://repo1.maven.org/maven2/org/scalameta/sbt-scalafmt_2.12_1.0/1.6.2/sbt-scalafmt-1.6.2.pom
+2022.06.27 20:51:10 INFO  [error]   not found: /Users/bertmeeuws/.ivy2/localorg.scalameta/sbt-scalafmt/scala_2.12/sbt_1.0/1.6.2/ivys/ivy.xml
+2022.06.27 20:51:10 INFO  [error]   not found: https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scalameta/sbt-scalafmt/scala_2.12/sbt_1.0/1.6.2/ivys/ivy.xml
+2022.06.27 20:51:10 INFO  [error]   not found: https://repo.typesafe.com/typesafe/ivy-releases/org.scalameta/sbt-scalafmt/scala_2.12/sbt_1.0/1.6.2/ivys/ivy.xml
+2022.06.27 20:51:10 INFO  [warn] Project loading failed: (r)etry, (q)uit, (l)ast, or (i)gnore? (default: r)
+2022.06.27 20:51:10 INFO  time: ran 'sbt bloopInstall' in 9.04s
+2022.06.27 20:51:10 ERROR sbt command failed: /Library/Java/JavaVirtualMachines/temurin-17.jdk/Contents/Home/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /var/folders/xx/z1dj89qx3jd0vyh21fv9n8rh0000gn/T/metals8953832813769090530/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall
+2022.06.27 20:51:10 INFO  Disconnecting from Bloop session...
+2022.06.27 20:51:10 INFO  Shut down connection with build server.
+2022.06.27 20:51:10 INFO  Shut down connection with build server.
+2022.06.27 20:51:10 INFO  Shut down connection with build server.
+2022.06.27 20:51:10 INFO  Attempting to connect to the build server...
+2022.06.27 20:51:10 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/.metals/bsp.trace.json or /Users/bertmeeuws/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.06.27 20:51:10 INFO  Attempting to connect to the build server...
+2022.06.27 20:51:10 INFO  Attempting to connect to the build server...
+2022.06.27 20:51:10 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/project/.metals/bsp.trace.json or /Users/bertmeeuws/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.06.27 20:51:10 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/project/project/.metals/bsp.trace.json or /Users/bertmeeuws/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.06.27 20:51:10 INFO  time: Connected to build server in 54ms
+2022.06.27 20:51:10 INFO  Connected to Build server: Bloop v1.5.0-18-003e6c7b
+2022.06.27 20:51:10 ERROR Empty build targets. Expected at least one build target identifier.
+2022.06.27 20:51:10 ERROR Empty build targets. Expected at least one build target identifier.
+2022.06.27 20:51:10 ERROR Empty build targets. Expected at least one build target identifier.
+2022.06.27 20:51:10 ERROR Empty build targets. Expected at least one build target identifier.
+2022.06.27 20:51:11 INFO  time: indexed workspace in 1.04s
+2022.06.27 20:51:11 WARN  no build target for: /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/build.sbt
+2022.06.27 20:51:34 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.27 20:51:34 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.27 20:51:34 ERROR scalafmt: /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/.scalafmt.conf: missing setting 'version'. To fix this problem, add the following line to .scalafmt.conf: 'version=3.5.3'.
+2022.06.27 20:51:34 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.27 20:51:34 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.27 20:51:34 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.27 20:51:34 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.27 20:51:34 INFO  scalafmt: no version provided for .scalafmt.conf
+Jun 27, 2022 8:51:35 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+2022.06.27 20:51:35 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.27 20:51:35 ERROR scalafmt: /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/.scalafmt.conf: missing setting 'version'. To fix this problem, add the following line to .scalafmt.conf: 'version=3.5.3'.
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.13/3.5.3/scalafmt-core_2.13-3.5.3.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.13/3.5.3/scalafmt-core_2.13-3.5.3.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-sysops_2.13/3.5.3/scalafmt-sysops_2.13-3.5.3.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalameta_2.13/4.5.5/scalameta_2.13-4.5.5.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-config_2.13/3.5.3/scalafmt-config_2.13-3.5.3.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-sysops_2.13/3.5.3/scalafmt-sysops_2.13-3.5.3.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-config_2.13/3.5.3/scalafmt-config_2.13-3.5.3.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalameta_2.13/4.5.5/scalameta_2.13-4.5.5.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/parsers_2.13/4.5.5/parsers_2.13-4.5.5.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/parsers_2.13/4.5.5/parsers_2.13-4.5.5.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/trees_2.13/4.5.5/trees_2.13-4.5.5.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/trees_2.13/4.5.5/trees_2.13-4.5.5.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/common_2.13/4.5.5/common_2.13-4.5.5.pom
+2022.06.27 20:51:43 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+Downloaded https://repo1.maven.org/maven2/org/scalameta/common_2.13/4.5.5/common_2.13-4.5.5.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/trees_2.13/4.5.5/trees_2.13-4.5.5.jar
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalameta_2.13/4.5.5/scalameta_2.13-4.5.5.jar
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.13/3.5.3/scalafmt-core_2.13-3.5.3.jar
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-config_2.13/3.5.3/scalafmt-config_2.13-3.5.3.jar
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-sysops_2.13/3.5.3/scalafmt-sysops_2.13-3.5.3.jar
+Downloading https://repo1.maven.org/maven2/org/scalameta/parsers_2.13/4.5.5/parsers_2.13-4.5.5.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-config_2.13/3.5.3/scalafmt-config_2.13-3.5.3.jar
+Downloading https://repo1.maven.org/maven2/org/scalameta/common_2.13/4.5.5/common_2.13-4.5.5.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-sysops_2.13/3.5.3/scalafmt-sysops_2.13-3.5.3.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/common_2.13/4.5.5/common_2.13-4.5.5.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/trees_2.13/4.5.5/trees_2.13-4.5.5.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalameta_2.13/4.5.5/scalameta_2.13-4.5.5.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/parsers_2.13/4.5.5/parsers_2.13-4.5.5.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.13/3.5.3/scalafmt-core_2.13-3.5.3.jar
+2022.06.27 20:51:44 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.27 20:51:45 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.27 20:51:46 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.27 20:51:46 INFO  compiling root (1 scala source)
+2022.06.27 20:51:46 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.27 20:51:46 INFO  time: compiled root in 0.6s
