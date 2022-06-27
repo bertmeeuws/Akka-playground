@@ -4371,3 +4371,847 @@ Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.13/3.5.3
 2022.06.27 20:51:46 INFO  compiling root (1 scala source)
 2022.06.27 20:51:46 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
 2022.06.27 20:51:46 INFO  time: compiled root in 0.6s
+2022.06.27 20:52:40 INFO  compiling root (1 scala source)
+2022.06.27 20:52:40 INFO  time: compiled root in 0.69s
+2022.06.27 20:53:54 INFO  compiling root (1 scala source)
+2022.06.27 20:53:54 INFO  file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala:48:11: stale bloop error: unclosed comment
+          /*
+          ^
+2022.06.27 20:53:54 INFO  file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala:48:11: stale bloop error: unclosed comment
+          /*
+          ^
+2022.06.27 20:53:54 INFO  file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala:134:2: stale bloop error: Missing closing brace `}' assumed here
+}
+ ^
+2022.06.27 20:53:54 INFO  time: compiled root in 0.12s
+2022.06.27 20:53:54 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.27 20:53:58 INFO  file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala:48:11: stale bloop error: unclosed comment
+          /*
+          ^
+2022.06.27 20:53:58 INFO  file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala:134:2: stale bloop error: Missing closing brace `}' assumed here
+}
+ ^
+2022.06.27 20:53:58 INFO  file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala:48:11: stale bloop error: unclosed comment
+          /*
+          ^
+2022.06.27 20:53:58 INFO  file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala:134:2: stale bloop error: Missing closing brace `}' assumed here
+}
+ ^
+2022.06.27 20:53:58 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.27 20:53:58 INFO  file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala:48:11: stale bloop error: unclosed comment
+          /*
+          ^
+2022.06.27 20:53:58 INFO  file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala:134:2: stale bloop error: Missing closing brace `}' assumed here
+}
+ ^
+2022.06.27 20:53:59 INFO  file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala:48:11: stale bloop error: unclosed comment
+          /*
+          ^
+2022.06.27 20:53:59 INFO  file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala:134:2: stale bloop error: Missing closing brace `}' assumed here
+}
+ ^
+2022.06.27 20:53:58 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.27 20:53:59 INFO  file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala:48:11: stale bloop error: unclosed comment
+          /*
+          ^
+2022.06.27 20:53:59 INFO  file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala:134:2: stale bloop error: Missing closing brace `}' assumed here
+}
+ ^
+2022.06.27 20:53:59 INFO  file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala:48:11: stale bloop error: unclosed comment
+          /*
+          ^
+2022.06.27 20:53:59 INFO  file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala:134:2: stale bloop error: Missing closing brace `}' assumed here
+}
+ ^
+2022.06.27 20:53:59 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.27 20:53:59 ERROR scalafmt: /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala:133: error: [dialect scala212source3] } expected but ) found
+      )
+      ^
+2022.06.27 20:53:59 INFO  file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala:48:11: stale bloop error: unclosed comment
+          /*
+          ^
+2022.06.27 20:53:59 INFO  file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala:134:2: stale bloop error: Missing closing brace `}' assumed here
+}
+ ^
+2022.06.27 20:53:59 INFO  compiling root (1 scala source)
+2022.06.27 20:53:59 INFO  time: compiled root in 28ms
+2022.06.27 20:54:00 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.27 20:54:06 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.27 20:54:09 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.27 20:54:09 INFO  compiling root (1 scala source)
+2022.06.27 20:54:09 INFO  time: compiled root in 0.1s
+2022.06.27 20:54:09 INFO  compiling root (1 scala source)
+2022.06.27 20:54:09 INFO  time: compiled root in 65ms
+2022.06.27 20:54:10 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.27 20:54:11 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.27 20:54:12 INFO  compiling root (1 scala source)
+2022.06.27 20:54:12 INFO  time: compiled root in 0.12s
+2022.06.27 20:54:12 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.27 20:54:14 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.27 20:54:14 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.27 20:54:14 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.27 20:54:14 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.27 20:54:16 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.27 20:54:16 INFO  compiling root (1 scala source)
+2022.06.27 20:54:16 INFO  time: compiled root in 74ms
+2022.06.27 20:54:17 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.27 20:54:19 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.27 20:54:19 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.27 20:54:20 INFO  compiling root (1 scala source)
+2022.06.27 20:54:20 INFO  time: compiled root in 72ms
+2022.06.27 20:54:20 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.27 20:54:21 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.27 20:54:21 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.27 20:54:22 INFO  compiling root (1 scala source)
+2022.06.27 20:54:22 INFO  time: compiled root in 75ms
+2022.06.27 20:54:22 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.27 20:54:27 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.27 20:54:27 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.27 20:54:28 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.27 20:54:29 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.27 20:54:29 INFO  compiling root (1 scala source)
+2022.06.27 20:54:29 INFO  time: compiled root in 75ms
+2022.06.27 20:54:30 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.27 20:54:31 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.27 20:54:31 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.27 20:54:32 INFO  compiling root (1 scala source)
+2022.06.27 20:54:32 INFO  time: compiled root in 28ms
+2022.06.27 20:54:33 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.27 20:54:34 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.27 20:54:34 INFO  compiling root (1 scala source)
+2022.06.27 20:54:34 INFO  time: compiled root in 0.12s
+2022.06.27 20:54:35 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.27 20:54:35 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.27 20:54:37 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.27 20:54:37 INFO  file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala:48:11: stale bloop error: type mismatch;
+ found   : akka.http.scaladsl.server.Directive1[String]
+    (which expands to)  akka.http.scaladsl.server.Directive[(String,)]
+ required: akka.http.scaladsl.server.Route
+    (which expands to)  akka.http.scaladsl.server.RequestContext => scala.concurrent.Future[akka.http.scaladsl.server.RouteResult]
+          entity(as[String])
+          ^^^^^^^^^^^^^^^^^^
+2022.06.27 20:54:37 INFO  file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala:48:11: stale bloop error: type mismatch;
+ found   : akka.http.scaladsl.server.Directive1[String]
+    (which expands to)  akka.http.scaladsl.server.Directive[(String,)]
+ required: akka.http.scaladsl.server.Route
+    (which expands to)  akka.http.scaladsl.server.RequestContext => scala.concurrent.Future[akka.http.scaladsl.server.RouteResult]
+          entity(as[String])
+          ^^^^^^^^^^^^^^^^^^
+2022.06.27 20:54:37 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.27 20:54:38 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.27 20:54:38 INFO  file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala:48:11: stale bloop error: type mismatch;
+ found   : akka.http.scaladsl.server.Directive1[String]
+    (which expands to)  akka.http.scaladsl.server.Directive[(String,)]
+ required: akka.http.scaladsl.server.Route
+    (which expands to)  akka.http.scaladsl.server.RequestContext => scala.concurrent.Future[akka.http.scaladsl.server.RouteResult]
+          entity(as[String])
+          ^^^^^^^^^^^^^^^^^^
+2022.06.27 20:54:38 INFO  file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala:48:11: stale bloop error: type mismatch;
+ found   : akka.http.scaladsl.server.Directive1[String]
+    (which expands to)  akka.http.scaladsl.server.Directive[(String,)]
+ required: akka.http.scaladsl.server.Route
+    (which expands to)  akka.http.scaladsl.server.RequestContext => scala.concurrent.Future[akka.http.scaladsl.server.RouteResult]
+          entity(as[String])
+          ^^^^^^^^^^^^^^^^^^
+2022.06.27 20:54:38 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.27 20:54:39 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.27 20:54:39 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.27 20:54:40 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.27 20:54:40 INFO  compiling root (1 scala source)
+2022.06.27 20:54:40 INFO  time: compiled root in 77ms
+2022.06.27 20:54:41 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.27 20:54:41 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.27 20:54:42 INFO  compiling root (1 scala source)
+2022.06.27 20:54:42 INFO  time: compiled root in 82ms
+2022.06.27 20:54:43 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.27 20:55:14 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.27 20:55:16 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.27 20:55:17 INFO  compiling root (1 scala source)
+2022.06.27 20:55:17 INFO  time: compiled root in 0.13s
+2022.06.27 20:55:17 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.27 20:55:19 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.27 20:55:23 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.27 20:55:24 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.27 20:55:25 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.27 20:55:25 ERROR scalafmt: /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala:51: error: [dialect scala212source3] ) expected but } found
+        },
+        ^
+2022.06.27 20:55:25 INFO  compiling root (1 scala source)
+2022.06.27 20:55:25 INFO  time: compiled root in 38ms
+2022.06.27 20:55:25 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.27 20:55:30 ERROR scalafmt: /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala:51: error: [dialect scala212source3] ) expected but } found
+        },)
+        ^
+2022.06.27 20:55:30 INFO  compiling root (1 scala source)
+2022.06.27 20:55:30 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.27 20:55:30 INFO  time: compiled root in 44ms
+2022.06.27 20:55:30 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.27 20:55:32 ERROR scalafmt: /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala:51: error: [dialect scala212source3] ) expected but } found
+        })
+        ^
+2022.06.27 20:55:32 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.27 20:55:32 INFO  compiling root (1 scala source)
+2022.06.27 20:55:32 INFO  time: compiled root in 35ms
+2022.06.27 20:55:32 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.27 20:55:33 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.27 20:55:33 ERROR scalafmt: /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala:51: error: [dialect scala212source3] ) expected but } found
+        }
+        ^
+2022.06.27 20:55:33 INFO  compiling root (1 scala source)
+2022.06.27 20:55:33 INFO  time: compiled root in 42ms
+2022.06.27 20:55:33 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.27 20:55:33 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.27 20:55:33 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.27 20:55:37 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.27 20:55:37 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.27 20:55:39 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.27 20:55:41 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.27 20:55:42 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.27 20:55:47 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.27 20:55:52 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.27 20:56:16 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.27 20:56:16 INFO  compiling root (1 scala source)
+2022.06.27 20:56:16 INFO  time: compiled root in 79ms
+2022.06.27 20:56:17 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.27 20:56:31 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.27 20:56:32 INFO  compiling root (1 scala source)
+2022.06.27 20:56:32 INFO  time: compiled root in 79ms
+2022.06.27 20:56:32 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.27 20:56:51 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.27 20:56:52 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.27 20:57:00 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.27 20:57:17 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.27 20:57:18 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+Jun 27, 2022 8:57:19 PM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: Cannot invoke "scala.reflect.internal.Types$Type.memberType(scala.reflect.internal.Symbols$Symbol)" because "pre" is null
+java.lang.NullPointerException: Cannot invoke "scala.reflect.internal.Types$Type.memberType(scala.reflect.internal.Symbols$Symbol)" because "pre" is null
+	at scala.meta.internal.pc.MetalsGlobal.metalsSeenFromType(MetalsGlobal.scala:774)
+	at scala.meta.internal.pc.completions.MatchCaseCompletions$CaseKeywordCompletion.<init>(MatchCaseCompletions.scala:51)
+	at scala.meta.internal.pc.completions.Completions.fromIdentApply$1(Completions.scala:431)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:451)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:416)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:32)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:408)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:390)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:32)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:476)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:58)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:125)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:139)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+2022.06.27 20:57:20 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.27 20:57:20 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.27 20:57:21 INFO  compiling root (1 scala source)
+2022.06.27 20:57:21 INFO  time: compiled root in 0.1s
+2022.06.27 20:57:21 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.27 20:57:21 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.27 20:57:23 INFO  compiling root (1 scala source)
+2022.06.27 20:57:23 INFO  time: compiled root in 0.14s
+2022.06.27 20:57:23 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.27 20:57:23 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.27 20:57:23 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.27 20:57:23 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.27 20:57:25 INFO  compiling root (1 scala source)
+2022.06.27 20:57:25 INFO  time: compiled root in 72ms
+2022.06.27 20:57:25 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.27 20:57:25 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.27 20:57:28 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.27 20:57:29 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.27 20:57:29 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.27 20:57:30 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.27 20:57:30 INFO  compiling root (1 scala source)
+2022.06.27 20:57:30 INFO  time: compiled root in 67ms
+2022.06.27 20:57:30 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.27 20:57:32 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.27 20:57:33 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.27 20:57:32 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.27 20:57:33 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.27 20:57:34 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.27 20:57:34 ERROR scalafmt: /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala:137: error: [dialect scala212source3] } expected but ) found
+      )
+      ^
+2022.06.27 20:57:34 INFO  compiling root (1 scala source)
+2022.06.27 20:57:34 INFO  time: compiled root in 28ms
+2022.06.27 20:57:34 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.27 20:57:37 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.27 20:57:39 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.27 20:57:40 INFO  compiling root (1 scala source)
+2022.06.27 20:57:40 INFO  time: compiled root in 76ms
+2022.06.27 20:57:40 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.27 20:57:44 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.27 20:57:44 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.27 20:58:19 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.27 20:58:19 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.27 20:58:22 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.27 20:58:46 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.27 20:58:46 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.27 20:58:46 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.27 20:58:48 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.27 20:58:48 ERROR scalafmt: /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala:138: error: [dialect scala212source3] } expected but ) found
+      )
+      ^
+2022.06.27 20:58:48 INFO  compiling root (1 scala source)
+2022.06.27 20:58:48 INFO  time: compiled root in 65ms
+2022.06.27 20:58:48 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.27 20:58:51 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.27 20:58:51 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.27 20:58:52 INFO  compiling root (1 scala source)
+2022.06.27 20:58:52 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.27 20:58:52 INFO  time: compiled root in 0.47s
+2022.06.27 20:58:54 INFO  compiling root (1 scala source)
+2022.06.27 20:58:55 INFO  time: compiled root in 1.09s
+2022.06.27 20:59:08 INFO  compiling root (1 scala source)
+2022.06.27 20:59:08 INFO  time: compiled root in 0.35s
+2022.06.27 20:59:52 INFO  compiling root (1 scala source)
+2022.06.27 20:59:52 INFO  time: compiled root in 0.1s
+2022.06.27 20:59:57 INFO  compiling root (1 scala source)
+2022.06.27 20:59:57 INFO  time: compiled root in 0.11s
+2022.06.27 20:59:58 INFO  compiling root (1 scala source)
+2022.06.27 20:59:58 INFO  time: compiled root in 75ms
+2022.06.27 21:00:00 INFO  compiling root (1 scala source)
+2022.06.27 21:00:00 INFO  time: compiled root in 72ms
+2022.06.27 21:00:02 INFO  compiling root (1 scala source)
+2022.06.27 21:00:02 INFO  time: compiled root in 0.2s
+2022.06.27 21:00:05 INFO  compiling root (1 scala source)
+2022.06.27 21:00:05 INFO  time: compiled root in 0.13s
+2022.06.27 21:00:10 INFO  compiling root (1 scala source)
+2022.06.27 21:00:10 INFO  time: compiled root in 0.14s
+Jun 27, 2022 9:00:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: scala.reflect.internal.Symbols$CyclicReference: illegal cyclic reference involving value <import>
+java.util.concurrent.CompletionException: scala.reflect.internal.Symbols$CyclicReference: illegal cyclic reference involving value <import>
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:722)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.complete(CompletableFuture.java:2147)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:42)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: scala.reflect.internal.Symbols$CyclicReference: illegal cyclic reference involving value <import>
+
+Jun 27, 2022 9:00:16 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: scala.reflect.internal.Symbols$CyclicReference: illegal cyclic reference involving class AccountRoutes
+java.util.concurrent.CompletionException: scala.reflect.internal.Symbols$CyclicReference: illegal cyclic reference involving class AccountRoutes
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:722)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.complete(CompletableFuture.java:2147)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:42)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: scala.reflect.internal.Symbols$CyclicReference: illegal cyclic reference involving class AccountRoutes
+
+2022.06.27 21:00:18 INFO  compiling root (1 scala source)
+2022.06.27 21:00:18 INFO  time: compiled root in 0.17s
+2022.06.27 21:00:26 INFO  compiling root (1 scala source)
+2022.06.27 21:00:26 INFO  time: compiled root in 0.17s
+2022.06.27 21:00:28 INFO  compiling root (1 scala source)
+2022.06.27 21:00:28 INFO  time: compiled root in 59ms
+2022.06.27 21:00:32 INFO  file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala:136:41: stale bloop error: overloaded method value complete with alternatives:
+  [T](status: akka.http.scaladsl.model.StatusCode, headers: scala.collection.immutable.Seq[akka.http.scaladsl.model.HttpHeader], v: => T)(implicit m: akka.http.scaladsl.marshalling.ToEntityMarshaller[T])akka.http.scaladsl.server.StandardRoute <and>
+  [T](status: akka.http.scaladsl.model.StatusCode, v: => T)(implicit m: akka.http.scaladsl.marshalling.ToEntityMarshaller[T])akka.http.scaladsl.server.StandardRoute <and>
+  (m: => akka.http.scaladsl.marshalling.ToResponseMarshallable)akka.http.scaladsl.server.StandardRoute
+ cannot be applied to ()
+                path(IntNumber) {int => complete()}
+                                        ^^^^^^^^
+2022.06.27 21:00:32 INFO  file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala:136:41: stale bloop error: overloaded method value complete with alternatives:
+  [T](status: akka.http.scaladsl.model.StatusCode, headers: scala.collection.immutable.Seq[akka.http.scaladsl.model.HttpHeader], v: => T)(implicit m: akka.http.scaladsl.marshalling.ToEntityMarshaller[T])akka.http.scaladsl.server.StandardRoute <and>
+  [T](status: akka.http.scaladsl.model.StatusCode, v: => T)(implicit m: akka.http.scaladsl.marshalling.ToEntityMarshaller[T])akka.http.scaladsl.server.StandardRoute <and>
+  (m: => akka.http.scaladsl.marshalling.ToResponseMarshallable)akka.http.scaladsl.server.StandardRoute
+ cannot be applied to ()
+                path(IntNumber) {int => complete()}
+                                        ^^^^^^^^
+2022.06.27 21:00:33 INFO  file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala:136:41: stale bloop error: overloaded method value complete with alternatives:
+  [T](status: akka.http.scaladsl.model.StatusCode, headers: scala.collection.immutable.Seq[akka.http.scaladsl.model.HttpHeader], v: => T)(implicit m: akka.http.scaladsl.marshalling.ToEntityMarshaller[T])akka.http.scaladsl.server.StandardRoute <and>
+  [T](status: akka.http.scaladsl.model.StatusCode, v: => T)(implicit m: akka.http.scaladsl.marshalling.ToEntityMarshaller[T])akka.http.scaladsl.server.StandardRoute <and>
+  (m: => akka.http.scaladsl.marshalling.ToResponseMarshallable)akka.http.scaladsl.server.StandardRoute
+ cannot be applied to ()
+                path(IntNumber) {int => complete()}
+                                        ^^^^^^^^
+2022.06.27 21:00:33 INFO  compiling root (1 scala source)
+2022.06.27 21:00:33 INFO  file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala:136:52: stale bloop error: invalid string interpolation $", expected: $$, $identifier or ${expression}
+                path(IntNumber) {int => complete(s"$")}
+                                                   ^
+2022.06.27 21:00:33 INFO  file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala:136:52: stale bloop error: invalid string interpolation $", expected: $$, $identifier or ${expression}
+                path(IntNumber) {int => complete(s"$")}
+                                                   ^
+2022.06.27 21:00:33 INFO  file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala:136:53: stale bloop error: unclosed string literal
+                path(IntNumber) {int => complete(s"$")}
+                                                    ^
+2022.06.27 21:00:33 INFO  file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala:137:15: stale bloop error: Missing closing brace `}' assumed here
+              }
+              ^
+2022.06.27 21:00:33 INFO  time: compiled root in 35ms
+2022.06.27 21:00:39 INFO  file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala:136:52: stale bloop error: invalid string interpolation $", expected: $$, $identifier or ${expression}
+                path(IntNumber) {int => complete(s"$")}
+                                                   ^
+2022.06.27 21:00:39 INFO  file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala:136:53: stale bloop error: unclosed string literal
+                path(IntNumber) {int => complete(s"$")}
+                                                    ^
+2022.06.27 21:00:39 INFO  file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala:137:15: stale bloop error: Missing closing brace `}' assumed here
+              }
+              ^
+2022.06.27 21:00:39 INFO  file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala:136:52: stale bloop error: invalid string interpolation $", expected: $$, $identifier or ${expression}
+                path(IntNumber) {int => complete(s"$")}
+                                                   ^
+2022.06.27 21:00:39 INFO  file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala:136:53: stale bloop error: unclosed string literal
+                path(IntNumber) {int => complete(s"$")}
+                                                    ^
+2022.06.27 21:00:39 INFO  file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala:137:15: stale bloop error: Missing closing brace `}' assumed here
+              }
+              ^
+2022.06.27 21:00:39 INFO  file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala:136:52: stale bloop error: invalid string interpolation $", expected: $$, $identifier or ${expression}
+                path(IntNumber) {int => complete(s"$")}
+                                                   ^
+2022.06.27 21:00:39 INFO  file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala:136:53: stale bloop error: unclosed string literal
+                path(IntNumber) {int => complete(s"$")}
+                                                    ^
+2022.06.27 21:00:39 INFO  file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala:137:15: stale bloop error: Missing closing brace `}' assumed here
+              }
+              ^
+2022.06.27 21:00:39 INFO  file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala:136:52: stale bloop error: invalid string interpolation $", expected: $$, $identifier or ${expression}
+                path(IntNumber) {int => complete(s"$")}
+                                                   ^
+2022.06.27 21:00:39 INFO  file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala:136:53: stale bloop error: unclosed string literal
+                path(IntNumber) {int => complete(s"$")}
+                                                    ^
+2022.06.27 21:00:39 INFO  file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala:137:15: stale bloop error: Missing closing brace `}' assumed here
+              }
+              ^
+2022.06.27 21:00:39 INFO  file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala:136:52: stale bloop error: invalid string interpolation $", expected: $$, $identifier or ${expression}
+                path(IntNumber) {int => complete(s"$")}
+                                                   ^
+2022.06.27 21:00:39 INFO  file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala:136:53: stale bloop error: unclosed string literal
+                path(IntNumber) {int => complete(s"$")}
+                                                    ^
+2022.06.27 21:00:39 INFO  file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala:137:15: stale bloop error: Missing closing brace `}' assumed here
+              }
+              ^
+2022.06.27 21:00:40 INFO  compiling root (1 scala source)
+2022.06.27 21:00:40 INFO  time: compiled root in 0.37s
+2022.06.27 21:00:43 INFO  compiling root (1 scala source)
+2022.06.27 21:00:43 INFO  time: compiled root in 0.44s
+2022.06.27 21:02:03 INFO  compiling root (1 scala source)
+2022.06.27 21:02:03 INFO  time: compiled root in 0.22s
+2022.06.27 21:02:05 INFO  compiling root (1 scala source)
+2022.06.27 21:02:05 INFO  time: compiled root in 0.19s
+2022.06.27 21:02:09 INFO  compiling root (1 scala source)
+2022.06.27 21:02:09 INFO  time: compiled root in 0.46s
+2022.06.27 21:02:41 INFO  compiling root (1 scala source)
+2022.06.27 21:02:41 INFO  time: compiled root in 31ms
+2022.06.27 21:02:42 INFO  compiling root (1 scala source)
+2022.06.27 21:02:42 INFO  time: compiled root in 0.46s
+2022.06.27 21:04:43 INFO  compiling root (1 scala source)
+2022.06.27 21:04:43 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.27 21:04:43 INFO  time: compiled root in 0.55s
+2022.06.27 21:05:22 INFO  compiling root (1 scala source)
+2022.06.27 21:05:22 INFO  time: compiled root in 0.38s
+2022.06.27 21:05:25 INFO  compiling root (1 scala source)
+2022.06.27 21:05:25 INFO  time: compiled root in 76ms
+2022.06.27 21:05:27 INFO  compiling root (1 scala source)
+2022.06.27 21:05:27 INFO  time: compiled root in 81ms
+2022.06.27 21:05:34 INFO  compiling root (1 scala source)
+2022.06.27 21:05:34 INFO  time: compiled root in 65ms
+2022.06.27 21:05:36 INFO  compiling root (1 scala source)
+2022.06.27 21:05:36 INFO  time: compiled root in 79ms
+2022.06.27 21:05:37 INFO  compiling root (1 scala source)
+2022.06.27 21:05:37 INFO  time: compiled root in 91ms
+2022.06.27 21:05:41 INFO  compiling root (1 scala source)
+2022.06.27 21:05:41 INFO  time: compiled root in 0.36s
+2022.06.27 21:05:52 INFO  compiling root (1 scala source)
+2022.06.27 21:05:52 INFO  time: compiled root in 90ms
+2022.06.27 21:05:52 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.27 21:05:53 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.27 21:05:53 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.27 21:05:54 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.27 21:05:55 INFO  compiling root (1 scala source)
+2022.06.27 21:05:55 INFO  time: compiled root in 0.37s
+2022.06.27 21:05:56 INFO  compiling root (1 scala source)
+2022.06.27 21:05:56 INFO  time: compiled root in 0.12s
+2022.06.27 21:06:01 INFO  compiling root (1 scala source)
+2022.06.27 21:06:01 INFO  time: compiled root in 30ms
+2022.06.27 21:06:04 INFO  compiling root (1 scala source)
+2022.06.27 21:06:04 INFO  time: compiled root in 38ms
+2022.06.27 21:06:06 INFO  compiling root (1 scala source)
+2022.06.27 21:06:06 INFO  time: compiled root in 0.37s
+2022.06.27 21:06:12 INFO  compiling root (1 scala source)
+2022.06.27 21:06:12 INFO  time: compiled root in 0.36s
+2022.06.27 21:06:43 ERROR scalafmt: /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala:50: error: [dialect scala212source3] ) expected but ; found
+          };
+           ^
+2022.06.27 21:06:44 INFO  compiling root (1 scala source)
+2022.06.27 21:06:44 INFO  time: compiled root in 80ms
+2022.06.27 21:06:46 INFO  compiling root (1 scala source)
+2022.06.27 21:06:47 INFO  time: compiled root in 1.08s
+2022.06.27 21:07:16 ERROR scalafmt: /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala:74: error: [dialect scala212source3] } expected but ) found
+        )
+        ^
+2022.06.27 21:07:17 INFO  compiling root (1 scala source)
+2022.06.27 21:07:17 INFO  time: compiled root in 38ms
+Jun 27, 2022 9:07:17 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+2022.06.27 21:07:17 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.27 21:07:18 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.27 21:07:18 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.27 21:07:19 ERROR scalafmt: /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala:74: error: [dialect scala212source3] } expected but ) found
+        )
+        ^
+2022.06.27 21:07:19 INFO  compiling root (1 scala source)
+2022.06.27 21:07:19 INFO  time: compiled root in 26ms
+2022.06.27 21:07:18 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.27 21:07:20 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.27 21:07:20 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.27 21:07:20 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.27 21:07:20 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.27 21:07:20 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.27 21:07:20 INFO  compiling root (1 scala source)
+2022.06.27 21:07:20 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.27 21:07:20 INFO  time: compiled root in 0.64s
+2022.06.27 21:07:24 INFO  compiling root (1 scala source)
+2022.06.27 21:07:24 INFO  time: compiled root in 0.38s
+2022.06.27 21:08:15 INFO  compiling root (1 scala source)
+2022.06.27 21:08:15 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.27 21:08:15 INFO  time: compiled root in 0.54s
+2022.06.27 21:08:26 INFO  compiling root (1 scala source)
+2022.06.27 21:08:26 INFO  time: compiled root in 0.45s
+2022.06.27 21:08:29 INFO  compiling root (1 scala source)
+2022.06.27 21:08:29 INFO  time: compiled root in 0.31s
+2022.06.27 21:08:30 INFO  compiling root (1 scala source)
+2022.06.27 21:08:30 INFO  time: compiled root in 0.12s
+2022.06.27 21:10:12 INFO  compiling root (1 scala source)
+2022.06.27 21:10:12 INFO  time: compiled root in 0.53s
+2022.06.27 21:10:15 INFO  compiling root (1 scala source)
+2022.06.27 21:10:15 INFO  time: compiled root in 26ms
+2022.06.27 21:10:16 INFO  compiling root (1 scala source)
+2022.06.27 21:10:16 INFO  time: compiled root in 0.51s
+2022.06.27 21:10:25 INFO  compiling root (1 scala source)
+2022.06.27 21:10:25 INFO  time: compiled root in 0.33s
+2022.06.27 21:10:29 INFO  compiling root (1 scala source)
+2022.06.27 21:10:29 INFO  time: compiled root in 79ms
+2022.06.27 21:10:33 INFO  compiling root (1 scala source)
+2022.06.27 21:10:33 INFO  time: compiled root in 0.45s
+2022.06.27 21:10:38 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.27 21:10:38 INFO  compiling root (1 scala source)
+2022.06.27 21:10:38 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.27 21:10:38 INFO  time: compiled root in 0.52s
+2022.06.27 21:10:42 INFO  compiling root (1 scala source)
+2022.06.27 21:10:42 INFO  time: compiled root in 0.35s
+2022.06.27 21:10:47 INFO  compiling root (1 scala source)
+2022.06.27 21:10:47 INFO  time: compiled root in 70ms
+2022.06.27 21:10:49 INFO  file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala:51:9: stale bloop error: not found: value ~
+        ~
+        ^
+2022.06.27 21:10:49 INFO  file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala:51:9: stale bloop error: not found: value ~
+        ~
+        ^
+2022.06.27 21:10:49 INFO  file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala:51:9: stale bloop error: not found: value ~
+        ~
+        ^
+2022.06.27 21:10:49 INFO  file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala:51:9: stale bloop error: not found: value ~
+        ~
+        ^
+2022.06.27 21:10:55 INFO  compiling root (1 scala source)
+2022.06.27 21:10:55 INFO  time: compiled root in 74ms
+2022.06.27 21:10:59 INFO  compiling root (1 scala source)
+2022.06.27 21:10:59 INFO  time: compiled root in 64ms
+2022.06.27 21:11:01 INFO  compiling root (1 scala source)
+2022.06.27 21:11:01 INFO  time: compiled root in 74ms
+2022.06.27 21:11:05 INFO  compiling root (1 scala source)
+2022.06.27 21:11:05 INFO  time: compiled root in 63ms
+2022.06.27 21:11:11 INFO  compiling root (1 scala source)
+2022.06.27 21:11:11 INFO  time: compiled root in 63ms
+2022.06.27 21:11:11 INFO  compiling root (1 scala source)
+2022.06.27 21:11:11 INFO  time: compiled root in 46ms
+2022.06.27 21:11:13 INFO  compiling root (1 scala source)
+2022.06.27 21:11:13 INFO  time: compiled root in 59ms
+2022.06.27 21:11:15 INFO  file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala:53:13: stale bloop error: type mismatch;
+ found   : Unit
+ required: akka.http.scaladsl.marshalling.ToResponseMarshallable
+            println(id)
+            ^^^^^^^^^^^
+2022.06.27 21:11:15 INFO  file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala:56:7: stale bloop error: not found: value ~
+      ~
+      ^
+2022.06.27 21:11:15 INFO  file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala:53:13: stale bloop error: type mismatch;
+ found   : Unit
+ required: akka.http.scaladsl.marshalling.ToResponseMarshallable
+            println(id)
+            ^^^^^^^^^^^
+2022.06.27 21:11:15 INFO  file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala:56:7: stale bloop error: not found: value ~
+      ~
+      ^
+2022.06.27 21:11:15 INFO  file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala:53:13: stale bloop error: type mismatch;
+ found   : Unit
+ required: akka.http.scaladsl.marshalling.ToResponseMarshallable
+            println(id)
+            ^^^^^^^^^^^
+2022.06.27 21:11:15 INFO  file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala:56:7: stale bloop error: not found: value ~
+      ~
+      ^
+2022.06.27 21:11:16 INFO  file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala:53:13: stale bloop error: type mismatch;
+ found   : Unit
+ required: akka.http.scaladsl.marshalling.ToResponseMarshallable
+            println(id)
+            ^^^^^^^^^^^
+2022.06.27 21:11:16 INFO  file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala:56:7: stale bloop error: not found: value ~
+      ~
+      ^
+2022.06.27 21:11:22 INFO  compiling root (1 scala source)
+2022.06.27 21:11:22 INFO  time: compiled root in 65ms
+2022.06.27 21:11:24 INFO  compiling root (1 scala source)
+2022.06.27 21:11:24 INFO  time: compiled root in 72ms
+2022.06.27 21:11:45 INFO  compiling root (1 scala source)
+2022.06.27 21:11:45 INFO  time: compiled root in 0.11s
+2022.06.27 21:11:48 INFO  compiling root (1 scala source)
+2022.06.27 21:11:48 INFO  time: compiled root in 63ms
+2022.06.27 21:11:52 INFO  compiling root (1 scala source)
+2022.06.27 21:11:52 INFO  time: compiled root in 29ms
+2022.06.27 21:11:56 INFO  compiling root (1 scala source)
+2022.06.27 21:11:56 INFO  time: compiled root in 77ms
+2022.06.27 21:11:59 INFO  compiling root (1 scala source)
+2022.06.27 21:11:59 INFO  time: compiled root in 75ms
+2022.06.27 21:12:21 INFO  compiling root (1 scala source)
+2022.06.27 21:12:21 INFO  time: compiled root in 0.18s
+2022.06.27 21:12:27 INFO  compiling root (1 scala source)
+2022.06.27 21:12:27 INFO  time: compiled root in 0.15s
+2022.06.27 21:12:29 INFO  compiling root (1 scala source)
+2022.06.27 21:12:29 INFO  time: compiled root in 87ms
+2022.06.27 21:12:31 INFO  compiling root (1 scala source)
+2022.06.27 21:12:31 INFO  time: compiled root in 74ms
+2022.06.27 21:12:35 INFO  compiling root (1 scala source)
+2022.06.27 21:12:35 INFO  time: compiled root in 24ms
+2022.06.27 21:12:35 INFO  compiling root (1 scala source)
+2022.06.27 21:12:35 INFO  time: compiled root in 53ms
+2022.06.27 21:12:42 INFO  compiling root (1 scala source)
+2022.06.27 21:12:42 INFO  time: compiled root in 61ms
+2022.06.27 21:13:21 INFO  compiling root (1 scala source)
+2022.06.27 21:13:21 INFO  time: compiled root in 0.11s
+2022.06.27 21:13:25 INFO  compiling root (1 scala source)
+2022.06.27 21:13:25 INFO  time: compiled root in 90ms
+2022.06.27 21:13:47 INFO  compiling root (1 scala source)
+2022.06.27 21:13:47 INFO  time: compiled root in 97ms
+2022.06.27 21:13:47 INFO  compiling root (1 scala source)
+2022.06.27 21:13:47 INFO  time: compiled root in 49ms
+2022.06.27 21:13:50 INFO  compiling root (1 scala source)
+2022.06.27 21:13:50 INFO  time: compiled root in 65ms
+2022.06.27 21:13:50 INFO  compiling root (1 scala source)
+2022.06.27 21:13:50 INFO  time: compiled root in 66ms
+2022.06.27 21:13:52 INFO  compiling root (1 scala source)
+2022.06.27 21:13:52 INFO  time: compiled root in 29ms
+2022.06.27 21:13:54 INFO  compiling root (1 scala source)
+2022.06.27 21:13:54 INFO  time: compiled root in 73ms
+2022.06.27 21:14:12 INFO  compiling root (1 scala source)
+2022.06.27 21:14:12 INFO  time: compiled root in 94ms
+2022.06.27 21:14:16 INFO  compiling root (1 scala source)
+2022.06.27 21:14:16 INFO  time: compiled root in 74ms
+2022.06.27 21:14:21 INFO  compiling root (1 scala source)
+2022.06.27 21:14:21 INFO  time: compiled root in 65ms
+2022.06.27 21:14:23 INFO  compiling root (1 scala source)
+2022.06.27 21:14:23 INFO  time: compiled root in 59ms
+2022.06.27 21:14:26 INFO  compiling root (1 scala source)
+2022.06.27 21:14:26 INFO  time: compiled root in 77ms
+2022.06.27 21:15:34 INFO  compiling root (1 scala source)
+2022.06.27 21:15:34 INFO  time: compiled root in 0.1s
+2022.06.27 21:15:43 ERROR scalafmt: /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala:52: error: [dialect scala212source3] ; expected but , found
+      },
+       ^
+2022.06.27 21:15:44 INFO  compiling root (1 scala source)
+2022.06.27 21:15:44 INFO  time: compiled root in 29ms
+2022.06.27 21:15:43 ERROR scalafmt: /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala:52: error: [dialect scala212source3] ; expected but , found
+      },
+       ^
+2022.06.27 21:15:44 INFO  compiling root (1 scala source)
+2022.06.27 21:15:44 INFO  time: compiled root in 8ms
+2022.06.27 21:15:46 INFO  compiling root (1 scala source)
+2022.06.27 21:15:46 INFO  time: compiled root in 77ms
+2022.06.27 21:16:05 INFO  compiling root (1 scala source)
+2022.06.27 21:16:05 INFO  time: compiled root in 77ms
+2022.06.27 21:16:11 INFO  compiling root (1 scala source)
+2022.06.27 21:16:11 INFO  time: compiled root in 96ms
+2022.06.27 21:16:53 INFO  compiling root (1 scala source)
+2022.06.27 21:16:53 INFO  time: compiled root in 87ms
+Jun 27, 2022 9:16:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.UnsupportedOperationException: tail of empty list
+java.util.concurrent.CompletionException: java.lang.UnsupportedOperationException: tail of empty list
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:347)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:708)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2162)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.UnsupportedOperationException: tail of empty list
+	at scala.collection.immutable.Nil$.tail(List.scala:664)
+	at scala.collection.immutable.Nil$.tail(List.scala:661)
+	at scala.meta.internal.metals.codeactions.CreateCompanionObjectCodeAction.$anonfun$endPosOfTree$1(CreateCompanionObjectCodeAction.scala:76)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.codeactions.CreateCompanionObjectCodeAction.endPosOfTree(CreateCompanionObjectCodeAction.scala:74)
+	at scala.meta.internal.metals.codeactions.CreateCompanionObjectCodeAction.$anonfun$contribute$5(CreateCompanionObjectCodeAction.scala:60)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.codeactions.CreateCompanionObjectCodeAction.$anonfun$contribute$4(CreateCompanionObjectCodeAction.scala:57)
+	at scala.Option$WithFilter.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.codeactions.CreateCompanionObjectCodeAction.$anonfun$contribute$2(CreateCompanionObjectCodeAction.scala:55)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.codeactions.CreateCompanionObjectCodeAction.$anonfun$contribute$1(CreateCompanionObjectCodeAction.scala:54)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+2022.06.27 21:17:01 INFO  compiling root (1 scala source)
+2022.06.27 21:17:01 INFO  time: compiled root in 61ms
+2022.06.27 21:17:08 INFO  compiling root (1 scala source)
+2022.06.27 21:17:08 INFO  time: compiled root in 61ms
+2022.06.27 21:17:11 INFO  compiling root (1 scala source)
+2022.06.27 21:17:11 INFO  time: compiled root in 77ms
+2022.06.27 21:17:12 INFO  compiling root (1 scala source)
+2022.06.27 21:17:12 INFO  time: compiled root in 65ms
+2022.06.27 21:17:21 INFO  compiling root (1 scala source)
+2022.06.27 21:17:21 INFO  time: compiled root in 32ms
+2022.06.27 21:17:23 INFO  compiling root (1 scala source)
+2022.06.27 21:17:23 INFO  time: compiled root in 60ms
+2022.06.27 21:17:26 INFO  compiling root (1 scala source)
+2022.06.27 21:17:26 INFO  time: compiled root in 61ms
+2022.06.27 21:17:27 INFO  compiling root (1 scala source)
+2022.06.27 21:17:27 INFO  time: compiled root in 61ms
+Jun 27, 2022 9:17:30 PM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: Cannot invoke "scala.reflect.internal.Types$Type.memberType(scala.reflect.internal.Symbols$Symbol)" because "pre" is null
+java.lang.NullPointerException: Cannot invoke "scala.reflect.internal.Types$Type.memberType(scala.reflect.internal.Symbols$Symbol)" because "pre" is null
+	at scala.meta.internal.pc.MetalsGlobal.metalsSeenFromType(MetalsGlobal.scala:774)
+	at scala.meta.internal.pc.completions.MatchCaseCompletions$CaseKeywordCompletion.<init>(MatchCaseCompletions.scala:51)
+	at scala.meta.internal.pc.completions.Completions.fromIdentApply$1(Completions.scala:431)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:451)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:416)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:32)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:408)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:390)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:32)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:476)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:58)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:125)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:139)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+2022.06.27 21:17:35 INFO  compiling root (1 scala source)
+2022.06.27 21:17:35 INFO  time: compiled root in 87ms
+2022.06.27 21:17:37 INFO  compiling root (1 scala source)
+2022.06.27 21:17:37 INFO  time: compiled root in 68ms
+2022.06.27 21:17:43 INFO  compiling root (1 scala source)
+2022.06.27 21:17:43 INFO  time: compiled root in 0.44s
+2022.06.27 21:17:44 INFO  compiling root (1 scala source)
+2022.06.27 21:17:44 INFO  time: compiled root in 46ms
+2022.06.27 21:18:52 INFO  compiling root (1 scala source)
+2022.06.27 21:18:52 INFO  time: compiled root in 0.14s
+Jun 27, 2022 9:18:52 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3273
+2022.06.27 21:18:52 INFO  compiling root (1 scala source)
+2022.06.27 21:18:52 INFO  time: compiled root in 85ms
+2022.06.27 21:18:55 INFO  compiling root (1 scala source)
+2022.06.27 21:18:55 INFO  time: compiled root in 68ms
+2022.06.27 21:18:56 INFO  compiling root (1 scala source)
+2022.06.27 21:18:56 INFO  time: compiled root in 70ms
+2022.06.27 21:19:04 INFO  compiling root (1 scala source)
+2022.06.27 21:19:04 INFO  time: compiled root in 70ms
+2022.06.27 21:19:08 INFO  compiling root (1 scala source)
+2022.06.27 21:19:08 INFO  time: compiled root in 0.48s
+2022.06.27 21:19:10 INFO  compiling root (1 scala source)
+2022.06.27 21:19:10 INFO  time: compiled root in 0.33s
+2022.06.27 21:19:44 INFO  compiling root (1 scala source)
+2022.06.27 21:19:44 INFO  time: compiled root in 0.33s
+2022.06.27 21:19:50 INFO  compiling root (1 scala source)
+2022.06.27 21:19:50 INFO  time: compiled root in 0.59s
+2022.06.27 21:20:35 INFO  compiling root (1 scala source)
+2022.06.27 21:20:35 INFO  time: compiled root in 36ms
+2022.06.27 21:20:35 ERROR scalafmt: /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala:70: error: [dialect scala212source3] } expected but end of file found
+
+^
+2022.06.27 21:20:35 INFO  compiling root (1 scala source)
+2022.06.27 21:20:35 INFO  time: compiled root in 13ms
+2022.06.27 21:20:38 ERROR scalafmt: /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala:70: error: [dialect scala212source3] } expected but end of file found
+
+^
+2022.06.27 21:20:38 INFO  compiling root (1 scala source)
+2022.06.27 21:20:38 INFO  time: compiled root in 35ms
+2022.06.27 21:20:41 INFO  compiling root (1 scala source)
+2022.06.27 21:20:41 INFO  time: compiled root in 45ms
+Jun 27, 2022 9:20:41 PM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: offset 1449, count -1, length 1845
+2022.06.27 21:20:44 INFO  compiling root (1 scala source)
+2022.06.27 21:20:44 INFO  time: compiled root in 0.39s
+2022.06.27 21:21:07 INFO  compiling root (1 scala source)
+2022.06.27 21:21:07 INFO  time: compiled root in 90ms
+2022.06.27 21:21:08 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.27 21:21:08 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.27 21:21:09 INFO  compiling root (1 scala source)
+2022.06.27 21:21:09 INFO  time: compiled root in 0.94s
+2022.06.27 21:21:13 INFO  compiling root (1 scala source)
+2022.06.27 21:21:13 INFO  time: compiled root in 93ms
+2022.06.27 21:21:13 INFO  compiling root (1 scala source)
+2022.06.27 21:21:13 INFO  time: compiled root in 74ms
+2022.06.27 21:21:18 INFO  compiling root (1 scala source)
+2022.06.27 21:21:18 INFO  time: compiled root in 71ms
+2022.06.27 21:21:19 INFO  compiling root (1 scala source)
+2022.06.27 21:21:19 INFO  time: compiled root in 0.39s
+2022.06.27 21:21:36 INFO  compiling root (1 scala source)
+2022.06.27 21:21:36 INFO  time: compiled root in 0.5s
+2022.06.27 21:22:00 INFO  compiling root (1 scala source)
+2022.06.27 21:22:00 INFO  time: compiled root in 0.59s
+2022.06.27 21:22:03 INFO  compiling root (1 scala source)
+2022.06.27 21:22:03 INFO  time: compiled root in 0.37s
+Jun 27, 2022 9:22:24 PM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: offset 1461, count -1, length 1890
+2022.06.27 21:22:25 INFO  compiling root (1 scala source)
+2022.06.27 21:22:25 INFO  time: compiled root in 0.11s
+Jun 27, 2022 9:22:32 PM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: offset 1461, count -1, length 1890
+Jun 27, 2022 9:22:33 PM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: offset 1461, count -1, length 1890
+2022.06.27 21:22:55 INFO  compiling root (1 scala source)
+2022.06.27 21:22:55 INFO  time: compiled root in 31ms
+Jun 27, 2022 9:22:59 PM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: offset 1461, count -1, length 1890
+Jun 27, 2022 9:23:06 PM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: offset 1461, count -1, length 1890
+2022.06.27 21:23:21 INFO  compiling root (1 scala source)
+2022.06.27 21:23:21 INFO  time: compiled root in 0.12s
+2022.06.27 21:23:34 INFO  compiling root (1 scala source)
+2022.06.27 21:23:34 INFO  time: compiled root in 71ms
+2022.06.27 21:23:37 INFO  file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala:51:9: stale bloop error: type mismatch;
+ found   : akka.http.scaladsl.server.Directive0
+    (which expands to)  akka.http.scaladsl.server.Directive[Unit]
+ required: akka.http.scaladsl.server.Route
+    (which expands to)  akka.http.scaladsl.server.RequestContext => scala.concurrent.Future[akka.http.scaladsl.server.RouteResult]
+        get
+        ^^^
+2022.06.27 21:23:37 INFO  file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala:51:9: stale bloop error: type mismatch;
+ found   : akka.http.scaladsl.server.Directive0
+    (which expands to)  akka.http.scaladsl.server.Directive[Unit]
+ required: akka.http.scaladsl.server.Route
+    (which expands to)  akka.http.scaladsl.server.RequestContext => scala.concurrent.Future[akka.http.scaladsl.server.RouteResult]
+        get
+        ^^^
+2022.06.27 21:23:39 INFO  compiling root (1 scala source)
+2022.06.27 21:23:39 INFO  time: compiled root in 70ms
+2022.06.27 21:23:46 INFO  compiling root (1 scala source)
+2022.06.27 21:23:46 INFO  time: compiled root in 0.4s
