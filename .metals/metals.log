@@ -5392,3 +5392,1227 @@ Exception in thread "pool-24-thread-1" java.lang.InterruptedException
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
 	at java.base/java.lang.Thread.run(Thread.java:833)
+2022.06.28 08:25:17 INFO  shutting down Metals
+2022.06.28 08:25:17 INFO  Shut down connection with build server.
+2022.06.28 08:25:17 INFO  Shut down connection with build server.
+2022.06.28 08:25:17 INFO  Shut down connection with build server.
+2022.06.28 19:21:10 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/.metals/lsp.trace.json or /Users/bertmeeuws/Library/Caches/org.scalameta.metals/lsp.trace.json
+2022.06.28 19:21:10 INFO  logging to file /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/.metals/metals.log
+2022.06.28 19:21:10 INFO  Started: Metals version 0.11.6 in workspace '/Users/bertmeeuws/Desktop/Side-Projects/Akka-playground' for client Visual Studio Code 1.68.0.
+2022.06.28 19:21:11 INFO  time: initialize in 0.37s
+2022.06.28 19:21:11 WARN  Flyway upgrade recommended: H2 2.1.212 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.
+2022.06.28 19:21:10 INFO  Attempting to connect to the build server...
+2022.06.28 19:21:11 INFO  skipping build import with status 'Installed'
+2022.06.28 19:21:12 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/.metals/bsp.trace.json or /Users/bertmeeuws/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.06.28 19:21:12 INFO  Attempting to connect to the build server...
+2022.06.28 19:21:12 INFO  Attempting to connect to the build server...
+2022.06.28 19:21:12 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/project/project/.metals/bsp.trace.json or /Users/bertmeeuws/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.06.28 19:21:12 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/project/.metals/bsp.trace.json or /Users/bertmeeuws/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.06.28 19:21:12 INFO  time: Connected to build server in 0.92s
+2022.06.28 19:21:12 INFO  Connected to Build server: Bloop v1.5.0-18-003e6c7b
+2022.06.28 19:21:12 INFO  time: Imported build in 0.16s
+2022.06.28 19:21:15 INFO  time: indexed workspace in 3.16s
+2022.06.28 19:21:15 INFO  compiling root (1 scala source)
+2022.06.28 19:21:16 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/dao/Connection.scala
+2022.06.28 19:21:17 INFO  time: compiled root in 1.5s
+2022.06.28 19:21:17 INFO  compiling root (1 scala source)
+2022.06.28 19:21:17 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/dao/Connection.scala
+2022.06.28 19:21:17 INFO  time: compiled root in 0.12s
+2022.06.28 19:21:17 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/dao/Connection.scala
+2022.06.28 19:23:08 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/dao/Connection.scala
+2022.06.28 19:23:12 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/dao/Connection.scala
+2022.06.28 19:23:15 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/dao/Connection.scala
+2022.06.28 19:23:47 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/dao/Connection.scala
+2022.06.28 19:23:47 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/dao/Connection.scala
+2022.06.28 19:23:47 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/dao/Connection.scala
+2022.06.28 19:23:47 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/dao/Connection.scala
+2022.06.28 19:23:48 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/dao/Connection.scala
+2022.06.28 19:23:49 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/dao/Connection.scala
+2022.06.28 19:23:49 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/dao/Connection.scala
+2022.06.28 19:23:50 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/dao/Connection.scala
+2022.06.28 19:23:50 INFO  compiling root (1 scala source)
+2022.06.28 19:23:50 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/dao/Connection.scala
+2022.06.28 19:23:50 INFO  time: compiled root in 0.89s
+2022.06.28 19:24:50 INFO  compiling root (1 scala source)
+2022.06.28 19:24:50 INFO  time: compiled root in 0.25s
+2022.06.28 19:25:00 INFO  compiling root (1 scala source)
+2022.06.28 19:25:00 INFO  time: compiled root in 0.15s
+2022.06.28 19:25:01 INFO  compiling root (1 scala source)
+2022.06.28 19:25:01 INFO  time: compiled root in 0.23s
+2022.06.28 19:25:04 INFO  compiling root (1 scala source)
+2022.06.28 19:25:04 INFO  time: compiled root in 25ms
+2022.06.28 19:25:14 INFO  compiling root (1 scala source)
+2022.06.28 19:25:14 INFO  time: compiled root in 0.15s
+2022.06.28 19:25:18 INFO  compiling root (1 scala source)
+2022.06.28 19:25:18 INFO  time: compiled root in 34ms
+2022.06.28 19:25:32 INFO  compiling root (1 scala source)
+2022.06.28 19:25:32 INFO  time: compiled root in 42ms
+Jun 28, 2022 7:27:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 286
+Jun 28, 2022 7:27:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 287
+2022.06.28 19:27:33 INFO  compiling root (1 scala source)
+2022.06.28 19:27:33 INFO  time: compiled root in 0.15s
+2022.06.28 19:27:36 INFO  compiling root (1 scala source)
+2022.06.28 19:27:36 INFO  time: compiled root in 34ms
+2022.06.28 19:27:37 INFO  compiling root (1 scala source)
+2022.06.28 19:27:37 INFO  time: compiled root in 38ms
+2022.06.28 19:27:43 INFO  running '/Library/Java/JavaVirtualMachines/temurin-17.jdk/Contents/Home/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /var/folders/xx/z1dj89qx3jd0vyh21fv9n8rh0000gn/T/metals3099268310356548901/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2022.06.28 19:27:44 INFO  [info] welcome to sbt 1.6.2 (Eclipse Adoptium Java 17.0.3)
+2022.06.28 19:27:44 INFO  [info] loading settings for project akka-playground-build-build-build from metals.sbt ...
+2022.06.28 19:27:44 INFO  [info] loading project definition from /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/project/project/project
+2022.06.28 19:27:45 INFO  [info] loading settings for project akka-playground-build-build from metals.sbt ...
+2022.06.28 19:27:45 INFO  [info] loading project definition from /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/project/project
+2022.06.28 19:27:46 INFO  [success] Generated .bloop/akka-playground-build-build.json
+2022.06.28 19:27:46 INFO  [success] Total time: 1 s, completed 28 Jun 2022, 19:27:46
+2022.06.28 19:27:46 INFO  [info] loading settings for project akka-playground-build from metals.sbt,plugins.sbt ...
+2022.06.28 19:27:46 INFO  [info] loading project definition from /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/project
+2022.06.28 19:27:46 INFO  [success] Generated .bloop/akka-playground-build.json
+2022.06.28 19:27:46 INFO  [success] Total time: 0 s, completed 28 Jun 2022, 19:27:47
+2022.06.28 19:27:46 INFO  [info] loading settings for project root from build.sbt ...
+2022.06.28 19:27:46 INFO  [info] set current project to My Akka HTTP Project (in build file:/Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/)
+2022.06.28 19:27:47 INFO  compiling root (1 scala source)
+2022.06.28 19:27:47 INFO  [success] Generated .bloop/root-test.json
+2022.06.28 19:27:47 INFO  [success] Generated .bloop/root.json
+2022.06.28 19:27:47 INFO  [success] Total time: 0 s, completed 28 Jun 2022, 19:27:47
+2022.06.28 19:27:47 INFO  time: ran 'sbt bloopInstall' in 4.49s
+2022.06.28 19:27:47 INFO  Disconnecting from Bloop session...
+2022.06.28 19:27:47 INFO  Shut down connection with build server.
+2022.06.28 19:27:47 INFO  Shut down connection with build server.
+2022.06.28 19:27:47 INFO  Shut down connection with build server.
+2022.06.28 19:27:47 INFO  Attempting to connect to the build server...
+2022.06.28 19:27:47 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/.metals/bsp.trace.json or /Users/bertmeeuws/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.06.28 19:27:47 INFO  Attempting to connect to the build server...
+2022.06.28 19:27:47 INFO  Attempting to connect to the build server...
+2022.06.28 19:27:47 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/project/project/.metals/bsp.trace.json or /Users/bertmeeuws/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.06.28 19:27:47 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/project/.metals/bsp.trace.json or /Users/bertmeeuws/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.06.28 19:27:47 INFO  time: Connected to build server in 58ms
+2022.06.28 19:27:47 INFO  Connected to Build server: Bloop v1.5.0-18-003e6c7b
+2022.06.28 19:27:49 INFO  time: indexed workspace in 1.16s
+2022.06.28 19:27:49 INFO  compiling root (1 scala source)
+2022.06.28 19:27:50 INFO  time: compiled root in 1.56s
+2022.06.28 19:28:27 INFO  compiling root (1 scala source)
+2022.06.28 19:28:27 INFO  time: compiled root in 0.24s
+2022.06.28 19:28:27 INFO  compiling root (1 scala source)
+2022.06.28 19:28:27 INFO  time: compiled root in 87ms
+2022.06.28 19:28:28 INFO  compiling root (1 scala source)
+2022.06.28 19:28:28 INFO  time: compiled root in 0.23s
+2022.06.28 19:28:30 INFO  compiling root (1 scala source)
+2022.06.28 19:28:30 INFO  time: compiled root in 33ms
+something's wrong: no file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/models/Models.scala in slick.jdbc.PostgresProfile.api.Table[<error>]RangePosition(file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/models/Models.scala, 259, 259, 274)
+something's wrong: no file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/models/Models.scala in slick.jdbc.PostgresProfile.api.Table[<error>]RangePosition(file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/models/Models.scala, 259, 259, 267)
+something's wrong: no file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/models/Models.scala in slick.jdbc.PostgresProfile.api.Table[com.example.models.Movie]RangePosition(file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/models/Models.scala, 259, 259, 271)
+2022.06.28 19:28:49 INFO  compiling root (1 scala source)
+2022.06.28 19:28:49 INFO  time: compiled root in 50ms
+something's wrong: no file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/models/Models.scala in slick.jdbc.PostgresProfile.api.Table[com.example.models.Movie]RangePosition(file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/models/Models.scala, 259, 259, 271)
+something's wrong: no file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/models/Models.scala in slick.jdbc.PostgresProfile.api.Table[com.example.models.Movie]RangePosition(file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/models/Models.scala, 259, 259, 271)
+Jun 28, 2022 7:29:00 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: offset 261, count -2, length 284
+java.lang.StringIndexOutOfBoundsException: offset 261, count -2, length 284
+	at java.base/java.lang.String.checkBoundsOffCount(String.java:4589)
+	at java.base/java.lang.String.rangeCheck(String.java:304)
+	at java.base/java.lang.String.<init>(String.java:300)
+	at scala.tools.nsc.interactive.Global.typeCompletions$1(Global.scala:1231)
+	at scala.tools.nsc.interactive.Global.completionsAt(Global.scala:1254)
+	at scala.meta.internal.pc.SignatureHelpProvider.$anonfun$treeSymbol$1(SignatureHelpProvider.scala:382)
+	at scala.Option.map(Option.scala:230)
+	at scala.meta.internal.pc.SignatureHelpProvider.treeSymbol(SignatureHelpProvider.scala:380)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCall$.unapply(SignatureHelpProvider.scala:205)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.visit(SignatureHelpProvider.scala:316)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.traverse(SignatureHelpProvider.scala:310)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.traverse(SignatureHelpProvider.scala:275)
+	at scala.reflect.api.Trees$Traverser.$anonfun$traverseTrees$1(Trees.scala:2492)
+	at scala.reflect.api.Trees$Traverser.traverseTrees(Trees.scala:2492)
+	at scala.reflect.internal.Trees.traverseComponents$1(Trees.scala:1298)
+	at scala.reflect.internal.Trees.itraverse(Trees.scala:1394)
+	at scala.reflect.internal.Trees.itraverse$(Trees.scala:1264)
+	at scala.reflect.internal.SymbolTable.itraverse(SymbolTable.scala:28)
+	at scala.reflect.internal.SymbolTable.itraverse(SymbolTable.scala:28)
+	at scala.reflect.api.Trees$Traverser.traverse(Trees.scala:2483)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.visit(SignatureHelpProvider.scala:350)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.traverse(SignatureHelpProvider.scala:310)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.traverse(SignatureHelpProvider.scala:275)
+	at scala.reflect.internal.Trees.$anonfun$itraverse$1(Trees.scala:1279)
+	at scala.reflect.api.Trees$Traverser.atOwner(Trees.scala:2515)
+	at scala.reflect.internal.Trees.traverseMemberDef$1(Trees.scala:1267)
+	at scala.reflect.internal.Trees.itraverse(Trees.scala:1392)
+	at scala.reflect.internal.Trees.itraverse$(Trees.scala:1264)
+	at scala.reflect.internal.SymbolTable.itraverse(SymbolTable.scala:28)
+	at scala.reflect.internal.SymbolTable.itraverse(SymbolTable.scala:28)
+	at scala.reflect.api.Trees$Traverser.traverse(Trees.scala:2483)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.visit(SignatureHelpProvider.scala:350)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.traverse(SignatureHelpProvider.scala:310)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.traverse(SignatureHelpProvider.scala:275)
+	at scala.reflect.api.Trees$Traverser.$anonfun$traverseStats$2(Trees.scala:2506)
+	at scala.reflect.api.Trees$Traverser.atOwner(Trees.scala:2515)
+	at scala.reflect.api.Trees$Traverser.$anonfun$traverseStats$1(Trees.scala:2506)
+	at scala.reflect.api.Trees$Traverser.traverseStats(Trees.scala:2505)
+	at scala.reflect.internal.Trees.traverseComponents$1(Trees.scala:1296)
+	at scala.reflect.internal.Trees.itraverse(Trees.scala:1394)
+	at scala.reflect.internal.Trees.itraverse$(Trees.scala:1264)
+	at scala.reflect.internal.SymbolTable.itraverse(SymbolTable.scala:28)
+	at scala.reflect.internal.SymbolTable.itraverse(SymbolTable.scala:28)
+	at scala.reflect.api.Trees$Traverser.traverse(Trees.scala:2483)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.visit(SignatureHelpProvider.scala:350)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.traverse(SignatureHelpProvider.scala:310)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.fromTree(SignatureHelpProvider.scala:279)
+	at scala.meta.internal.pc.SignatureHelpProvider.signatureHelp(SignatureHelpProvider.scala:27)
+
+something's wrong: no file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/models/Models.scala in slick.jdbc.PostgresProfile.api.Table[com.example.models.Movie]RangePosition(file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/models/Models.scala, 259, 259, 271)
+something's wrong: no file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/models/Models.scala in slick.jdbc.PostgresProfile.api.Table[com.example.models.Movie]RangePosition(file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/models/Models.scala, 259, 259, 271)
+something's wrong: no file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/models/Models.scala in slick.jdbc.PostgresProfile.api.Table[com.example.models.Movie]RangePosition(file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/models/Models.scala, 259, 259, 271)
+2022.06.28 19:29:03 INFO  compiling root (1 scala source)
+2022.06.28 19:29:03 INFO  time: compiled root in 29ms
+something's wrong: no file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/models/Models.scala in slick.jdbc.PostgresProfile.api.Table[com.example.models.Movie]RangePosition(file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/models/Models.scala, 259, 259, 271)
+something's wrong: no file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/models/Models.scala in slick.jdbc.PostgresProfile.api.Table[com.example.models.Movie]RangePosition(file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/models/Models.scala, 259, 259, 271)
+something's wrong: no file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/models/Models.scala in slick.jdbc.PostgresProfile.api.Table[com.example.models.Movie]RangePosition(file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/models/Models.scala, 259, 259, 271)
+2022.06.28 19:29:05 INFO  file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/models/Models.scala:15:56: stale bloop error: illegal start of simple expression
+  class MovieTable(tag: Tag) extends Table[Movie](tag, )
+                                                       ^
+2022.06.28 19:29:05 INFO  file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/models/Models.scala:16:1: stale bloop error: ')' expected but '}' found.
+}
+^
+2022.06.28 19:29:05 INFO  file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/models/Models.scala:15:56: stale bloop error: illegal start of simple expression
+  class MovieTable(tag: Tag) extends Table[Movie](tag, )
+                                                       ^
+2022.06.28 19:29:05 INFO  file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/models/Models.scala:16:1: stale bloop error: ')' expected but '}' found.
+}
+^
+2022.06.28 19:29:06 INFO  file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/models/Models.scala:15:56: stale bloop error: illegal start of simple expression
+  class MovieTable(tag: Tag) extends Table[Movie](tag, )
+                                                       ^
+2022.06.28 19:29:06 INFO  file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/models/Models.scala:16:1: stale bloop error: ')' expected but '}' found.
+}
+^
+2022.06.28 19:29:06 INFO  file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/models/Models.scala:15:56: stale bloop error: illegal start of simple expression
+  class MovieTable(tag: Tag) extends Table[Movie](tag, )
+                                                       ^
+2022.06.28 19:29:06 INFO  file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/models/Models.scala:16:1: stale bloop error: ')' expected but '}' found.
+}
+^
+2022.06.28 19:29:06 INFO  file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/models/Models.scala:15:56: stale bloop error: illegal start of simple expression
+  class MovieTable(tag: Tag) extends Table[Movie](tag, )
+                                                       ^
+2022.06.28 19:29:06 INFO  file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/models/Models.scala:16:1: stale bloop error: ')' expected but '}' found.
+}
+^
+2022.06.28 19:29:07 INFO  file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/models/Models.scala:15:56: stale bloop error: illegal start of simple expression
+  class MovieTable(tag: Tag) extends Table[Movie](tag, )
+                                                       ^
+2022.06.28 19:29:07 INFO  file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/models/Models.scala:16:1: stale bloop error: ')' expected but '}' found.
+}
+^
+2022.06.28 19:29:06 INFO  file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/models/Models.scala:15:56: stale bloop error: illegal start of simple expression
+  class MovieTable(tag: Tag) extends Table[Movie](tag, )
+                                                       ^
+2022.06.28 19:29:06 INFO  file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/models/Models.scala:16:1: stale bloop error: ')' expected but '}' found.
+}
+^
+2022.06.28 19:29:07 INFO  file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/models/Models.scala:15:56: stale bloop error: illegal start of simple expression
+  class MovieTable(tag: Tag) extends Table[Movie](tag, )
+                                                       ^
+2022.06.28 19:29:07 INFO  file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/models/Models.scala:16:1: stale bloop error: ')' expected but '}' found.
+}
+^
+2022.06.28 19:29:07 INFO  file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/models/Models.scala:15:56: stale bloop error: illegal start of simple expression
+  class MovieTable(tag: Tag) extends Table[Movie](tag, )
+                                                       ^
+2022.06.28 19:29:07 INFO  file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/models/Models.scala:16:1: stale bloop error: ')' expected but '}' found.
+}
+^
+2022.06.28 19:29:07 INFO  file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/models/Models.scala:15:56: stale bloop error: illegal start of simple expression
+  class MovieTable(tag: Tag) extends Table[Movie](tag, )
+                                                       ^
+2022.06.28 19:29:07 INFO  file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/models/Models.scala:16:1: stale bloop error: ')' expected but '}' found.
+}
+^
+2022.06.28 19:29:07 ERROR scalafmt: /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/models/Models.scala:15: error: unclosed character literal
+  class MovieTable(tag: Tag) extends Table[Movie](tag, Some('movies'))
+                                                                   ^
+2022.06.28 19:29:08 INFO  file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/models/Models.scala:15:56: stale bloop error: illegal start of simple expression
+  class MovieTable(tag: Tag) extends Table[Movie](tag, )
+                                                       ^
+2022.06.28 19:29:08 INFO  file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/models/Models.scala:16:1: stale bloop error: ')' expected but '}' found.
+}
+^
+2022.06.28 19:29:08 INFO  compiling root (1 scala source)
+2022.06.28 19:29:08 INFO  file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/models/Models.scala:15:68: stale bloop error: unclosed character literal (or use " for string literal "movies")
+  class MovieTable(tag: Tag) extends Table[Movie](tag, Some('movies'))
+                                                                   ^
+2022.06.28 19:29:08 INFO  time: compiled root in 40ms
+2022.06.28 19:29:10 INFO  file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/models/Models.scala:15:68: stale bloop error: unclosed character literal (or use " for string literal "movies")
+  class MovieTable(tag: Tag) extends Table[Movie](tag, Some('movies'))
+                                                                   ^
+2022.06.28 19:29:10 INFO  file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/models/Models.scala:15:68: stale bloop error: unclosed character literal (or use " for string literal "movies")
+  class MovieTable(tag: Tag) extends Table[Movie](tag, Some('movies'))
+                                                                   ^
+2022.06.28 19:29:10 INFO  file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/models/Models.scala:15:68: stale bloop error: unclosed character literal (or use " for string literal "movies")
+  class MovieTable(tag: Tag) extends Table[Movie](tag, Some('movies'))
+                                                                   ^
+2022.06.28 19:29:11 INFO  file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/models/Models.scala:15:68: stale bloop error: unclosed character literal (or use " for string literal "movies")
+  class MovieTable(tag: Tag) extends Table[Movie](tag, Some('movies'))
+                                                                   ^
+2022.06.28 19:29:11 INFO  file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/models/Models.scala:15:68: stale bloop error: unclosed character literal (or use " for string literal "movies")
+  class MovieTable(tag: Tag) extends Table[Movie](tag, Some('movies'))
+                                                                   ^
+2022.06.28 19:29:11 INFO  file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/models/Models.scala:15:68: stale bloop error: unclosed character literal (or use " for string literal "movies")
+  class MovieTable(tag: Tag) extends Table[Movie](tag, Some('movies'))
+                                                                   ^
+2022.06.28 19:29:11 INFO  file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/models/Models.scala:15:68: stale bloop error: unclosed character literal (or use " for string literal "movies")
+  class MovieTable(tag: Tag) extends Table[Movie](tag, Some('movies'))
+                                                                   ^
+2022.06.28 19:29:11 INFO  file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/models/Models.scala:15:68: stale bloop error: unclosed character literal (or use " for string literal "movies")
+  class MovieTable(tag: Tag) extends Table[Movie](tag, Some('movies'))
+                                                                   ^
+2022.06.28 19:29:11 INFO  file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/models/Models.scala:15:68: stale bloop error: unclosed character literal (or use " for string literal "movies")
+  class MovieTable(tag: Tag) extends Table[Movie](tag, Some('movies'))
+                                                                   ^
+2022.06.28 19:29:12 INFO  file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/models/Models.scala:15:68: stale bloop error: unclosed character literal (or use " for string literal "movies")
+  class MovieTable(tag: Tag) extends Table[Movie](tag, Some('movies'))
+                                                                   ^
+2022.06.28 19:29:12 INFO  file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/models/Models.scala:15:68: stale bloop error: unclosed character literal (or use " for string literal "movies")
+  class MovieTable(tag: Tag) extends Table[Movie](tag, Some('movies'))
+                                                                   ^
+2022.06.28 19:29:13 INFO  compiling root (1 scala source)
+2022.06.28 19:29:13 INFO  time: compiled root in 67ms
+2022.06.28 19:29:15 INFO  compiling root (1 scala source)
+2022.06.28 19:29:15 INFO  time: compiled root in 50ms
+2022.06.28 19:29:21 INFO  compiling root (1 scala source)
+2022.06.28 19:29:21 INFO  time: compiled root in 0.77s
+2022.06.28 19:29:48 INFO  compiling root (1 scala source)
+2022.06.28 19:29:48 INFO  time: compiled root in 25ms
+Jun 28, 2022 7:29:51 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.reflect.InvocationTargetException
+	at jdk.internal.reflect.GeneratedMethodAccessor11.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: 19 is not a valid line number, allowed [0..16]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:59)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:179)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$4(Trees.scala:76)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:75)
+	at scala.meta.internal.metals.codeactions.PatternMatchRefactor.contribute(PatternMatchRefactor.scala:96)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:64)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:63)
+	at scala.collection.immutable.List.collect(List.scala:275)
+	at scala.meta.internal.metals.CodeActionProvider.codeActions(CodeActionProvider.scala:63)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeAction$1(MetalsLanguageServer.scala:1649)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.codeAction(MetalsLanguageServer.scala:1648)
+	... 15 more
+
+Jun 28, 2022 7:29:52 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.reflect.InvocationTargetException
+	at jdk.internal.reflect.GeneratedMethodAccessor11.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: 17 is not a valid line number, allowed [0..16]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:59)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:179)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$4(Trees.scala:76)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:75)
+	at scala.meta.internal.metals.codeactions.PatternMatchRefactor.contribute(PatternMatchRefactor.scala:96)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:64)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:63)
+	at scala.collection.immutable.List.collect(List.scala:275)
+	at scala.meta.internal.metals.CodeActionProvider.codeActions(CodeActionProvider.scala:63)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeAction$1(MetalsLanguageServer.scala:1649)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.codeAction(MetalsLanguageServer.scala:1648)
+	... 15 more
+
+Jun 28, 2022 7:29:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.reflect.InvocationTargetException
+	at jdk.internal.reflect.GeneratedMethodAccessor11.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: 17 is not a valid line number, allowed [0..16]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:59)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:179)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$4(Trees.scala:76)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:75)
+	at scala.meta.internal.metals.codeactions.PatternMatchRefactor.contribute(PatternMatchRefactor.scala:96)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:64)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:63)
+	at scala.collection.immutable.List.collect(List.scala:275)
+	at scala.meta.internal.metals.CodeActionProvider.codeActions(CodeActionProvider.scala:63)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeAction$1(MetalsLanguageServer.scala:1649)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.codeAction(MetalsLanguageServer.scala:1648)
+	... 15 more
+
+Jun 28, 2022 7:29:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.reflect.InvocationTargetException
+	at jdk.internal.reflect.GeneratedMethodAccessor11.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: 17 is not a valid line number, allowed [0..16]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:59)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:179)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$4(Trees.scala:76)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:75)
+	at scala.meta.internal.metals.codeactions.PatternMatchRefactor.contribute(PatternMatchRefactor.scala:96)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:64)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:63)
+	at scala.collection.immutable.List.collect(List.scala:275)
+	at scala.meta.internal.metals.CodeActionProvider.codeActions(CodeActionProvider.scala:63)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeAction$1(MetalsLanguageServer.scala:1649)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.codeAction(MetalsLanguageServer.scala:1648)
+	... 15 more
+
+Jun 28, 2022 7:29:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.reflect.InvocationTargetException
+	at jdk.internal.reflect.GeneratedMethodAccessor11.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: 17 is not a valid line number, allowed [0..16]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:59)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:179)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$4(Trees.scala:76)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:75)
+	at scala.meta.internal.metals.codeactions.PatternMatchRefactor.contribute(PatternMatchRefactor.scala:96)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:64)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:63)
+	at scala.collection.immutable.List.collect(List.scala:275)
+	at scala.meta.internal.metals.CodeActionProvider.codeActions(CodeActionProvider.scala:63)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeAction$1(MetalsLanguageServer.scala:1649)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.codeAction(MetalsLanguageServer.scala:1648)
+	... 15 more
+
+Jun 28, 2022 7:29:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.reflect.InvocationTargetException
+	at jdk.internal.reflect.GeneratedMethodAccessor11.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: 17 is not a valid line number, allowed [0..16]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:59)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:179)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$4(Trees.scala:76)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:75)
+	at scala.meta.internal.metals.codeactions.PatternMatchRefactor.contribute(PatternMatchRefactor.scala:96)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:64)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:63)
+	at scala.collection.immutable.List.collect(List.scala:275)
+	at scala.meta.internal.metals.CodeActionProvider.codeActions(CodeActionProvider.scala:63)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeAction$1(MetalsLanguageServer.scala:1649)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.codeAction(MetalsLanguageServer.scala:1648)
+	... 15 more
+
+Jun 28, 2022 7:29:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.reflect.InvocationTargetException
+	at jdk.internal.reflect.GeneratedMethodAccessor11.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: 17 is not a valid line number, allowed [0..16]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:59)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:179)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$4(Trees.scala:76)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:75)
+	at scala.meta.internal.metals.codeactions.PatternMatchRefactor.contribute(PatternMatchRefactor.scala:96)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:64)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:63)
+	at scala.collection.immutable.List.collect(List.scala:275)
+	at scala.meta.internal.metals.CodeActionProvider.codeActions(CodeActionProvider.scala:63)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeAction$1(MetalsLanguageServer.scala:1649)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.codeAction(MetalsLanguageServer.scala:1648)
+	... 15 more
+
+Jun 28, 2022 7:30:00 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.reflect.InvocationTargetException
+	at jdk.internal.reflect.GeneratedMethodAccessor11.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: 17 is not a valid line number, allowed [0..16]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:59)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:179)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$4(Trees.scala:76)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:75)
+	at scala.meta.internal.metals.codeactions.PatternMatchRefactor.contribute(PatternMatchRefactor.scala:96)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:64)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:63)
+	at scala.collection.immutable.List.collect(List.scala:275)
+	at scala.meta.internal.metals.CodeActionProvider.codeActions(CodeActionProvider.scala:63)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeAction$1(MetalsLanguageServer.scala:1649)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.codeAction(MetalsLanguageServer.scala:1648)
+	... 15 more
+
+Jun 28, 2022 7:30:00 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.reflect.InvocationTargetException
+	at jdk.internal.reflect.GeneratedMethodAccessor11.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: 17 is not a valid line number, allowed [0..16]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:59)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:179)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$4(Trees.scala:76)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:75)
+	at scala.meta.internal.metals.codeactions.PatternMatchRefactor.contribute(PatternMatchRefactor.scala:96)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:64)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:63)
+	at scala.collection.immutable.List.collect(List.scala:275)
+	at scala.meta.internal.metals.CodeActionProvider.codeActions(CodeActionProvider.scala:63)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeAction$1(MetalsLanguageServer.scala:1649)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.codeAction(MetalsLanguageServer.scala:1648)
+	... 15 more
+
+2022.06.28 19:30:03 INFO  compiling root (1 scala source)
+2022.06.28 19:30:03 INFO  time: compiled root in 0.3s
+2022.06.28 19:30:05 INFO  compiling root (1 scala source)
+2022.06.28 19:30:05 INFO  time: compiled root in 0.27s
+2022.06.28 19:30:18 INFO  compiling root (1 scala source)
+2022.06.28 19:30:18 INFO  time: compiled root in 40ms
+2022.06.28 19:30:19 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/models/Models.scala
+2022.06.28 19:30:32 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/models/Models.scala
+2022.06.28 19:30:33 INFO  compiling root (1 scala source)
+2022.06.28 19:30:33 INFO  time: compiled root in 39ms
+2022.06.28 19:30:33 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/models/Models.scala
+2022.06.28 19:30:35 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/models/Models.scala
+2022.06.28 19:30:35 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/models/Models.scala
+2022.06.28 19:30:36 INFO  compiling root (1 scala source)
+2022.06.28 19:30:36 INFO  time: compiled root in 55ms
+2022.06.28 19:30:36 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/models/Models.scala
+2022.06.28 19:30:45 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/models/Models.scala
+2022.06.28 19:30:47 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/models/Models.scala
+2022.06.28 19:30:47 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/models/Models.scala
+2022.06.28 19:30:49 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/models/Models.scala
+2022.06.28 19:30:49 INFO  compiling root (1 scala source)
+2022.06.28 19:30:49 INFO  time: compiled root in 55ms
+2022.06.28 19:30:50 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/models/Models.scala
+2022.06.28 19:30:50 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/models/Models.scala
+2022.06.28 19:30:51 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/models/Models.scala
+2022.06.28 19:30:52 INFO  compiling root (1 scala source)
+2022.06.28 19:30:52 INFO  time: compiled root in 45ms
+2022.06.28 19:30:52 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/models/Models.scala
+2022.06.28 19:31:03 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/models/Models.scala
+2022.06.28 19:31:05 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/models/Models.scala
+2022.06.28 19:31:06 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/models/Models.scala
+2022.06.28 19:31:07 INFO  compiling root (1 scala source)
+2022.06.28 19:31:07 INFO  time: compiled root in 0.33s
+2022.06.28 19:31:10 INFO  compiling root (1 scala source)
+2022.06.28 19:31:10 INFO  time: compiled root in 25ms
+2022.06.28 19:31:31 INFO  compiling root (1 scala source)
+2022.06.28 19:31:31 INFO  time: compiled root in 54ms
+2022.06.28 19:31:36 INFO  compiling root (1 scala source)
+2022.06.28 19:31:36 INFO  time: compiled root in 0.3s
+2022.06.28 19:31:56 INFO  compiling root (1 scala source)
+2022.06.28 19:31:56 INFO  time: compiled root in 0.3s
+2022.06.28 19:32:04 INFO  compiling root (1 scala source)
+2022.06.28 19:32:04 INFO  time: compiled root in 29ms
+Jun 28, 2022 7:32:23 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1035
+2022.06.28 19:32:26 INFO  compiling root (1 scala source)
+2022.06.28 19:32:26 INFO  time: compiled root in 46ms
+2022.06.28 19:32:29 INFO  compiling root (1 scala source)
+2022.06.28 19:32:29 INFO  time: compiled root in 44ms
+2022.06.28 19:32:31 INFO  compiling root (1 scala source)
+2022.06.28 19:32:31 INFO  time: compiled root in 45ms
+2022.06.28 19:32:31 INFO  compiling root (1 scala source)
+2022.06.28 19:32:31 INFO  time: compiled root in 47ms
+2022.06.28 19:32:36 INFO  compiling root (1 scala source)
+2022.06.28 19:32:36 INFO  time: compiled root in 0.36s
+2022.06.28 19:32:43 INFO  compiling root (1 scala source)
+2022.06.28 19:32:43 INFO  time: compiled root in 63ms
+2022.06.28 19:32:46 INFO  compiling root (1 scala source)
+2022.06.28 19:32:46 INFO  time: compiled root in 28ms
+2022.06.28 19:32:51 INFO  file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/models/Models.scala:22:30: stale bloop error: identifier expected but ']' found.
+    def releaseDate = column[]
+                             ^
+2022.06.28 19:32:51 INFO  file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/models/Models.scala:23:3: stale bloop error: ']' expected but '}' found.
+  }
+  ^
+2022.06.28 19:32:51 INFO  file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/models/Models.scala:22:30: stale bloop error: identifier expected but ']' found.
+    def releaseDate = column[]
+                             ^
+2022.06.28 19:32:51 INFO  file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/models/Models.scala:23:3: stale bloop error: ']' expected but '}' found.
+  }
+  ^
+2022.06.28 19:32:57 INFO  compiling root (1 scala source)
+2022.06.28 19:32:57 INFO  time: compiled root in 0.32s
+2022.06.28 19:33:05 INFO  compiling root (1 scala source)
+2022.06.28 19:33:05 INFO  time: compiled root in 48ms
+something's wrong: no file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/models/Models.scala in () => <error>RangePosition(file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/models/Models.scala, 554, 559, 556)
+2022.06.28 19:33:08 INFO  compiling root (1 scala source)
+2022.06.28 19:33:08 INFO  time: compiled root in 44ms
+2022.06.28 19:33:14 INFO  compiling root (1 scala source)
+2022.06.28 19:33:14 INFO  time: compiled root in 0.32s
+2022.06.28 19:33:19 INFO  compiling root (1 scala source)
+2022.06.28 19:33:19 INFO  time: compiled root in 0.27s
+2022.06.28 19:33:22 INFO  compiling root (1 scala source)
+2022.06.28 19:33:22 INFO  time: compiled root in 0.36s
+2022.06.28 19:33:24 INFO  compiling root (1 scala source)
+2022.06.28 19:33:24 INFO  time: compiled root in 0.28s
+2022.06.28 19:33:32 INFO  compiling root (1 scala source)
+2022.06.28 19:33:32 INFO  time: compiled root in 55ms
+2022.06.28 19:33:41 INFO  compiling root (1 scala source)
+2022.06.28 19:33:41 INFO  time: compiled root in 55ms
+2022.06.28 19:33:55 INFO  compiling root (1 scala source)
+2022.06.28 19:33:55 INFO  time: compiled root in 77ms
+2022.06.28 19:33:58 INFO  compiling root (1 scala source)
+2022.06.28 19:33:58 INFO  time: compiled root in 59ms
+2022.06.28 19:34:20 INFO  compiling root (1 scala source)
+2022.06.28 19:34:20 INFO  time: compiled root in 68ms
+2022.06.28 19:34:39 INFO  compiling root (1 scala source)
+2022.06.28 19:34:39 INFO  time: compiled root in 37ms
+2022.06.28 19:34:49 INFO  compiling root (1 scala source)
+2022.06.28 19:34:49 INFO  time: compiled root in 65ms
+2022.06.28 19:34:52 INFO  compiling root (1 scala source)
+2022.06.28 19:34:52 INFO  time: compiled root in 0.36s
+Jun 28, 2022 7:35:21 PM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: offset 558, count -1, length 664
+Jun 28, 2022 7:35:22 PM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: offset 558, count -1, length 664
+2022.06.28 19:35:29 INFO  compiling root (1 scala source)
+2022.06.28 19:35:29 INFO  time: compiled root in 0.41s
+2022.06.28 19:35:31 INFO  compiling root (1 scala source)
+2022.06.28 19:35:31 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/models/Models.scala
+2022.06.28 19:35:31 INFO  time: compiled root in 0.61s
+2022.06.28 19:35:44 INFO  compiling root (1 scala source)
+2022.06.28 19:35:44 INFO  time: compiled root in 89ms
+2022.06.28 19:35:49 INFO  compiling root (1 scala source)
+2022.06.28 19:35:49 INFO  time: compiled root in 42ms
+2022.06.28 19:35:51 INFO  compiling root (1 scala source)
+2022.06.28 19:35:51 INFO  time: compiled root in 66ms
+2022.06.28 19:35:52 INFO  compiling root (1 scala source)
+2022.06.28 19:35:52 INFO  time: compiled root in 0.33s
+2022.06.28 19:35:54 INFO  compiling root (1 scala source)
+2022.06.28 19:35:54 INFO  time: compiled root in 71ms
+2022.06.28 19:35:56 INFO  compiling root (1 scala source)
+2022.06.28 19:35:56 INFO  time: compiled root in 0.34s
+2022.06.28 19:36:11 INFO  compiling root (1 scala source)
+2022.06.28 19:36:11 INFO  time: compiled root in 26ms
+2022.06.28 19:36:18 INFO  file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/models/Models.scala:32:1: stale bloop error: identifier expected but '}' found.
+}
+^
+2022.06.28 19:36:18 INFO  file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/models/Models.scala:32:1: stale bloop error: identifier expected but '}' found.
+}
+^
+2022.06.28 19:36:20 INFO  compiling root (1 scala source)
+2022.06.28 19:36:20 INFO  time: compiled root in 0.37s
+2022.06.28 19:36:22 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/models/Models.scala
+2022.06.28 19:36:22 INFO  compiling root (1 scala source)
+2022.06.28 19:36:22 INFO  time: compiled root in 0.34s
+2022.06.28 19:37:32 INFO  compiling root (1 scala source)
+2022.06.28 19:37:32 INFO  time: compiled root in 0.53s
+2022.06.28 19:37:36 INFO  compiling root (1 scala source)
+2022.06.28 19:37:36 INFO  time: compiled root in 29ms
+2022.06.28 19:37:38 INFO  compiling root (1 scala source)
+2022.06.28 19:37:38 INFO  time: compiled root in 26ms
+2022.06.28 19:37:42 INFO  compiling root (1 scala source)
+2022.06.28 19:37:42 INFO  time: compiled root in 0.37s
+2022.06.28 19:37:46 INFO  compiling root (1 scala source)
+2022.06.28 19:37:46 INFO  time: compiled root in 76ms
+2022.06.28 19:37:50 INFO  compiling root (1 scala source)
+2022.06.28 19:37:50 INFO  time: compiled root in 33ms
+2022.06.28 19:37:57 INFO  compiling root (1 scala source)
+2022.06.28 19:37:57 INFO  time: compiled root in 68ms
+2022.06.28 19:38:00 INFO  compiling root (1 scala source)
+2022.06.28 19:38:00 INFO  time: compiled root in 28ms
+2022.06.28 19:38:10 INFO  compiling root (1 scala source)
+2022.06.28 19:38:10 INFO  time: compiled root in 28ms
+2022.06.28 19:38:13 INFO  compiling root (1 scala source)
+2022.06.28 19:38:13 INFO  time: compiled root in 64ms
+2022.06.28 19:38:15 INFO  compiling root (1 scala source)
+2022.06.28 19:38:15 INFO  time: compiled root in 75ms
+2022.06.28 19:38:25 INFO  compiling root (1 scala source)
+2022.06.28 19:38:25 INFO  time: compiled root in 33ms
+2022.06.28 19:38:29 INFO  compiling root (1 scala source)
+2022.06.28 19:38:29 INFO  time: compiled root in 26ms
+2022.06.28 19:38:34 INFO  compiling root (1 scala source)
+2022.06.28 19:38:34 INFO  time: compiled root in 32ms
+2022.06.28 19:38:37 INFO  compiling root (1 scala source)
+2022.06.28 19:38:37 INFO  time: compiled root in 89ms
+2022.06.28 19:38:39 INFO  compiling root (1 scala source)
+2022.06.28 19:38:39 INFO  time: compiled root in 58ms
+2022.06.28 19:38:42 INFO  compiling root (1 scala source)
+2022.06.28 19:38:42 INFO  time: compiled root in 69ms
+2022.06.28 19:38:46 INFO  compiling root (1 scala source)
+2022.06.28 19:38:46 INFO  time: compiled root in 29ms
+2022.06.28 19:38:49 INFO  compiling root (1 scala source)
+2022.06.28 19:38:49 INFO  time: compiled root in 66ms
+2022.06.28 19:38:49 INFO  file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala:54:26: stale bloop error: not enough arguments for method apply: (id: Long, name: String, releaseDate: java.time.LocalDate, lengthInMin: Int)com.example.models.Movie in object Movie.
+Unspecified value parameter lengthInMin.
+            val batman = Movie(1L, "Batman", LocalDate.of((2022,0)))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2022.06.28 19:38:49 INFO  file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala:54:26: stale bloop error: not enough arguments for method apply: (id: Long, name: String, releaseDate: java.time.LocalDate, lengthInMin: Int)com.example.models.Movie in object Movie.
+Unspecified value parameter lengthInMin.
+            val batman = Movie(1L, "Batman", LocalDate.of((2022,0)))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2022.06.28 19:38:50 INFO  file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala:54:26: stale bloop error: not enough arguments for method apply: (id: Long, name: String, releaseDate: java.time.LocalDate, lengthInMin: Int)com.example.models.Movie in object Movie.
+Unspecified value parameter lengthInMin.
+            val batman = Movie(1L, "Batman", LocalDate.of((2022,0)))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2022.06.28 19:38:50 INFO  compiling root (1 scala source)
+2022.06.28 19:38:50 INFO  file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala:54:65: stale bloop error: Decimal integer literals may not have a leading zero. (Octal syntax is obsolete.)
+            val batman = Movie(1L, "Batman", LocalDate.of((2022,04)))
+                                                                ^
+2022.06.28 19:38:50 INFO  time: compiled root in 31ms
+2022.06.28 19:38:50 INFO  file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala:54:65: stale bloop error: Decimal integer literals may not have a leading zero. (Octal syntax is obsolete.)
+            val batman = Movie(1L, "Batman", LocalDate.of((2022,04)))
+                                                                ^
+2022.06.28 19:38:50 INFO  file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala:54:65: stale bloop error: Decimal integer literals may not have a leading zero. (Octal syntax is obsolete.)
+            val batman = Movie(1L, "Batman", LocalDate.of((2022,04)))
+                                                                ^
+2022.06.28 19:38:50 INFO  file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala:54:65: stale bloop error: Decimal integer literals may not have a leading zero. (Octal syntax is obsolete.)
+            val batman = Movie(1L, "Batman", LocalDate.of((2022,04)))
+                                                                ^
+2022.06.28 19:38:52 INFO  compiling root (1 scala source)
+2022.06.28 19:38:52 INFO  time: compiled root in 70ms
+2022.06.28 19:38:52 INFO  compiling root (1 scala source)
+2022.06.28 19:38:52 INFO  time: compiled root in 0.11s
+2022.06.28 19:38:55 INFO  compiling root (1 scala source)
+2022.06.28 19:38:55 INFO  time: compiled root in 69ms
+2022.06.28 19:38:59 INFO  compiling root (1 scala source)
+2022.06.28 19:38:59 INFO  time: compiled root in 31ms
+2022.06.28 19:39:02 INFO  compiling root (1 scala source)
+2022.06.28 19:39:02 INFO  time: compiled root in 70ms
+2022.06.28 19:39:11 INFO  compiling root (1 scala source)
+2022.06.28 19:39:11 INFO  time: compiled root in 0.52s
+2022.06.28 19:39:45 INFO  compiling root (1 scala source)
+2022.06.28 19:39:45 INFO  time: compiled root in 0.36s
+2022.06.28 19:39:49 INFO  compiling root (1 scala source)
+2022.06.28 19:39:49 INFO  time: compiled root in 0.33s
+2022.06.28 19:39:51 INFO  compiling root (1 scala source)
+2022.06.28 19:39:51 INFO  time: compiled root in 0.37s
+2022.06.28 19:39:58 INFO  compiling root (1 scala source)
+2022.06.28 19:39:58 INFO  time: compiled root in 0.3s
+2022.06.28 19:39:59 INFO  compiling root (1 scala source)
+2022.06.28 19:39:59 INFO  time: compiled root in 0.35s
+2022.06.28 19:40:08 INFO  compiling root (1 scala source)
+2022.06.28 19:40:08 INFO  time: compiled root in 0.65s
+2022.06.28 19:40:13 INFO  compiling root (1 scala source)
+2022.06.28 19:40:13 INFO  time: compiled root in 75ms
+2022.06.28 19:40:13 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.28 19:40:14 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.28 19:40:15 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.28 19:40:15 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.28 19:40:15 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.28 19:40:16 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.28 19:40:16 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.28 19:40:16 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.28 19:40:16 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.28 19:40:16 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.28 19:40:17 INFO  compiling root (1 scala source)
+2022.06.28 19:40:17 INFO  time: compiled root in 0.13s
+2022.06.28 19:40:17 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.28 19:40:19 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.28 19:40:20 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.28 19:40:21 INFO  compiling root (1 scala source)
+2022.06.28 19:40:21 INFO  time: compiled root in 69ms
+2022.06.28 19:40:21 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.28 19:40:21 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.28 19:40:22 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.28 19:40:22 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.28 19:40:23 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.28 19:40:23 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.28 19:40:24 INFO  compiling root (1 scala source)
+2022.06.28 19:40:24 INFO  time: compiled root in 72ms
+2022.06.28 19:40:24 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.28 19:40:24 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.28 19:40:26 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.28 19:40:27 INFO  compiling root (1 scala source)
+2022.06.28 19:40:27 INFO  time: compiled root in 92ms
+2022.06.28 19:40:27 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.28 19:40:39 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.28 19:40:40 INFO  compiling root (1 scala source)
+2022.06.28 19:40:40 INFO  time: compiled root in 66ms
+2022.06.28 19:40:40 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.28 19:40:40 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.28 19:40:40 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.28 19:40:42 INFO  compiling root (1 scala source)
+2022.06.28 19:40:42 INFO  time: compiled root in 25ms
+2022.06.28 19:40:42 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.28 19:40:43 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.28 19:40:43 ERROR scalafmt: /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala:83: error: [dialect scala212source3] } expected but end of file found
+
+^
+2022.06.28 19:40:43 INFO  compiling root (1 scala source)
+2022.06.28 19:40:43 INFO  time: compiled root in 28ms
+2022.06.28 19:40:43 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.28 19:40:47 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.28 19:40:47 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.28 19:40:47 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.28 19:40:47 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.28 19:40:47 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.28 19:40:47 ERROR scalafmt: /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala:83: error: [dialect scala212source3] } expected but end of file found
+
+^
+Jun 28, 2022 7:40:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2573
+2022.06.28 19:40:47 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.28 19:40:47 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.28 19:40:48 INFO  compiling root (1 scala source)
+2022.06.28 19:40:48 INFO  time: compiled root in 30ms
+2022.06.28 19:40:48 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.28 19:40:49 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.28 19:40:49 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.28 19:40:50 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.28 19:40:50 INFO  compiling root (1 scala source)
+2022.06.28 19:40:50 INFO  time: compiled root in 77ms
+2022.06.28 19:40:50 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.28 19:40:51 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.28 19:41:08 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.28 19:41:09 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.28 19:41:12 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.28 19:41:13 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.28 19:41:16 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.28 19:41:16 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.28 19:41:16 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.28 19:41:17 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.28 19:41:17 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.28 19:41:18 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.28 19:41:19 INFO  compiling root (1 scala source)
+2022.06.28 19:41:19 INFO  time: compiled root in 32ms
+2022.06.28 19:41:20 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.28 19:41:20 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.28 19:41:21 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.28 19:41:22 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.28 19:41:22 INFO  compiling root (1 scala source)
+2022.06.28 19:41:22 INFO  time: compiled root in 0.45s
+2022.06.28 19:41:37 INFO  compiling root (1 scala source)
+2022.06.28 19:41:37 INFO  file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala:49:24: stale bloop error: illegal character '\u00a3'
+  def insertMovie() = {£
+                       ^
+2022.06.28 19:41:37 INFO  time: compiled root in 26ms
+2022.06.28 19:41:38 INFO  file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala:49:24: stale bloop error: illegal character '\u00a3'
+  def insertMovie() = {£
+                       ^
+2022.06.28 19:41:38 INFO  file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala:49:24: stale bloop error: illegal character '\u00a3'
+  def insertMovie() = {£
+                       ^
+2022.06.28 19:41:38 INFO  file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala:49:24: stale bloop error: illegal character '\u00a3'
+  def insertMovie() = {£
+                       ^
+2022.06.28 19:41:38 INFO  compiling root (1 scala source)
+2022.06.28 19:41:38 INFO  time: compiled root in 0.48s
+2022.06.28 19:41:43 INFO  compiling root (1 scala source)
+2022.06.28 19:41:43 INFO  time: compiled root in 0.37s
+2022.06.28 19:43:16 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.28 19:43:16 INFO  compiling root (1 scala source)
+2022.06.28 19:43:16 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.28 19:43:16 INFO  time: compiled root in 0.5s
+2022.06.28 19:43:24 INFO  compiling root (1 scala source)
+2022.06.28 19:43:24 INFO  time: compiled root in 79ms
+2022.06.28 19:43:26 INFO  compiling root (1 scala source)
+2022.06.28 19:43:26 INFO  time: compiled root in 73ms
+2022.06.28 19:43:28 INFO  compiling root (1 scala source)
+2022.06.28 19:43:28 INFO  time: compiled root in 85ms
+2022.06.28 19:43:47 INFO  compiling root (1 scala source)
+2022.06.28 19:43:47 INFO  time: compiled root in 0.37s
+2022.06.28 19:43:50 INFO  compiling root (1 scala source)
+2022.06.28 19:43:50 INFO  time: compiled root in 0.12s
+2022.06.28 19:43:56 INFO  compiling root (1 scala source)
+2022.06.28 19:43:56 INFO  time: compiled root in 0.36s
+something's wrong: no file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala in scala.concurrent.Future[<error>]RangePosition(file:///Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala, 1644, 1644, 1668)
+2022.06.28 19:44:04 INFO  compiling root (1 scala source)
+2022.06.28 19:44:04 INFO  time: compiled root in 30ms
+2022.06.28 19:44:04 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.28 19:44:05 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.28 19:44:05 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.28 19:44:05 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.28 19:44:06 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.28 19:44:06 INFO  compiling root (1 scala source)
+2022.06.28 19:44:06 INFO  time: compiled root in 0.4s
+2022.06.28 19:44:19 INFO  compiling root (1 scala source)
+2022.06.28 19:44:19 INFO  time: compiled root in 72ms
+2022.06.28 19:44:22 INFO  compiling root (1 scala source)
+2022.06.28 19:44:22 INFO  time: compiled root in 92ms
+2022.06.28 19:44:48 INFO  compiling root (1 scala source)
+2022.06.28 19:44:48 INFO  time: compiled root in 78ms
+2022.06.28 19:44:50 INFO  compiling root (1 scala source)
+2022.06.28 19:44:50 INFO  time: compiled root in 28ms
+2022.06.28 19:44:52 INFO  compiling root (1 scala source)
+2022.06.28 19:44:52 INFO  time: compiled root in 0.19s
+Jun 28, 2022 7:45:07 PM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: Cannot invoke "scala.reflect.internal.Symbols$Symbol.tpeHK()" because "sym" is null
+java.lang.NullPointerException: Cannot invoke "scala.reflect.internal.Symbols$Symbol.tpeHK()" because "sym" is null
+	at scala.reflect.internal.Types$Type.computeMemberType(Types.scala:735)
+	at scala.reflect.internal.Types$Type.memberType(Types.scala:732)
+	at scala.meta.internal.pc.MetalsGlobal.metalsSeenFromType(MetalsGlobal.scala:774)
+	at scala.meta.internal.pc.completions.MatchCaseCompletions$CaseKeywordCompletion.<init>(MatchCaseCompletions.scala:51)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:492)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:416)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:32)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:408)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:390)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:32)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:476)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:58)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:125)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:139)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+2022.06.28 19:45:10 INFO  compiling root (1 scala source)
+2022.06.28 19:45:10 INFO  time: compiled root in 94ms
+2022.06.28 19:45:12 INFO  compiling root (1 scala source)
+2022.06.28 19:45:12 INFO  time: compiled root in 71ms
+2022.06.28 19:45:18 INFO  compiling root (1 scala source)
+2022.06.28 19:45:18 INFO  time: compiled root in 84ms
+Jun 28, 2022 7:46:07 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3149
+2022.06.28 19:46:08 ERROR scalafmt: /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala:30: error: [dialect scala212source3] expected start of definition
+implicit val ec: scala.concurrent.ExecutionContext = scala.concurrent.ExecutionContext.global
+         ^
+2022.06.28 19:46:08 INFO  compiling root (1 scala source)
+2022.06.28 19:46:08 INFO  time: compiled root in 35ms
+2022.06.28 19:46:15 INFO  compiling root (1 scala source)
+2022.06.28 19:46:15 INFO  time: compiled root in 0.25s
+2022.06.28 19:46:17 INFO  compiling root (1 scala source)
+2022.06.28 19:46:17 INFO  time: compiled root in 0.61s
+2022.06.28 19:46:17 INFO  compiling root (1 scala source)
+2022.06.28 19:46:17 INFO  time: compiled root in 0.18s
+2022.06.28 19:46:31 INFO  compiling root (1 scala source)
+2022.06.28 19:46:31 INFO  time: compiled root in 26ms
+2022.06.28 19:46:31 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.28 19:46:33 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.28 19:46:34 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.28 19:46:35 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.28 19:46:35 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.28 19:46:36 INFO  compiling root (1 scala source)
+2022.06.28 19:46:36 INFO  time: compiled root in 79ms
+2022.06.28 19:46:37 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.28 19:46:38 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.28 19:46:39 INFO  compiling root (1 scala source)
+2022.06.28 19:46:39 INFO  time: compiled root in 71ms
+2022.06.28 19:46:39 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.28 19:46:39 INFO  compiling root (1 scala source)
+2022.06.28 19:46:39 INFO  time: compiled root in 77ms
+2022.06.28 19:46:40 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.28 19:46:41 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.28 19:46:41 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.28 19:46:41 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.28 19:46:44 INFO  compiling root (1 scala source)
+2022.06.28 19:46:44 INFO  time: compiled root in 88ms
+2022.06.28 19:46:45 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.28 19:47:05 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.28 19:47:06 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.28 19:47:06 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.28 19:47:08 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.28 19:47:08 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.28 19:47:08 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.28 19:47:08 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.28 19:47:08 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.28 19:47:08 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.28 19:47:09 INFO  compiling root (1 scala source)
+2022.06.28 19:47:09 INFO  time: compiled root in 56ms
+2022.06.28 19:47:09 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.28 19:47:10 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.28 19:47:10 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.28 19:47:11 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.28 19:47:11 INFO  compiling root (1 scala source)
+2022.06.28 19:47:11 INFO  time: compiled root in 37ms
+2022.06.28 19:47:11 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.28 19:47:11 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.28 19:47:11 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.28 19:47:12 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.28 19:47:12 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.28 19:47:12 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.28 19:47:12 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.28 19:47:13 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.28 19:47:13 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.28 19:47:14 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.28 19:47:14 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.28 19:47:15 INFO  compiling root (1 scala source)
+2022.06.28 19:47:14 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.28 19:47:15 INFO  time: compiled root in 36ms
+2022.06.28 19:47:15 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.28 19:47:15 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.28 19:47:15 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.28 19:47:15 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.28 19:47:15 INFO  compiling root (1 scala source)
+2022.06.28 19:47:15 INFO  time: compiled root in 84ms
+2022.06.28 19:47:15 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.28 19:47:23 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.28 19:47:24 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.28 19:47:25 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.28 19:47:25 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.28 19:47:25 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.28 19:47:25 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.28 19:47:25 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.28 19:47:26 INFO  compiling root (1 scala source)
+2022.06.28 19:47:26 INFO  time: compiled root in 0.42s
+2022.06.28 19:47:57 INFO  compiling root (1 scala source)
+2022.06.28 19:47:57 INFO  time: compiled root in 24ms
+2022.06.28 19:48:08 INFO  compiling root (1 scala source)
+2022.06.28 19:48:08 INFO  time: compiled root in 82ms
+2022.06.28 19:48:12 INFO  compiling root (1 scala source)
+2022.06.28 19:48:12 INFO  time: compiled root in 92ms
+2022.06.28 19:48:13 INFO  compiling root (1 scala source)
+2022.06.28 19:48:13 INFO  time: compiled root in 81ms
+2022.06.28 19:48:19 INFO  compiling root (1 scala source)
+2022.06.28 19:48:19 INFO  time: compiled root in 88ms
+Jun 28, 2022 7:48:22 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Jun 28, 2022 7:48:23 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: implicit class <error> extends  (of class scala.reflect.internal.Trees$ClassDef)
+scala.MatchError: implicit class <error> extends  (of class scala.reflect.internal.Trees$ClassDef)
+	at scala.tools.nsc.typechecker.Unapplies.constrParamss(Unapplies.scala:64)
+	at scala.tools.nsc.typechecker.Unapplies.factoryMeth(Unapplies.scala:141)
+	at scala.tools.nsc.typechecker.Unapplies.factoryMeth$(Unapplies.scala:138)
+	at scala.meta.internal.pc.MetalsGlobal$MetalsInteractiveAnalyzer.factoryMeth(MetalsGlobal.scala:61)
+	at scala.tools.nsc.typechecker.MethodSynthesis$MethodSynth.enterImplicitWrapper(MethodSynthesis.scala:229)
+	at scala.tools.nsc.typechecker.MethodSynthesis$MethodSynth.enterImplicitWrapper$(MethodSynthesis.scala:228)
+	at scala.tools.nsc.typechecker.Namers$Namer.enterImplicitWrapper(Namers.scala:59)
+	at scala.tools.nsc.interactive.InteractiveAnalyzer$InteractiveNamer.enterExistingSym(Global.scala:94)
+	at scala.tools.nsc.interactive.InteractiveAnalyzer$InteractiveNamer.enterExistingSym$(Global.scala:80)
+	at scala.tools.nsc.interactive.InteractiveAnalyzer$$anon$2.enterExistingSym(Global.scala:51)
+	at scala.tools.nsc.typechecker.Namers$Namer.standardEnterSym(Namers.scala:306)
+	at scala.tools.nsc.typechecker.AnalyzerPlugins.pluginsEnterSym(AnalyzerPlugins.scala:479)
+	at scala.tools.nsc.typechecker.AnalyzerPlugins.pluginsEnterSym$(AnalyzerPlugins.scala:478)
+	at scala.meta.internal.pc.MetalsGlobal$MetalsInteractiveAnalyzer.pluginsEnterSym(MetalsGlobal.scala:61)
+	at scala.tools.nsc.typechecker.Namers$Namer.enterSym(Namers.scala:280)
+	at scala.tools.nsc.typechecker.Typers$Typer.enterSym(Typers.scala:1935)
+	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$enterSyms$1(Typers.scala:1930)
+	at scala.tools.nsc.typechecker.Typers$Typer.enterSyms(Typers.scala:1930)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedTemplate(Typers.scala:1992)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedClassDef(Typers.scala:1832)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5702)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:5781)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedStat$1(Typers.scala:5845)
+	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$typedStats$10(Typers.scala:3337)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedStats(Typers.scala:3337)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedPackageDef$1(Typers.scala:5413)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5705)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:5781)
+	at scala.tools.nsc.typechecker.Analyzer$typerFactory$TyperPhase.apply(Analyzer.scala:114)
+	at scala.tools.nsc.Global$GlobalPhase.applyPhase(Global.scala:453)
+	at scala.tools.nsc.interactive.Global$TyperRun.$anonfun$applyPhase$1(Global.scala:1341)
+	at scala.tools.nsc.interactive.Global$TyperRun.applyPhase(Global.scala:1341)
+	at scala.tools.nsc.interactive.Global$TyperRun.typeCheck(Global.scala:1334)
+	at scala.tools.nsc.interactive.Global.typeCheck(Global.scala:666)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:815)
+	at scala.tools.nsc.interactive.Global.completionsAt(Global.scala:1226)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:428)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:58)
+
+2022.06.28 19:48:29 INFO  compiling root (1 scala source)
+2022.06.28 19:48:29 INFO  time: compiled root in 27ms
+2022.06.28 19:48:32 INFO  compiling root (1 scala source)
+2022.06.28 19:48:32 INFO  time: compiled root in 80ms
+2022.06.28 19:48:35 INFO  compiling root (1 scala source)
+2022.06.28 19:48:35 INFO  time: compiled root in 32ms
+2022.06.28 19:48:47 INFO  compiling root (1 scala source)
+2022.06.28 19:48:47 INFO  time: compiled root in 34ms
+2022.06.28 19:48:49 INFO  compiling root (1 scala source)
+2022.06.28 19:48:49 INFO  time: compiled root in 81ms
+2022.06.28 19:48:53 INFO  compiling root (1 scala source)
+2022.06.28 19:48:53 INFO  time: compiled root in 0.6s
+2022.06.28 19:48:59 INFO  compiling root (1 scala source)
+2022.06.28 19:48:59 INFO  time: compiled root in 0.11s
+2022.06.28 19:48:59 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.28 19:49:00 WARN  Could not load snapshot text for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala
+2022.06.28 19:49:03 INFO  compiling root (1 scala source)
+2022.06.28 19:49:03 INFO  time: compiled root in 74ms
+2022.06.28 19:49:11 INFO  compiling root (1 scala source)
+2022.06.28 19:49:11 INFO  time: compiled root in 81ms
+2022.06.28 19:49:21 INFO  compiling root (1 scala source)
+2022.06.28 19:49:21 INFO  time: compiled root in 73ms
+2022.06.28 19:49:29 INFO  compiling root (1 scala source)
+2022.06.28 19:49:29 INFO  time: compiled root in 0.45s
+2022.06.28 19:49:29 INFO  compiling root (1 scala source)
+2022.06.28 19:49:29 INFO  time: compiled root in 94ms
+Jun 28, 2022 8:02:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3894
+Exception in thread "pool-8-thread-1" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:139)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022.06.28 20:03:06 INFO  compiling root (1 scala source)
+2022.06.28 20:03:06 INFO  time: compiled root in 0.58s
+2022.06.28 20:03:46 INFO  compiling root (1 scala source)
+2022.06.28 20:03:46 INFO  time: compiled root in 0.1s
+2022.06.28 20:03:53 INFO  compiling root (1 scala source)
+2022.06.28 20:03:53 INFO  time: compiled root in 0.83s
