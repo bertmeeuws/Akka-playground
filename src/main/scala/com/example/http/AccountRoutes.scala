@@ -79,7 +79,6 @@ class AccountRoutes(accountRegistry: ActorRef[AccountActor.Command])(implicit
           complete(if (int % 2 == 0) "even ball" else "odd ball")
         } ~
           get {
-
             println("inside get")
             complete("Inisde getterr")
           }
