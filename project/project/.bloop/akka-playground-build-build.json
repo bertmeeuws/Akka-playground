@@ -18,7 +18,7 @@
         "classpath": [
             "/Users/bertmeeuws/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/sbt/1.6.2/sbt-1.6.2.jar",
             "/Users/bertmeeuws/.sbt/boot/scala-2.12.15/lib/scala-library.jar",
-            "/Users/bertmeeuws/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ch/epfl/scala/sbt-bloop_2.12_1.0/1.5.0-18-003e6c7b/sbt-bloop-1.5.0-18-003e6c7b.jar",
+            "/Users/bertmeeuws/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ch/epfl/scala/sbt-bloop_2.12_1.0/1.5.2/sbt-bloop-1.5.2.jar",
             "/Users/bertmeeuws/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/main_2.12/1.6.2/main_2.12-1.6.2.jar",
             "/Users/bertmeeuws/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/io_2.12/1.6.0/io_2.12-1.6.0.jar",
             "/Users/bertmeeuws/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.8.0/jna-5.8.0.jar",
@@ -215,17 +215,17 @@
                 {
                     "organization": "ch.epfl.scala",
                     "name": "sbt-bloop",
-                    "version": "1.5.0-18-003e6c7b",
+                    "version": "1.5.2",
                     "configurations": "default",
                     "artifacts": [
                         {
                             "name": "sbt-bloop",
-                            "path": "/Users/bertmeeuws/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ch/epfl/scala/sbt-bloop_2.12_1.0/1.5.0-18-003e6c7b/sbt-bloop-1.5.0-18-003e6c7b.jar"
+                            "path": "/Users/bertmeeuws/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ch/epfl/scala/sbt-bloop_2.12_1.0/1.5.2/sbt-bloop-1.5.2.jar"
                         },
                         {
                             "name": "sbt-bloop",
                             "classifier": "sources",
-                            "path": "/Users/bertmeeuws/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ch/epfl/scala/sbt-bloop_2.12_1.0/1.5.0-18-003e6c7b/sbt-bloop-1.5.0-18-003e6c7b-sources.jar"
+                            "path": "/Users/bertmeeuws/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ch/epfl/scala/sbt-bloop_2.12_1.0/1.5.2/sbt-bloop-1.5.2-sources.jar"
                         }
                     ]
                 },
