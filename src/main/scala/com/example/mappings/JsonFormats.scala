@@ -67,22 +67,5 @@ object AccountJsonFormat extends DefaultJsonProtocol with SprayJsonSupport {
   }
 }
 
-import com.example.dao.Connection
-import com.example.models.codegen.Tables
-import com.example.models.codegen.Tables._
-import slick.jdbc.PostgresProfile.api._
-
-
-object MovieJsonFormat extends DefaultJsonProtocol with SprayJsonSupport {
-
-  implicit object MovieJsonFormat extends RootJsonFormat[Tables] {
-    def write(obj: Account): JsValue = JsObject(
-      "id" -> JsString(obj.id),
-      "name" -> JsString(obj.name),
-      "balance" -> JsString(obj.balance.toString()),
-      "currency" -> JsString(obj.currency.toString())
-    )
-  }
-}
 
 //#json-formats

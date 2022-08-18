@@ -5,6 +5,8 @@ import akka.http.scaladsl.model.StatusCodes
 import akka.http.scaladsl.server.Route
 import com.example.actors._
 
+import java.net.http.HttpClient
+import java.sql
 import scala.concurrent.Future
 //import com.example.UserRegistry._
 import com.example.actors.AccountActor._
@@ -20,14 +22,15 @@ import akka.http.scaladsl.model._
 import akka.stream.scaladsl.FileIO
 import java.util.Date
 import scala.concurrent.duration._
-import com.example.models.Movie
 import java.time.LocalDate
-import com.example.models.SlickTables
 import com.example.dao.Connection
 import scala.util.{Success, Failure, Try}
 import java.util.concurrent.Executors
 import scala.concurrent.ExecutionContext
-import com.example.dao.MovieService.MovieService
+import com.example.dao.MovieService.MovieService._
+
+
+
 
 //#import-json-formats
 //#user-routes-class
@@ -58,57 +61,24 @@ class AccountRoutes(accountRegistry: ActorRef[AccountActor.Command])(implicit
   def createAccount(account: Account): Future[ActionPerformed] =
     accountRegistry.ask(CreateAccount(account, _))
 
-  /*
-  def insertMovie() = {
-    // import slick.jdbc.PostgresProfile.api._
-    val batman = Movie(2L, "Batman", LocalDate.of(2022, 4, 1), 120)
-    val queryDescription = SlickTables.movieTable += batman
 
-    val futureId: Future[Int] =
-      Connection.db.run(queryDescription)
-
-    futureId.onComplete {
-      case Success(value) =>
-        complete("The query was succesfull");
-      case Failure(ex) => complete("Error occured")
-    }
-  }
-   */
-
-  def insertMovieGenerated() = {
-    import com.example.models.codegen._
-    val starwars =
-      Tables.MovieRow(
-        2L,
-        "Star wars",
-        java.sql.Date.valueOf(java.time.LocalDate.now()),
-        140
-      )
-
-    val query = Tables.Movie += starwars
-    val futureItem: Future[Int] = Connection.db.run(query)
-
-    val yes = for {
-      id <- futureItem
-      data <- Connection.db.run(
-        Tables.Movie.filter(_.movieId === id.toLong).take(1).result.headOption
-      )
-    } yield data
-
-    println(yes)
-  }
 
   val accountRoutes: Route =
     pathPrefix("account") {
       path(IntNumber) { int =>
         post {
           println("Posting")
-          insertMovieGenerated()
           complete(if (int % 2 == 0) "even ball" else "odd ball")
         } ~
           get {
-            println("inside get")
-            complete("Inisde getterr")
+            import com.example.generated.models.Tables._
+            val movieRow = new MovieRow(movieId = 1L,name = "Star dsfsddfd", releaseDate = new sql.Date(1994,4,5), lengthInMin = 124)
+            insertMovie(movieRow)
+            updateMovieName("Star dsfsddfd", "dsjqdijdidjiqsjdiqsjdiqsjdiq")
+            getAll("Hi")
+            sideEffect()
+            complete("Inside getter")
+
           }
       } ~
         post {
@@ -126,12 +96,6 @@ class AccountRoutes(accountRegistry: ActorRef[AccountActor.Command])(implicit
               }
             }
           }
-        } ~ get {
-          val movies = MovieService.getAll()
-          movies.onComplete { case Success(data) =>
-            println(data)
-          }
-          complete("Getting accounts")
         }
     }
 }

@@ -10048,3 +10048,95 @@ WARNING: Unmatched cancel notification for request id 7195
 2022.07.25 21:07:37 INFO  time: compiled akka-playground in 42ms[0m
 2022.07.25 21:07:52 INFO  compiling akka-playground (16 scala sources)[0m
 2022.07.25 21:07:52 INFO  time: compiled akka-playground in 0.12s[0m
+2022.07.25 21:08:46 INFO  shutting down Metals[0m
+2022.07.25 21:08:46 INFO  Shut down connection with build server.[0m
+2022.07.25 21:08:46 INFO  Shut down connection with build server.[0m
+2022.07.25 21:08:46 INFO  Shut down connection with build server.[0m
+2022.08.14 15:43:41 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/.metals/lsp.trace.json or /Users/bertmeeuws/Library/Caches/org.scalameta.metals/lsp.trace.json
+2022.08.14 15:43:41 INFO  logging to file /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/.metals/metals.log
+2022.08.14 15:43:41 INFO  Started: Metals version 0.11.8 in workspace '/Users/bertmeeuws/Desktop/Side-Projects/Akka-playground' for client Visual Studio Code 1.70.0.
+2022.08.14 15:43:41 WARN  Flyway upgrade recommended: H2 2.1.214 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.
+2022.08.14 15:43:42 INFO  time: initialize in 0.63s
+2022.08.14 15:43:43 INFO  Attempting to connect to the build server...
+2022.08.14 15:43:43 INFO  Bloop uses /Library/Java/JavaVirtualMachines/temurin-17.jdk/Contents/Home defined at /Users/bertmeeuws/.bloop/bloop.json
+2022.08.14 15:43:43 INFO  skipping build import with status 'Installed'
+Aug 14, 2022 3:43:43 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1
+2022.08.14 15:43:48 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/.metals/bsp.trace.json or /Users/bertmeeuws/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.08.14 15:43:48 INFO  no build target found for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/mappings/JsonFormats.scala. Using presentation compiler with project's scala-library version: 3.1.3
+2022.08.14 15:43:49 INFO  time: code lens generation in 5.8s
+2022.08.14 15:43:49 INFO  time: code lens generation in 5.88s
+2022.08.14 15:43:51 INFO  Attempting to connect to the build server...
+2022.08.14 15:43:51 INFO  Bloop uses /Library/Java/JavaVirtualMachines/temurin-17.jdk/Contents/Home defined at /Users/bertmeeuws/.bloop/bloop.json
+2022.08.14 15:43:51 INFO  Attempting to connect to the build server...
+2022.08.14 15:43:51 INFO  Bloop uses /Library/Java/JavaVirtualMachines/temurin-17.jdk/Contents/Home defined at /Users/bertmeeuws/.bloop/bloop.json
+2022.08.14 15:43:51 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/project/project/.metals/bsp.trace.json or /Users/bertmeeuws/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.08.14 15:43:51 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/project/.metals/bsp.trace.json or /Users/bertmeeuws/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.08.14 15:43:53 INFO  time: Connected to build server in 10s
+2022.08.14 15:43:53 INFO  Connected to Build server: Bloop v1.5.3
+2022.08.14 15:43:53 INFO  time: Imported build in 0.11s
+2022.08.14 15:43:56 INFO  Required scalafmt dialect rewrite to 'scala213'. Directories:
+- src/test/scala
+- src/main/scala
+- target/scala-2.13/src_managed/main
+2022.08.14 15:43:58 INFO  time: indexed workspace in 4.61s
+2022.08.14 15:43:58 INFO  compiling akka-playground (16 scala sources)
+2022.08.14 15:44:00 INFO  time: compiled akka-playground in 1.76s
+2022.08.14 15:44:00 INFO  compiling akka-playground (16 scala sources)
+2022.08.14 15:44:00 INFO  time: compiled akka-playground in 0.15s
+2022.08.14 15:44:00 INFO  compiling akka-playground (16 scala sources)
+Aug 14, 2022 3:44:00 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9
+2022.08.14 15:44:00 INFO  time: compiled akka-playground in 0.22s
+2022.08.14 15:44:13 INFO  compiling akka-playground (16 scala sources)
+2022.08.14 15:44:13 INFO  time: compiled akka-playground in 0.13s
+2022.08.14 15:45:58 INFO  compiling akka-playground (16 scala sources)
+2022.08.14 15:45:58 INFO  time: compiled akka-playground in 0.13s
+2022.08.14 15:46:36 ERROR code navigation does not work for the file '/Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/mappings/JsonFormats.scala' because the SemanticDB file '/Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/.bloop/akka-playground/bloop-bsp-clients-classes/classes-Metals-p7xfihxFQPiq8R0tydyKSQ==/META-INF/semanticdb/src/main/scala/com/example/mappings/JsonFormats.scala.semanticdb' doesn't exist. There can be many reasons for this error. 
+2022.08.14 15:46:36 ERROR code navigation does not work for the file '/Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/mappings/JsonFormats.scala' because the SemanticDB file '/Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/.bloop/akka-playground/bloop-bsp-clients-classes/classes-Metals-p7xfihxFQPiq8R0tydyKSQ==/META-INF/semanticdb/src/main/scala/com/example/mappings/JsonFormats.scala.semanticdb' doesn't exist. There can be many reasons for this error. 
+2022.08.14 15:46:37 ERROR code navigation does not work for the file '/Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/mappings/JsonFormats.scala' because the SemanticDB file '/Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/.bloop/akka-playground/bloop-bsp-clients-classes/classes-Metals-p7xfihxFQPiq8R0tydyKSQ==/META-INF/semanticdb/src/main/scala/com/example/mappings/JsonFormats.scala.semanticdb' doesn't exist. There can be many reasons for this error. 
+2022.08.14 15:46:37 ERROR code navigation does not work for the file '/Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/mappings/JsonFormats.scala' because the SemanticDB file '/Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/.bloop/akka-playground/bloop-bsp-clients-classes/classes-Metals-p7xfihxFQPiq8R0tydyKSQ==/META-INF/semanticdb/src/main/scala/com/example/mappings/JsonFormats.scala.semanticdb' doesn't exist. There can be many reasons for this error. 
+2022.08.14 15:55:07 INFO  compiling akka-playground (16 scala sources)
+2022.08.14 15:55:12 INFO  time: compiled akka-playground in 5.06s
+2022.08.14 15:55:15 INFO  compiling akka-playground (16 scala sources)
+2022.08.14 15:55:17 INFO  time: compiled akka-playground in 2.68s
+2022.08.14 15:55:17 INFO  compiling akka-playground (16 scala sources)
+2022.08.14 15:55:19 INFO  time: compiled akka-playground in 1.7s
+2022.08.14 15:56:23 INFO  compiling akka-playground (16 scala sources)
+2022.08.14 15:56:25 INFO  time: compiled akka-playground in 1.76s
+2022.08.14 15:56:46 INFO  compiling akka-playground (14 scala sources)
+2022.08.14 15:56:46 INFO  time: compiled akka-playground in 0.58s
+2022.08.14 15:56:48 ERROR code navigation does not work for the file '/Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala' because the SemanticDB file '/Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/.bloop/akka-playground/bloop-bsp-clients-classes/classes-Metals-p7xfihxFQPiq8R0tydyKSQ==/META-INF/semanticdb/src/main/scala/com/example/http/AccountRoutes.scala.semanticdb' doesn't exist. There can be many reasons for this error. 
+2022.08.14 15:56:48 ERROR code navigation does not work for the file '/Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala' because the SemanticDB file '/Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/.bloop/akka-playground/bloop-bsp-clients-classes/classes-Metals-p7xfihxFQPiq8R0tydyKSQ==/META-INF/semanticdb/src/main/scala/com/example/http/AccountRoutes.scala.semanticdb' doesn't exist. There can be many reasons for this error. 
+2022.08.14 15:56:48 ERROR code navigation does not work for the file '/Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala' because the SemanticDB file '/Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/.bloop/akka-playground/bloop-bsp-clients-classes/classes-Metals-p7xfihxFQPiq8R0tydyKSQ==/META-INF/semanticdb/src/main/scala/com/example/http/AccountRoutes.scala.semanticdb' doesn't exist. There can be many reasons for this error. 
+2022.08.14 15:56:49 ERROR code navigation does not work for the file '/Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala' because the SemanticDB file '/Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/.bloop/akka-playground/bloop-bsp-clients-classes/classes-Metals-p7xfihxFQPiq8R0tydyKSQ==/META-INF/semanticdb/src/main/scala/com/example/http/AccountRoutes.scala.semanticdb' doesn't exist. There can be many reasons for this error. 
+2022.08.14 15:56:49 ERROR code navigation does not work for the file '/Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala' because the SemanticDB file '/Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/.bloop/akka-playground/bloop-bsp-clients-classes/classes-Metals-p7xfihxFQPiq8R0tydyKSQ==/META-INF/semanticdb/src/main/scala/com/example/http/AccountRoutes.scala.semanticdb' doesn't exist. There can be many reasons for this error. 
+2022.08.14 15:56:49 ERROR code navigation does not work for the file '/Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala' because the SemanticDB file '/Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/.bloop/akka-playground/bloop-bsp-clients-classes/classes-Metals-p7xfihxFQPiq8R0tydyKSQ==/META-INF/semanticdb/src/main/scala/com/example/http/AccountRoutes.scala.semanticdb' doesn't exist. There can be many reasons for this error. 
+2022.08.14 15:56:50 INFO  compiling akka-playground (14 scala sources)
+2022.08.14 15:56:51 INFO  time: compiled akka-playground in 1.71s
+2022.08.14 15:56:56 INFO  compiling akka-playground (14 scala sources)
+2022.08.14 15:56:58 INFO  time: compiled akka-playground in 2.06s
+2022.08.14 15:57:06 INFO  compiling akka-playground (14 scala sources)
+2022.08.14 15:57:06 INFO  time: compiled akka-playground in 0.78s
+2022.08.14 15:57:08 ERROR code navigation does not work for the file '/Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala' because the SemanticDB file '/Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/.bloop/akka-playground/bloop-bsp-clients-classes/classes-Metals-p7xfihxFQPiq8R0tydyKSQ==/META-INF/semanticdb/src/main/scala/com/example/http/AccountRoutes.scala.semanticdb' doesn't exist. There can be many reasons for this error. 
+2022.08.14 15:57:08 ERROR code navigation does not work for the file '/Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala' because the SemanticDB file '/Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/.bloop/akka-playground/bloop-bsp-clients-classes/classes-Metals-p7xfihxFQPiq8R0tydyKSQ==/META-INF/semanticdb/src/main/scala/com/example/http/AccountRoutes.scala.semanticdb' doesn't exist. There can be many reasons for this error. 
+2022.08.14 15:57:08 ERROR code navigation does not work for the file '/Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala' because the SemanticDB file '/Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/.bloop/akka-playground/bloop-bsp-clients-classes/classes-Metals-p7xfihxFQPiq8R0tydyKSQ==/META-INF/semanticdb/src/main/scala/com/example/http/AccountRoutes.scala.semanticdb' doesn't exist. There can be many reasons for this error. 
+2022.08.14 15:57:08 ERROR code navigation does not work for the file '/Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/http/AccountRoutes.scala' because the SemanticDB file '/Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/.bloop/akka-playground/bloop-bsp-clients-classes/classes-Metals-p7xfihxFQPiq8R0tydyKSQ==/META-INF/semanticdb/src/main/scala/com/example/http/AccountRoutes.scala.semanticdb' doesn't exist. There can be many reasons for this error. 
+2022.08.14 15:57:08 INFO  compiling akka-playground (14 scala sources)
+2022.08.14 15:57:10 INFO  time: compiled akka-playground in 1.53s
+2022.08.14 15:57:12 INFO  compiling akka-playground (14 scala sources)
+2022.08.14 15:57:14 INFO  time: compiled akka-playground in 1.49s
+2022.08.14 15:57:23 INFO  compiling akka-playground (14 scala sources)
+2022.08.14 15:57:25 INFO  time: compiled akka-playground in 1.35s
+2022.08.14 15:57:27 INFO  compiling akka-playground (14 scala sources)
+2022.08.14 15:57:30 WARN  3 deprecations (since 2.13.0)
+2022.08.14 15:57:30 WARN  1 deprecation (since 3.2)
+2022.08.14 15:57:30 WARN  4 deprecations in total; re-run with -deprecation for details
+2022.08.14 15:57:30 WARN  2 feature warnings; re-run with -feature for details
+2022.08.14 15:57:30 INFO  time: compiled akka-playground in 3.74s
+2022.08.14 15:57:39 INFO  compiling akka-playground (1 scala source)
+2022.08.14 15:57:40 INFO  time: compiled akka-playground in 1.4s
+2022.08.16 08:41:43 INFO  shutting down Metals
+2022.08.16 08:41:43 INFO  Shut down connection with build server.
+2022.08.16 08:41:43 INFO  Shut down connection with build server.
+2022.08.16 08:41:43 INFO  Shut down connection with build server.

@@ -42,7 +42,7 @@ slickCodegenDatabaseUser := "postgres"
 slickCodegenDatabasePassword := "admin"
 slickCodegenDriver := slick.jdbc.PostgresProfile
 slickCodegenJdbcDriver := "org.postgresql.Driver"
-slickCodegenOutputPackage := "com.example.models.codegen"
+slickCodegenOutputPackage := "com.example.generated.models"
 slickCodegenCodeGenerator := { (slickModel: model.Model) =>
   new SourceCodeGenerator(slickModel)
 }
