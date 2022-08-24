@@ -15,6 +15,7 @@ name := "My Akka HTTP Project"
 organization := "com.rockthejvm"
 version := "1.0"
 
+
 libraryDependencies ++= Seq(
   "com.typesafe.akka" %% "akka-http" % akkaHttpVersion,
   "com.typesafe.akka" %% "akka-http-spray-json" % akkaHttpVersion,
@@ -32,6 +33,17 @@ libraryDependencies ++= Seq(
   "com.github.tminglei" %% "slick-pg" % "0.20.3",
   "com.github.tminglei" %% "slick-pg_play-json" % "0.20.3"
 )
+val circeVersion = "0.14.1"
+
+libraryDependencies ++= Seq(
+  "io.circe" %% "circe-core",
+  "io.circe" %% "circe-generic",
+  "io.circe" %% "circe-parser"
+).map(_ % circeVersion)
+
+// https://mvnrepository.com/artifact/de.heikoseeberger/akka-http-circe
+libraryDependencies += "de.heikoseeberger" %% "akka-http-circe" % "1.39.2"
+
 resolvers ++= Seq("central" at "https://repo1.maven.org/maven2/")
 
 //Slick Code Generation

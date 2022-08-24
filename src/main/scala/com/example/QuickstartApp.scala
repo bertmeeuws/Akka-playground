@@ -35,10 +35,6 @@ object QuickstartApp {
   }
   // #start-http-server
   def main(args: Array[String]): Unit = {
-
-
-
-
     // #server-bootstrapping
     val rootBehavior = Behaviors.setup[Nothing] { context =>
       val userRegistryActor = context.spawn(UserRegistry(), "UserRegistryActor")

@@ -10140,3 +10140,38 @@ WARNING: Unmatched cancel notification for request id 9
 2022.08.16 08:41:43 INFO  Shut down connection with build server.
 2022.08.16 08:41:43 INFO  Shut down connection with build server.
 2022.08.16 08:41:43 INFO  Shut down connection with build server.
+2022.08.24 17:27:32 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/.metals/lsp.trace.json or /Users/bertmeeuws/Library/Caches/org.scalameta.metals/lsp.trace.json
+2022.08.24 17:27:33 INFO  logging to file /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/.metals/metals.log
+2022.08.24 17:27:33 INFO  Started: Metals version 0.11.8 in workspace '/Users/bertmeeuws/Desktop/Side-Projects/Akka-playground' for client Visual Studio Code 1.70.2.
+2022.08.24 17:27:33 WARN  Flyway upgrade recommended: H2 2.1.214 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.
+2022.08.24 17:27:33 INFO  time: initialize in 0.73s
+2022.08.24 17:27:34 INFO  Attempting to connect to the build server...
+2022.08.24 17:27:34 INFO  Bloop uses /Library/Java/JavaVirtualMachines/temurin-17.jdk/Contents/Home defined at /Users/bertmeeuws/.bloop/bloop.json
+Aug 24, 2022 5:27:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1
+2022.08.24 17:27:36 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/.metals/bsp.trace.json or /Users/bertmeeuws/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.08.24 17:27:36 INFO  Attempting to connect to the build server...
+2022.08.24 17:27:36 INFO  Bloop uses /Library/Java/JavaVirtualMachines/temurin-17.jdk/Contents/Home defined at /Users/bertmeeuws/.bloop/bloop.json
+2022.08.24 17:27:36 INFO  Attempting to connect to the build server...
+2022.08.24 17:27:36 INFO  Bloop uses /Library/Java/JavaVirtualMachines/temurin-17.jdk/Contents/Home defined at /Users/bertmeeuws/.bloop/bloop.json
+2022.08.24 17:27:36 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/project/project/.metals/bsp.trace.json or /Users/bertmeeuws/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.08.24 17:27:37 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/project/.metals/bsp.trace.json or /Users/bertmeeuws/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.08.24 17:27:37 INFO  time: Connected to build server in 2.2s
+2022.08.24 17:27:37 INFO  Connected to Build server: Bloop v1.5.3
+2022.08.24 17:27:37 INFO  no build target found for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/dao/MovieService.scala. Using presentation compiler with project's scala-library version: 3.1.3
+2022.08.24 17:27:37 INFO  time: code lens generation in 1.91s
+2022.08.24 17:27:38 INFO  no build target found for /Users/bertmeeuws/Desktop/Side-Projects/Akka-playground/src/main/scala/com/example/dao/MovieService.scala. Using presentation compiler with project's scala-library version: 3.1.3
+2022.08.24 17:27:38 INFO  time: code lens generation in 1.75s
+2022.08.24 17:27:39 INFO  Required scalafmt dialect rewrite to 'scala213'. Directories:
+- src/test/scala
+- src/main/scala
+- target/scala-2.13/src_managed/main
+2022.08.24 17:27:40 INFO  time: indexed workspace in 3.44s
+2022.08.24 17:27:41 INFO  compiling akka-playground (16 scala sources)
+2022.08.24 17:27:41 INFO  time: compiled akka-playground in 1s
+2022.08.24 17:27:42 INFO  compiling akka-playground (16 scala sources)
+2022.08.24 17:27:42 INFO  time: compiled akka-playground in 0.12s
+2022.08.24 17:28:30 INFO  shutting down Metals
+2022.08.24 17:28:30 INFO  Shut down connection with build server.
+2022.08.24 17:28:30 INFO  Shut down connection with build server.
+2022.08.24 17:28:30 INFO  Shut down connection with build server.
