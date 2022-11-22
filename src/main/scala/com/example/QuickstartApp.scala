@@ -6,6 +6,7 @@ import akka.actor.typed.scaladsl.Behaviors
 import akka.http.scaladsl.Http
 import akka.http.scaladsl.server.Route
 import com.example.actors._
+import com.example.http.ChatAPI
 
 import scala.util.Failure
 import scala.util.Success
@@ -13,7 +14,7 @@ import scala.util.Success
 //#main-class
 object QuickstartApp {
   // #start-http-server
-  private def startHttpServer(
+  private def Start(
       routes: Route
   )(implicit system: ActorSystem[_]): Unit = {
     // Akka HTTP still needs a classic ActorSystem to start
@@ -36,6 +37,7 @@ object QuickstartApp {
   // #start-http-server
   def main(args: Array[String]): Unit = {
     // #server-bootstrapping
+    /*
     val rootBehavior = Behaviors.setup[Nothing] { context =>
       val userRegistryActor = context.spawn(UserRegistry(), "UserRegistryActor")
       context.watch(userRegistryActor)
@@ -57,8 +59,16 @@ object QuickstartApp {
 
       Behaviors.empty
     }
-    val system = ActorSystem[Nothing](rootBehavior, "HelloAkkaHttpServer")
-    // #server-bootstrapping
+    */
+
+    val rootBehavior = Behaviors.setup[Nothing]{ context =>
+      val store = context.spawn(ChatsStore(), "Store")
+      val api = new ChatAPI(store)(context.system)
+      Start(api.routes)(context.system)
+      Behaviors.same
+    }
+    ActorSystem[Nothing](rootBehavior, "ChatApp")
+
   }
 }
 //#main-class
