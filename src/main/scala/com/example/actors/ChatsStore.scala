@@ -16,6 +16,8 @@ object ChatsStore extends FailFastCirceSupport {
 
   final case class GetChatMetaResponse(userName: String, ref: ActorRef[ChatCommand])
 
+  case class RoomResponse(roomName: String)
+
   private var sequence = 0
   private val store = mutable.Map.empty[Int, ChatMetadata]
 

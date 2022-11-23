@@ -35,16 +35,7 @@ class AccountRoutes(accountRegistry: ActorRef[AccountActor.Command])(implicit
     val system: ActorSystem[_]
 ) extends FailFastCirceSupport {
 
-  import PrivateExecutionContext._
-  import akka.http.scaladsl.model.{ HttpRequest, RequestEntity }
 
-  import JsonFormats._
-
-  import slick.jdbc.PostgresProfile.api._
-
-  import AccountJsonFormat.AccountJsonFormat
-
-  // import JsonFormats._
   private implicit val timeout = Timeout.create(
     system.settings.config.getDuration("my-app.routes.ask-timeout")
   )

@@ -16,11 +16,19 @@ object Chat {
       val messageQueue = mutable.Queue.empty[String]
       Behaviors.receiveMessage[ChatCommand] {
         case ProcessMessage(sender, content) =>
-          participants.foreach(ref => ref ! s"$sender: $content")
+          val message = s"$sender: $content"
+          messageQueue.enqueue(message)
+          participants.foreach(ref => ref ! message)
+          println(participants)
+          println(messageQueue)
           Behaviors.same
         case AddNewUser(ref) =>
           participants = participants.appended(ref)
           messageQueue.foreach(m => ref ! m)
+
+          println(messageQueue)
+          println(participants)
+
           Behaviors.same
       }
     }
